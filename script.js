@@ -26,7 +26,7 @@ const translations = {
 		infoFresh: 'بە تازەیی ئامادە دەکرێت',
 		infoService: 'بردنەوە و دانیشتن لە شوێن',
 		browseMenu: 'بینینی مێنو',
-		footerText: 'هەموو ڕۆژێک بە تازەیی لە نیکۆ کافێ',
+		footerText: 'هەموو ڕۆژێک بە تازەیی ئامادە دەکرێت لە نیکۆ کافێ',
 		searchPlaceholder: 'ناوی خواردن بگەڕێ...',
 		languageLabel: 'زمان'
 	},

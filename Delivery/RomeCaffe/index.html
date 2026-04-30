@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Niko Cafe Menu</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Harmattan:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+		rel="stylesheet"
+	/>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="bg-shape bg-shape-left"></div>
+	<div class="bg-shape bg-shape-right"></div>
+
+	<header class="hero container">
+		<div class="hero-topbar">
+			<div class="brand-wrap">
+				<img class="brand-logo" src="1nikoSlogo.svg" alt="Niko Cafe logo" />
+				<p class="eyebrow" data-i18n="welcome">Welcome to Rome Cafe</p>
+			</div>
+			<div class="language-switcher">
+				<label for="languageSelect" data-i18n="languageLabel">Language</label>
+				<select id="languageSelect" aria-label="Language selector">
+<option value="en">English</option>
+<option value="ku">&#1705;&#1608;&#1585;&#1583;&#1740;</option>
+<option value="ar">&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</option>
+</select>
+			</div>
+		</div>
+		<h1 data-i18n="heroTitle">Crafted Drinks, Sweet Treats, and Feel-Good Energy</h1>
+		<p class="hero-text" data-i18n="heroText">
+			Explore our modern menu with hot and cold coffees, desserts, pancakes,
+			smoothies, protein shakes, and more.
+		</p>
+		<div class="hero-quick-info">
+			<span data-i18n="infoHours">Open Daily: 8:00 AM - 11:00 PM</span>
+			<span data-i18n="infoFresh">Freshly Made</span>
+			<span data-i18n="infoService">Pickup & Dine-In</span>
+		</div>
+	</header>
+
+	<main class="container menu-wrap">
+		<section class="controls-card">
+			<div class="controls-top">
+				<h2 data-i18n="browseMenu">Browse Menu</h2>
+				<input
+					id="menuSearch"
+					type="search"
+					placeholder="Search item name..."
+					aria-label="Search menu items"
+				/>
+			</div>
+			<div class="filter-buttons" id="filterButtons" role="group" aria-label="Filter by category"></div>
+		</section>
+
+		<section class="menu-grid" id="menuGrid"></section>
+	</main>
+
+	<footer class="container footer">
+		<p data-i18n="footerText">Made fresh daily at Niko Cafe</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
 

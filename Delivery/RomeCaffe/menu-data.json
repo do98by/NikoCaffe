@@ -1,1 +1,446 @@
-
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": {
+        "en": "All",
+        "ku": "هەموو",
+        "ar": "الكل"
+      }
+    },
+    {
+      "id": "hot-coffee",
+      "name": {
+        "en": "Hot Coffee",
+        "ku": "قاوەی گەرم",
+        "ar": "القهوة الساخنة"
+      }
+    },
+    {
+      "id": "cold-coffee",
+      "name": {
+        "en": "Cold Coffee",
+        "ku": "قەوەی سارد",
+        "ar": "القهوة الباردة"
+      }
+    },
+    {
+      "id": "ice-cream",
+      "name": {
+        "en": "Ice Cream",
+        "ku": "ئایس کریم",
+        "ar": "الآيس كريم"
+      }
+    },
+    {
+      "id": "soft-drinks",
+      "name": {
+        "en": "Soft Drinks",
+        "ku": "خواردنەوەی گازی",
+        "ar": "المشروبات الغازية"
+      }
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "en": "Desserts",
+        "ku": "دێسێرت",
+        "ar": "الحلويات"
+      }
+    },
+    {
+      "id": "pancakes",
+      "name": {
+        "en": "Pancakes",
+        "ku": "پانکێیک",
+        "ar": "البانكيك"
+      }
+    },
+    {
+      "id": "milkshakes",
+      "name": {
+        "en": "Milkshakes",
+        "ku": "میلکشەیک",
+        "ar": "مشروبات الحليب"
+      }
+    },
+    {
+      "id": "smoothies",
+      "name": {
+        "en": "Smoothies",
+        "ku": "سمووتی",
+        "ar": "العصائر الطازجة"
+      }
+    },
+    {
+      "id": "energy-drinks",
+      "name": {
+        "en": "Energy Drinks",
+        "ku": "خواردنەوەی وزە",
+        "ar": "مشروبات الطاقة"
+      }
+    },
+    {
+      "id": "protein-shakes",
+      "name": {
+        "en": "Protein Shakes",
+        "ku": "پرۆتین شەیک",
+        "ar": "رجات البروتين"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "espresso",
+      "category": "hot-coffee",
+      "image": "https://drive.google.com/file/d/18OXhpHme5-JqQnkwYkSAlT3CZQMPkGga/view?usp=sharing",
+      "price": "5,000 IQD",
+      "name": {
+        "en": "Espresso",
+        "ku": "ئێسپرێسۆ",
+        "ar": "إسبريسو"
+      },
+      "description": {
+        "en": "Bold and rich single shot of pure coffee.",
+        "ku": "قەوەیەکی بەهێز و تاڵ لە شۆتێکی تاکە.",
+        "ar": "جرعة واحدة جريئة وغنية من القهوة النقية."
+      }
+    },
+    {
+      "id": "cappuccino",
+      "category": "hot-coffee",
+      "image": "https://drive.google.com/file/d/16d9u6x3-792Zb7EbSZylImj3NaJAsxZ4/view?usp=sharing",
+      "price": "7,000 IQD",
+      "name": {
+        "en": "Cappuccino",
+        "ku": "کاپوچینۆ",
+        "ar": "كابتشينو"
+      },
+      "description": {
+        "en": "Espresso with steamed milk and thick foam.",
+        "ku": "ئێسپرێسۆ لەگەڵ شیری گەرم و کفی قەڵەو.",
+        "ar": "إسبريسو مع الحليب المبخر والرغوة السميكة."
+      }
+    },
+    {
+      "id": "caramel-latte",
+      "category": "hot-coffee",
+      "image": "https://drive.google.com/thumbnail?id=18OXhpHme5-JqQnkwYkSAlT3CZQMPkGga",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Caramel Latte",
+        "ku": "لاتی کارامێڵ",
+        "ar": "لاتيه الكراميل"
+      },
+      "description": {
+        "en": "Creamy latte with smooth caramel drizzle.",
+        "ku": "لاتی نەرمی شیری لەگەڵ کارامێڵ.",
+        "ar": "لاتيه كريمية مع رشة كراميل ناعمة."
+      }
+    },
+    {
+      "id": "iced-americano",
+      "category": "cold-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,americano",
+      "price": "6,500 IQD",
+      "name": {
+        "en": "Iced Americano",
+        "ku": "ئەمەریکانۆی سارد",
+        "ar": "أمريكانو مثلج"
+      },
+      "description": {
+        "en": "Chilled espresso and water over ice.",
+        "ku": "ئێسپرێسۆی سارد لەگەڵ ئاو و سەھۆڵ.",
+        "ar": "إسبريسو بارد والماء على الجليد."
+      }
+    },
+    {
+      "id": "vanilla-cold-brew",
+      "category": "cold-coffee",
+      "image": "https://source.unsplash.com/600x400/?cold,brew,coffee",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Vanilla Cold Brew",
+        "ku": "کۆڵد برۆی ڤانیلا",
+        "ar": "فانيليا كولد برو"
+      },
+      "description": {
+        "en": "Slow brewed coffee with vanilla cream.",
+        "ku": "قەوەی هێواش هەڵکێشراو لەگەڵ کریمی ڤانیلا.",
+        "ar": "قهوة مخمرة ببطء مع كريم الفانيليا."
+      }
+    },
+    {
+      "id": "mocha-frappuccino",
+      "category": "cold-coffee",
+      "image": "images/latte cold.jpg",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Mocha Frappuccino",
+        "ku": "مۆکا فراپیوچینۆ",
+        "ar": "موكا فرابتشينو"
+      },
+      "description": {
+        "en": "Blended coffee with cocoa and whipped cream.",
+        "ku": "قەوەی تێکەڵکراو لەگەڵ کاکاو و کریمی کێشراو.",
+        "ar": "قهوة مخفوقة مع الكاكاو والكريمة المخفوقة."
+      }
+    },
+    {
+      "id": "belgian-choco",
+      "category": "ice-cream",
+      "image": "https://source.unsplash.com/600x400/?chocolate,icecream",
+      "price": "5,500 IQD",
+      "name": {
+        "en": "Belgian Chocolate Scoop",
+        "ku": "تۆپەی شکۆلاتی بەلجیکی",
+        "ar": "كرة الشوكولاتة البلجيكية"
+      },
+      "description": {
+        "en": "Dark chocolate ice cream, ultra creamy.",
+        "ku": "ئایس کریمی شکۆلاتی تاڕیک و زۆر نەرەم.",
+        "ar": "آيس كريم الشوكولاتة الداكنة، كريمي جداً."
+      }
+    },
+    {
+      "id": "salted-caramel-sundae",
+      "category": "ice-cream",
+      "image": "https://source.unsplash.com/600x400/?caramel,sundae",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "Salted Caramel Sundae",
+        "ku": "سەندەی کارامێڵی خوێداری",
+        "ar": "سندة الكراميل المملح"
+      },
+      "description": {
+        "en": "Vanilla ice cream with caramel and nuts.",
+        "ku": "ئایس کریمی ڤانیلا لەگەڵ کارامێڵ و گویز.",
+        "ar": "آيس كريم الفانيليا مع الكراميل والمكسرات."
+      }
+    },
+    {
+      "id": "lemon-mint-fizz",
+      "category": "soft-drinks",
+      "image": "https://source.unsplash.com/600x400/?lemon,mint,drink",
+      "price": "4,500 IQD",
+      "name": {
+        "en": "Lemon Mint Fizz",
+        "ku": "فیزی لیمۆ و نەعنە",
+        "ar": "فقاعة الليمون والنعناع"
+      },
+      "description": {
+        "en": "Sparkling citrus cooler with fresh mint.",
+        "ku": "خواردنەوەی گازی سارد لەگەڵ لیمۆ و نەعنەی تازە.",
+        "ar": "مشروب الحمضيات الفوار مع النعناع الطازج."
+      }
+    },
+    {
+      "id": "cola",
+      "category": "soft-drinks",
+      "image": "https://source.unsplash.com/600x400/?cola,drink",
+      "price": "3,500 IQD",
+      "name": {
+        "en": "Cola",
+        "ku": "کۆلا",
+        "ar": "كولا"
+      },
+      "description": {
+        "en": "Classic chilled soft drink.",
+        "ku": "خواردنەوەی گازی ساردی کلاسیک.",
+        "ar": "مشروب غازي بارد كلاسيكي."
+      }
+    },
+    {
+      "id": "tiramisu-cup",
+      "category": "desserts",
+      "image": "https://source.unsplash.com/600x400/?tiramisu",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Tiramisu Cup",
+        "ku": "تیرا میسۆ کاپ",
+        "ar": "كوب تيراميسو"
+      },
+      "description": {
+        "en": "Coffee-soaked layers with mascarpone cream.",
+        "ku": "چینەکانی تێرامیسۆ لەگەڵ کریمی ماسکارپۆنە.",
+        "ar": "طبقات منقوعة في القهوة مع كريم ماسكاربوني."
+      }
+    },
+    {
+      "id": "red-velvet",
+      "category": "desserts",
+      "image": "https://source.unsplash.com/600x400/?red,velvet,cake",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Red Velvet Slice",
+        "ku": "پارچەی ڕێد ڤێڵڤێت",
+        "ar": "شريحة الحمراء المخملة"
+      },
+      "description": {
+        "en": "Soft cake with cream cheese frosting.",
+        "ku": "کێکی نەرم لەگەڵ کریمی پەنیر.",
+        "ar": "كعكة ناعمة مع صقيع جبن كريمي."
+      }
+    },
+    {
+      "id": "berry-pancake",
+      "category": "pancakes",
+      "image": "https://source.unsplash.com/600x400/?berry,pancakes",
+      "price": "10,500 IQD",
+      "name": {
+        "en": "Berry Pancake Stack",
+        "ku": "پانکێیکی بەری",
+        "ar": "رص البانكيك بالتوت"
+      },
+      "description": {
+        "en": "Fluffy pancakes with mixed berries and honey.",
+        "ku": "پانکێیکی قەڵەو لەگەڵ بەری و هەنگوین.",
+        "ar": "بانكيك خفيف مع التوت المختلط والعسل."
+      }
+    },
+    {
+      "id": "banana-pancake",
+      "category": "pancakes",
+      "image": "https://source.unsplash.com/600x400/?banana,pancakes",
+      "price": "10,000 IQD",
+      "name": {
+        "en": "Banana Nut Pancakes",
+        "ku": "پانکێیکی مۆز و گویز",
+        "ar": "بانكيك الموز والجوز"
+      },
+      "description": {
+        "en": "Topped with banana slices and roasted walnuts.",
+        "ku": "لەسەرەوەی مۆز و گویزی برژاو.",
+        "ar": "مع شرائح الموز والجوز المحمص."
+      }
+    },
+    {
+      "id": "oreo-milkshake",
+      "category": "milkshakes",
+      "image": "https://source.unsplash.com/600x400/?oreo,milkshake",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Oreo Milkshake",
+        "ku": "میلکشەیکی ئۆریۆ",
+        "ar": "رج حليب أوريو"
+      },
+      "description": {
+        "en": "Crushed Oreo cookies and vanilla ice cream.",
+        "ku": "کوکی ئۆریۆی وردکراو لەگەڵ ئایس کریمی ڤانیلا.",
+        "ar": "بسكويت أوريو المسحوق مع آيس كريم الفانيليا."
+      }
+    },
+    {
+      "id": "strawberry-milkshake",
+      "category": "milkshakes",
+      "image": "https://source.unsplash.com/600x400/?strawberry,milkshake",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Strawberry Milkshake",
+        "ku": "میلکشەیکی تووتفرەنگی",
+        "ar": "رج حليب الفراولة"
+      },
+      "description": {
+        "en": "Fresh strawberry blend with whipped topping.",
+        "ku": "تێکەڵەی تووتفرەنگی تازە لەگەڵ کریمی سەرەوە.",
+        "ar": "مزيج الفراولة الطازج مع الكريمة المخفوقة."
+      }
+    },
+    {
+      "id": "mango-smoothie",
+      "category": "smoothies",
+      "image": "https://source.unsplash.com/600x400/?mango,smoothie",
+      "price": "7,800 IQD",
+      "name": {
+        "en": "Mango Smoothie",
+        "ku": "سمووتی مانگۆ",
+        "ar": "عصير المانجو السلس"
+      },
+      "description": {
+        "en": "Tropical mango and yogurt refresh.",
+        "ku": "سمووتی مانگۆی گەرماویی لەگەڵ ماست.",
+        "ar": "منعش المانجو الاستوائي والزبادي."
+      }
+    },
+    {
+      "id": "green-smoothie",
+      "category": "smoothies",
+      "image": "https://source.unsplash.com/600x400/?green,smoothie",
+      "price": "8,300 IQD",
+      "name": {
+        "en": "Green Detox Smoothie",
+        "ku": "سمووتی سەوزی پاککەرەوە",
+        "ar": "عصير أخضر منظف"
+      },
+      "description": {
+        "en": "Spinach, kiwi, apple, and lime.",
+        "ku": "ئیسپاناخ و کیوی و سێو و لیمۆ.",
+        "ar": "السبانخ والكيوي والتفاح والليمون."
+      }
+    },
+    {
+      "id": "citrus-boost",
+      "category": "energy-drinks",
+      "image": "https://source.unsplash.com/600x400/?energy,drink,citrus",
+      "price": "7,200 IQD",
+      "name": {
+        "en": "Citrus Boost",
+        "ku": "سیتروس بووست",
+        "ar": "دفعة الحمضيات"
+      },
+      "description": {
+        "en": "Orange, lemon, and natural caffeine blend.",
+        "ku": "تێکەڵەی پرتەقاڵ و لیمۆ لەگەڵ کافاینی سروشتی.",
+        "ar": "مزيج البرتقال والليمون والكافيين الطبيعي."
+      }
+    },
+    {
+      "id": "power-berry-rush",
+      "category": "energy-drinks",
+      "image": "https://source.unsplash.com/600x400/?berry,energy,drink",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Power Berry Rush",
+        "ku": "پاوەر بەری ڕەش",
+        "ar": "اندفاع التوت القوي"
+      },
+      "description": {
+        "en": "Berry mix with vitamin-enriched hydration.",
+        "ku": "تێکەڵەی بەری لەگەڵ ڤیتامین بۆ وزە.",
+        "ar": "مزيج التوت مع الترطيب المثري بالفيتامينات."
+      }
+    },
+    {
+      "id": "choco-protein",
+      "category": "protein-shakes",
+      "image": "https://source.unsplash.com/600x400/?chocolate,protein,shake",
+      "price": "9,500 IQD",
+      "name": {
+        "en": "Chocolate Whey Shake",
+        "ku": "پرۆتین شەیکی شکۆلات",
+        "ar": "رج مصل الشوكولاتة"
+      },
+      "description": {
+        "en": "Protein-rich shake with cocoa and banana.",
+        "ku": "شەیکی دەوڵەمەند بە پرۆتین لەگەڵ کاکاو و مۆز.",
+        "ar": "رج غني بالبروتين مع الكاكاو والموز."
+      }
+    },
+    {
+      "id": "vanilla-almond-protein",
+      "category": "protein-shakes",
+      "image": "https://source.unsplash.com/600x400/?vanilla,protein,shake",
+      "price": "10,000 IQD",
+      "name": {
+        "en": "Vanilla Almond Protein",
+        "ku": "پرۆتینی ڤانیلا و بادەم",
+        "ar": "بروتين الفانيليا واللوز"
+      },
+      "description": {
+        "en": "Vanilla protein blend with almond milk.",
+        "ku": "تێکەڵەی پرۆتینی ڤانیلا لەگەڵ شیری بادەم.",
+        "ar": "مزيج بروتين الفانيليا مع حليب اللوز."
+      }
+    }
+  ]
+}

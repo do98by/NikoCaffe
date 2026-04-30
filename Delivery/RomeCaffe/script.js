@@ -44,14 +44,44 @@ const translations = {
 	}
 };
 
-// Load menu data from JSON
+// 🎯 ADD THIS HELPER at the top of script.js
+function getMenuDataPath() {
+	const path = window.location.pathname;
+	
+	// Detect location from URL and return appropriate menu-data.json path
+	if (path.includes('/Delivery/RomeCaffe/')) {
+		return '/NikoCaffe/Delivery/RomeCaffe/menu-data.json';
+	}
+	// Add more locations here as needed:
+	// else if (path.includes('/Delivery/LocationName/')) {
+	//   return '/NikoCaffe/Delivery/LocationName/menu-data.json';
+	// }
+	
+	// Default to root menu
+	return '/NikoCaffe/menu-data.json';
+}
+
+// 🔄 REPLACE your existing loadMenuData function with this:
 async function loadMenuData() {
 	try {
-		const response = await fetch('menu-data.json');
+		// ✅ Use dynamic path based on current location
+		const dataPath = getMenuDataPath();
+		const response = await fetch(dataPath);
+		
+		if (!response.ok) {
+			throw new Error(`Failed to load menu: ${response.status}`);
+		}
+		
 		menuData = await response.json();
 		initializeApp();
 	} catch (error) {
 		console.error('Error loading menu data:', error);
+		// Fallback: try root menu if location-specific fails
+		if (!menuData) {
+			const fallback = await fetch('/NikoCaffe/menu-data.json');
+			menuData = await fallback.json();
+			initializeApp();
+		}
 	}
 }
 

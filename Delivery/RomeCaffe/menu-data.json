@@ -1,5 +1,6 @@
 {
   "categories": [
+    
     {
       "id": "all",
       "name": {
@@ -8,6 +9,16 @@
         "ar": "الكل"
       }
     },
+    
+    {
+      "id": "shisha",
+      "name": {
+        "en": "Shisha",
+        "ku": "نێرگەلە",
+        "ar": "أرغيلة"
+      }
+    },
+    
     {
       "id": "hot-coffee",
       "name": {

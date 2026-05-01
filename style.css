@@ -1,8 +1,18 @@
 ﻿:root {
 	--font-heading: 'Playfair Display', Georgia, serif;
-	--font-heading-kurdish: 'Lalezar', 'Borna Izadpanah', 'Beiruti', 'Harmattan', serif;
+	--font-heading-kurdish: 'Noto Sans Arabic', serif;
 	--font-body: 'Manrope', 'Segoe UI', sans-serif;
-	--font-body-kurdish: 'IBM Plex Sans Arabic', 'Beiruti', 'Harmattan', 'Segoe UI', sans-serif;
+	--font-body-kurdish: 'Noto Sans Arabic', sans-serif;
+	
+	/* Font weights */
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+	--font-weight-extrabold: 800;
+	--font-weight-black: 900;
+
 
 	--bg-main: #f4eee6;
 	--bg-surface: #fffaf4;

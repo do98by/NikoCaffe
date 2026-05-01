@@ -17,27 +17,51 @@
       }
     },
     {
-      "id": "cold-coffee",
+      "id": "hot-chocolate",
       "name": {
-        "en": "Cold Coffee",
-        "ku": "قەوەی سارد",
-        "ar": "القهوة الباردة"
+        "en": "Hot Chocolate",
+        "ku": "شکڵاتەی گەرم",
+        "ar": "الشوكولاتة الساخنة"
       }
     },
     {
-      "id": "ice-cream",
+      "id": "iced-coffee",
       "name": {
-        "en": "Ice Cream",
-        "ku": "ئایس کریم",
-        "ar": "الآيس كريم"
+        "en": "Iced Coffee",
+        "ku": "قاوەی سارد",
+        "ar": "القهوة المثلجة"
       }
     },
     {
-      "id": "soft-drinks",
+      "id": "smoothies",
       "name": {
-        "en": "Soft Drinks",
-        "ku": "خواردنەوەی گازی",
-        "ar": "المشروبات الغازية"
+        "en": "Smoothies",
+        "ku": "سمووتی",
+        "ar": "العصائر الطازجة"
+      }
+    },
+    {
+      "id": "frappes",
+      "name": {
+        "en": "Frappes",
+        "ku": "فراپێ",
+        "ar": "الفرايه"
+      }
+    },
+    {
+      "id": "mocktails",
+      "name": {
+        "en": "Mocktails",
+        "ku": "مۆکتێڵ",
+        "ar": "الموكتيلات"
+      }
+    },
+    {
+      "id": "mojitos",
+      "name": {
+        "en": "Mojitos",
+        "ku": "مۆهیتۆ",
+        "ar": "الموخيتو"
       }
     },
     {
@@ -57,27 +81,11 @@
       }
     },
     {
-      "id": "milkshakes",
+      "id": "ice-cream",
       "name": {
-        "en": "Milkshakes",
-        "ku": "میلکشەیک",
-        "ar": "مشروبات الحليب"
-      }
-    },
-    {
-      "id": "smoothies",
-      "name": {
-        "en": "Smoothies",
-        "ku": "سمووتی",
-        "ar": "العصائر الطازجة"
-      }
-    },
-    {
-      "id": "energy-drinks",
-      "name": {
-        "en": "Energy Drinks",
-        "ku": "خواردنەوەی وزە",
-        "ar": "مشروبات الطاقة"
+        "en": "Ice Cream",
+        "ku": "ئایس کریم",
+        "ar": "الآيس كريم"
       }
     },
     {
@@ -93,7 +101,7 @@
     {
       "id": "espresso",
       "category": "hot-coffee",
-      "image": "https://drive.google.com/file/d/18OXhpHme5-JqQnkwYkSAlT3CZQMPkGga/view?usp=sharing",
+      "image": "https://source.unsplash.com/600x400/?espresso,coffee",
       "price": "5,000 IQD",
       "name": {
         "en": "Espresso",
@@ -107,9 +115,73 @@
       }
     },
     {
+      "id": "espresso-doppio",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?espresso,doppio",
+      "price": "6,500 IQD",
+      "name": {
+        "en": "Espresso Doppio",
+        "ku": "ئێسپرێسۆ دۆپیۆ",
+        "ar": "إسبريسو دوبليو"
+      },
+      "description": {
+        "en": "Double shot of intense espresso for extra kick.",
+        "ku": "دو شۆتی قەوەی بەهێز بۆ وزەی زیاتر.",
+        "ar": "جرعتان مكثفتان من الإسبريسو لطاقة إضافية."
+      }
+    },
+    {
+      "id": "espresso-macchiato",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?macchiato,coffee",
+      "price": "6,000 IQD",
+      "name": {
+        "en": "Espresso Macchiato",
+        "ku": "ئێسپرێسۆ ماکیاتۆ",
+        "ar": "إسبريسو ماكيато"
+      },
+      "description": {
+        "en": "Espresso 'stained' with a dollop of foamed milk.",
+        "ku": "ئێسپرێسۆ لەگەڵ کەمێک کفی شیر.",
+        "ar": "إسبريسو مع رشة من رغوة الحليب."
+      }
+    },
+    {
+      "id": "espresso-macchiato-double",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?macchiato,double",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Espresso Macchiato Double",
+        "ku": "ئێسپرێسۆ ماکیاتۆ دووبل",
+        "ar": "إسبريسو ماكيато دوبل"
+      },
+      "description": {
+        "en": "Double espresso with a touch of creamy foam.",
+        "ku": "دو شۆت ئێسپرێسۆ لەگەڵ کەمێک کفی شیر.",
+        "ar": "إسبريسو مزدوج مع لمسة من الرغوة الكريمية."
+      }
+    },
+    {
+      "id": "americano",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?americano,coffee",
+      "price": "6,000 IQD",
+      "name": {
+        "en": "Americano",
+        "ku": "ئەمەریکانۆ",
+        "ar": "أمريكانو"
+      },
+      "description": {
+        "en": "Espresso diluted with hot water for a smooth finish.",
+        "ku": "ئێسپرێسۆ لەگەڵ ئاوی گەرم بۆ تامێکی نەرم.",
+        "ar": "إسبريسو مخفف بالماء الساخن لمذاق ناعم."
+      }
+    },
+    {
       "id": "cappuccino",
       "category": "hot-coffee",
-      "image": "https://drive.google.com/file/d/16d9u6x3-792Zb7EbSZylImj3NaJAsxZ4/view?usp=sharing",
+      "image": "https://source.unsplash.com/600x400/?cappuccino,coffee",
       "price": "7,000 IQD",
       "name": {
         "en": "Cappuccino",
@@ -123,10 +195,42 @@
       }
     },
     {
+      "id": "latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?latte,coffee",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Latte",
+        "ku": "لاتی",
+        "ar": "لاتيه"
+      },
+      "description": {
+        "en": "Smooth espresso with steamed milk and light foam.",
+        "ku": "ئێسپرێسۆی نەرم لەگەڵ شیری گەرم و کفی سووک.",
+        "ar": "إسبريسو ناعم مع حليب مبخر ورغوة خفيفة."
+      }
+    },
+    {
+      "id": "niko-latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?latte,signature",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "Niko Latte",
+        "ku": "لاتی نیکۆ",
+        "ar": "لاتيه نيكو"
+      },
+      "description": {
+        "en": "Our signature latte with vanilla, caramel & a hint of cinnamon.",
+        "ku": "لاتی تایبەتی نیکۆ لەگەڵ ڤانیلا، کارامێڵ و کەمێک دارچین.",
+        "ar": "لاتيه توقيعنا مع الفانيليا والكراميل ولمسة من القرفة."
+      }
+    },
+    {
       "id": "caramel-latte",
       "category": "hot-coffee",
-      "image": "https://drive.google.com/thumbnail?id=18OXhpHme5-JqQnkwYkSAlT3CZQMPkGga",
-      "price": "7,500 IQD",
+      "image": "https://source.unsplash.com/600x400/?caramel,latte",
+      "price": "8,000 IQD",
       "name": {
         "en": "Caramel Latte",
         "ku": "لاتی کارامێڵ",
@@ -139,8 +243,280 @@
       }
     },
     {
-      "id": "iced-americano",
-      "category": "cold-coffee",
+      "id": "caramel-latte-no-sugar",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?caramel,latte,sugarfree",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Caramel Latte (No Sugar)",
+        "ku": "لاتی کارامێڵ (بێ شەکر)",
+        "ar": "لاتيه الكراميل (بدون سكر)"
+      },
+      "description": {
+        "en": "Sugar-free caramel latte with natural sweetener.",
+        "ku": "لاتی کارامێڵی بێ شەکر لەگەڵ شیرینکەری سروشتی.",
+        "ar": "لاتيه كراميل خالي من السكر مع مُحلي طبيعي."
+      }
+    },
+    {
+      "id": "hazelnut-latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?hazelnut,latte",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Hazelnut Latte",
+        "ku": "لاتی فەندقی",
+        "ar": "لاتيه البندق"
+      },
+      "description": {
+        "en": "Rich latte infused with roasted hazelnut flavor.",
+        "ku": "لاتی دەوڵەمەند بە تامی فەندقی برژاو.",
+        "ar": "لاتيه غني بنكهة البندق المحمص."
+      }
+    },
+    {
+      "id": "vanilla-latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?vanilla,latte",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Vanilla Latte",
+        "ku": "لاتی ڤانیلا",
+        "ar": "لاتيه الفانيليا"
+      },
+      "description": {
+        "en": "Classic latte with pure vanilla extract.",
+        "ku": "لاتی کلاسیک لەگەڵ عەسەلی ڤانیلا.",
+        "ar": "لاتيه كلاسيكي مع خلاصة الفانيليا النقية."
+      }
+    },
+    {
+      "id": "vanilla-latte-no-sugar",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?vanilla,latte,sugarfree",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Vanilla Latte (No Sugar)",
+        "ku": "لاتی ڤانیلا (بێ شەکر)",
+        "ar": "لاتيه الفانيليا (بدون سكر)"
+      },
+      "description": {
+        "en": "Sugar-free vanilla latte with natural sweetener.",
+        "ku": "لاتی ڤانیلا بێ شەکر لەگەڵ شیرینکەری سروشتی.",
+        "ar": "لاتيه فانيليا خالي من السكر مع مُحلي طبيعي."
+      }
+    },
+    {
+      "id": "cinnamon-latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?cinnamon,latte",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Cinnamon Latte",
+        "ku": "لاتی دارچین",
+        "ar": "لاتيه القرفة"
+      },
+      "description": {
+        "en": "Warm latte spiced with aromatic cinnamon.",
+        "ku": "لاتی گەرم بە تامی دارچین.",
+        "ar": "لاتيه دافئ متبل بالقرفة العطرية."
+      }
+    },
+    {
+      "id": "spanish-latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?spanish,latte",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Spanish Latte",
+        "ku": "لاتی ئیسپانی",
+        "ar": "لاتيه إسباني"
+      },
+      "description": {
+        "en": "Espresso with sweetened condensed milk and steamed milk.",
+        "ku": "ئێسپرێسۆ لەگەڵ شیری قەڵەو و شیری گەرم.",
+        "ar": "إسبريسو مع حليب مكثف محلى وحليب مبخر."
+      }
+    },
+    {
+      "id": "mocha-latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?mocha,latte",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Mocha Latte",
+        "ku": "لاتی مۆکا",
+        "ar": "لاتيه موكا"
+      },
+      "description": {
+        "en": "Chocolate-infused latte with espresso and cocoa.",
+        "ku": "لاتی لەگەڵ شکڵاتە و ئێسپرێسۆ و کاکاو.",
+        "ar": "لاتيه بنكهة الشوكولاتة مع الإسبريسو والكاكاو."
+      }
+    },
+    {
+      "id": "white-mocha-latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?white,mocha,latte",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "White Mocha Latte",
+        "ku": "لاتی مۆکای سپی",
+        "ar": "لاتيه موكا أبيض"
+      },
+      "description": {
+        "en": "Creamy white chocolate latte with espresso.",
+        "ku": "لاتی شکڵاتەی سپی لەگەڵ ئێسپرێسۆ.",
+        "ar": "لاتيه شوكولاتة بيضاء كريمية مع الإسبريسو."
+      }
+    },
+    {
+      "id": "caramel-macchiato",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?caramel,macchiato",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Caramel Macchiato",
+        "ku": "کارامێڵ ماکیاتۆ",
+        "ar": "كراميل ماكياتو"
+      },
+      "description": {
+        "en": "Vanilla latte topped with espresso and caramel drizzle.",
+        "ku": "لاتی ڤانیلا لەسەرەوەی ئێسپرێسۆ و کارامێڵ.",
+        "ar": "لاتيه فانيليا مغطى بالإسبريسو ورشة كراميل."
+      }
+    },
+    {
+      "id": "mint-latte",
+      "category": "hot-coffee",
+      "image": "https://source.unsplash.com/600x400/?mint,latte",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Mint Latte",
+        "ku": "لاتی نەعنە",
+        "ar": "لاتيه النعناع"
+      },
+      "description": {
+        "en": "Refreshing latte with natural mint extract.",
+        "ku": "لاتی تازەکەرەوە لەگەڵ نەعنەی سروشتی.",
+        "ar": "لاتيه منعش مع خلاصة النعناع الطبيعية."
+      }
+    },
+    {
+      "id": "hot-chocolate-classic",
+      "category": "hot-chocolate",
+      "image": "https://source.unsplash.com/600x400/?hot,chocolate",
+      "price": "6,500 IQD",
+      "name": {
+        "en": "Hot Chocolate Classic",
+        "ku": "شکڵاتەی گەرمی کلاسیک",
+        "ar": "شوكولاتة ساخنة كلاسيكية"
+      },
+      "description": {
+        "en": "Rich cocoa blended with steamed milk.",
+        "ku": "کاکاوی دەوڵەمەند لەگەڵ شیری گەرم.",
+        "ar": "كاكاو غني ممزوج مع الحليب المبخر."
+      }
+    },
+    {
+      "id": "hot-chocolate-dark",
+      "category": "hot-chocolate",
+      "image": "https://source.unsplash.com/600x400/?dark,chocolate,hot",
+      "price": "7,000 IQD",
+      "name": {
+        "en": "Hot Chocolate Dark",
+        "ku": "شکڵاتەی گەرمی تاڕیک",
+        "ar": "شوكولاتة ساخنة داكنة"
+      },
+      "description": {
+        "en": "Intense dark chocolate with a hint of spice.",
+        "ku": "شکڵاتەی تاڕیکی بەهێز لەگەڵ کەمێک بەهارات.",
+        "ar": "شوكولاتة داكنة مكثفة مع لمسة من التوابل."
+      }
+    },
+    {
+      "id": "hot-chocolate-white",
+      "category": "hot-chocolate",
+      "image": "https://source.unsplash.com/600x400/?white,chocolate,hot",
+      "price": "7,000 IQD",
+      "name": {
+        "en": "Hot Chocolate White",
+        "ku": "شکڵاتەی گەرمی سپی",
+        "ar": "شوكولاتة ساخنة بيضاء"
+      },
+      "description": {
+        "en": "Creamy white chocolate melted into warm milk.",
+        "ku": "شکڵاتەی سپی نەرم لەگەڵ شیری گەرم.",
+        "ar": "شوكولاتة بيضاء كريمية مذابة في الحليب الدافئ."
+      }
+    },
+    {
+      "id": "strawberry-hot-chocolate",
+      "category": "hot-chocolate",
+      "image": "https://source.unsplash.com/600x400/?strawberry,chocolate,hot",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Strawberry Hot Chocolate",
+        "ku": "شکڵاتەی گەرمی تووتفرەنگی",
+        "ar": "شوكولاتة ساخنة بالفراولة"
+      },
+      "description": {
+        "en": "Sweet strawberry blend with creamy hot chocolate.",
+        "ku": "تووتفرەنگی شیرین لەگەڵ شکڵاتەی گەرمی نەرم.",
+        "ar": "مزيج الفراولة الحلو مع الشوكولاتة الساخنة الكريمية."
+      }
+    },
+    {
+      "id": "banana-hot-chocolate",
+      "category": "hot-chocolate",
+      "image": "https://source.unsplash.com/600x400/?banana,chocolate,hot",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Banana Hot Chocolate",
+        "ku": "شکڵاتەی گەرمی مۆز",
+        "ar": "شوكولاتة ساخنة بالموز"
+      },
+      "description": {
+        "en": "Banana-infused hot chocolate with a hint of cinnamon.",
+        "ku": "شکڵاتەی گەرم لەگەڵ مۆز و کەمێک دارچین.",
+        "ar": "شوكولاتة ساخنة بنكهة الموز مع لمسة قرفة."
+      }
+    },
+    {
+      "id": "ice-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,latte",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Iced Latte",
+        "ku": "لاتی سارد",
+        "ar": "لاتيه مثلج"
+      },
+      "description": {
+        "en": "Chilled espresso with cold milk over ice.",
+        "ku": "ئێسپرێسۆی سارد لەگەڵ شیری سارد و سەهۆڵ.",
+        "ar": "إسبريسو بارد مع حليب مثلج على الثلج."
+      }
+    },
+    {
+      "id": "ice-niko-special-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,signature,latte",
+      "price": "9,500 IQD",
+      "name": {
+        "en": "Iced Niko Special Latte",
+        "ku": "لاتی ساردی تایبەتی نیکۆ",
+        "ar": "لاتيه مثلج خاص نيكو"
+      },
+      "description": {
+        "en": "Our signature iced latte with vanilla, caramel & cinnamon.",
+        "ku": "لاتی ساردی تایبەتی نیکۆ لەگەڵ ڤانیلا، کارامێڵ و دارچین.",
+        "ar": "لاتيه مثلج توقيعنا مع الفانيليا والكراميل والقرفة."
+      }
+    },
+    {
+      "id": "ice-americano",
+      "category": "iced-coffee",
       "image": "https://source.unsplash.com/600x400/?iced,americano",
       "price": "6,500 IQD",
       "name": {
@@ -150,104 +526,568 @@
       },
       "description": {
         "en": "Chilled espresso and water over ice.",
-        "ku": "ئێسپرێسۆی سارد لەگەڵ ئاو و سەھۆڵ.",
+        "ku": "ئێسپرێسۆی سارد لەگەڵ ئاو و سەهۆڵ.",
         "ar": "إسبريسو بارد والماء على الجليد."
       }
     },
     {
-      "id": "vanilla-cold-brew",
-      "category": "cold-coffee",
-      "image": "https://source.unsplash.com/600x400/?cold,brew,coffee",
-      "price": "8,000 IQD",
-      "name": {
-        "en": "Vanilla Cold Brew",
-        "ku": "کۆڵد برۆی ڤانیلا",
-        "ar": "فانيليا كولد برو"
-      },
-      "description": {
-        "en": "Slow brewed coffee with vanilla cream.",
-        "ku": "قەوەی هێواش هەڵکێشراو لەگەڵ کریمی ڤانیلا.",
-        "ar": "قهوة مخمرة ببطء مع كريم الفانيليا."
-      }
-    },
-    {
-      "id": "mocha-frappuccino",
-      "category": "cold-coffee",
-      "image": "images/latte cold.jpg",
+      "id": "ice-caramel-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,caramel,latte",
       "price": "8,500 IQD",
       "name": {
-        "en": "Mocha Frappuccino",
-        "ku": "مۆکا فراپیوچینۆ",
-        "ar": "موكا فرابتشينو"
+        "en": "Iced Caramel Latte",
+        "ku": "لاتی کارامێڵی سارد",
+        "ar": "لاتيه كراميل مثلج"
       },
       "description": {
-        "en": "Blended coffee with cocoa and whipped cream.",
-        "ku": "قەوەی تێکەڵکراو لەگەڵ کاکاو و کریمی کێشراو.",
-        "ar": "قهوة مخفوقة مع الكاكاو والكريمة المخفوقة."
+        "en": "Refreshing iced latte with caramel syrup.",
+        "ku": "لاتی ساردی تازەکەرەوە لەگەڵ شیری کارامێڵ.",
+        "ar": "لاتيه مثلج منعش مع شراب الكراميل."
       }
     },
     {
-      "id": "belgian-choco",
-      "category": "ice-cream",
-      "image": "https://source.unsplash.com/600x400/?chocolate,icecream",
-      "price": "5,500 IQD",
-      "name": {
-        "en": "Belgian Chocolate Scoop",
-        "ku": "تۆپەی شکۆلاتی بەلجیکی",
-        "ar": "كرة الشوكولاتة البلجيكية"
-      },
-      "description": {
-        "en": "Dark chocolate ice cream, ultra creamy.",
-        "ku": "ئایس کریمی شکۆلاتی تاڕیک و زۆر نەرەم.",
-        "ar": "آيس كريم الشوكولاتة الداكنة، كريمي جداً."
-      }
-    },
-    {
-      "id": "salted-caramel-sundae",
-      "category": "ice-cream",
-      "image": "https://source.unsplash.com/600x400/?caramel,sundae",
+      "id": "ice-caramel-macchiato",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,caramel,macchiato",
       "price": "9,000 IQD",
       "name": {
-        "en": "Salted Caramel Sundae",
-        "ku": "سەندەی کارامێڵی خوێداری",
-        "ar": "سندة الكراميل المملح"
+        "en": "Iced Caramel Macchiato",
+        "ku": "کارامێڵ ماکیاتۆی سارد",
+        "ar": "كراميل ماكياتو مثلج"
       },
       "description": {
-        "en": "Vanilla ice cream with caramel and nuts.",
-        "ku": "ئایس کریمی ڤانیلا لەگەڵ کارامێڵ و گویز.",
-        "ar": "آيس كريم الفانيليا مع الكراميل والمكسرات."
+        "en": "Vanilla iced latte topped with espresso and caramel.",
+        "ku": "لاتی ساردی ڤانیلا لەسەرەوەی ئێسپرێسۆ و کارامێڵ.",
+        "ar": "لاتيه فانيليا مثلج مغطى بالإسبريسو والكراميل."
       }
     },
     {
-      "id": "lemon-mint-fizz",
-      "category": "soft-drinks",
-      "image": "https://source.unsplash.com/600x400/?lemon,mint,drink",
-      "price": "4,500 IQD",
+      "id": "ice-spanish-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,spanish,latte",
+      "price": "9,000 IQD",
       "name": {
-        "en": "Lemon Mint Fizz",
-        "ku": "فیزی لیمۆ و نەعنە",
-        "ar": "فقاعة الليمون والنعناع"
+        "en": "Iced Spanish Latte",
+        "ku": "لاتی ئیسپانی سارد",
+        "ar": "لاتيه إسباني مثلج"
       },
       "description": {
-        "en": "Sparkling citrus cooler with fresh mint.",
-        "ku": "خواردنەوەی گازی سارد لەگەڵ لیمۆ و نەعنەی تازە.",
-        "ar": "مشروب الحمضيات الفوار مع النعناع الطازج."
+        "en": "Iced espresso with sweetened condensed milk.",
+        "ku": "ئێسپرێسۆی سارد لەگەڵ شیری قەڵەوی شیرین.",
+        "ar": "إسبريسو مثلج مع حليب مكثف محلى."
       }
     },
     {
-      "id": "cola",
-      "category": "soft-drinks",
-      "image": "https://source.unsplash.com/600x400/?cola,drink",
-      "price": "3,500 IQD",
+      "id": "ice-cinnamon-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,cinnamon,latte",
+      "price": "8,500 IQD",
       "name": {
-        "en": "Cola",
-        "ku": "کۆلا",
-        "ar": "كولا"
+        "en": "Iced Cinnamon Latte",
+        "ku": "لاتی دارچینی سارد",
+        "ar": "لاتيه قرفة مثلج"
       },
       "description": {
-        "en": "Classic chilled soft drink.",
-        "ku": "خواردنەوەی گازی ساردی کلاسیک.",
-        "ar": "مشروب غازي بارد كلاسيكي."
+        "en": "Chilled latte with aromatic cinnamon spice.",
+        "ku": "لاتی سارد لەگەڵ بەهاراتی دارچین.",
+        "ar": "لاتيه مثلج مع توابل القرفة العطرية."
+      }
+    },
+    {
+      "id": "ice-hazelnut-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,hazelnut,latte",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Iced Hazelnut Latte",
+        "ku": "لاتی فەندقی سارد",
+        "ar": "لاتيه بندق مثلج"
+      },
+      "description": {
+        "en": "Iced latte with roasted hazelnut flavor.",
+        "ku": "لاتی سارد لەگەڵ تامی فەندقی برژاو.",
+        "ar": "لاتيه مثلج بنكهة البندق المحمص."
+      }
+    },
+    {
+      "id": "ice-vanilla-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,vanilla,latte",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Iced Vanilla Latte",
+        "ku": "لاتی ڤانیلا سارد",
+        "ar": "لاتيه فانيليا مثلج"
+      },
+      "description": {
+        "en": "Classic iced latte with pure vanilla.",
+        "ku": "لاتی ساردی کلاسیک لەگەڵ ڤانیلا.",
+        "ar": "لاتيه فانيليا كلاسيكي مثلج."
+      }
+    },
+    {
+      "id": "ice-mocha-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,mocha,latte",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "Iced Mocha Latte",
+        "ku": "لاتی مۆکای سارد",
+        "ar": "لاتيه موكا مثلج"
+      },
+      "description": {
+        "en": "Chocolate iced latte with espresso and cocoa.",
+        "ku": "لاتی ساردی شکڵاتە لەگەڵ ئێسپرێسۆ و کاکاو.",
+        "ar": "لاتيه شوكولاتة مثلج مع الإسبريسو والكاكاو."
+      }
+    },
+    {
+      "id": "ice-white-mocha-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,white,mocha",
+      "price": "9,500 IQD",
+      "name": {
+        "en": "Iced White Mocha Latte",
+        "ku": "لاتی مۆکای سپی سارد",
+        "ar": "لاتيه موكا أبيض مثلج"
+      },
+      "description": {
+        "en": "Creamy white chocolate iced latte.",
+        "ku": "لاتی ساردی شکڵاتەی سپی نەرم.",
+        "ar": "لاتيه شوكولاتة بيضاء كريمية مثلج."
+      }
+    },
+    {
+      "id": "ice-mint-latte",
+      "category": "iced-coffee",
+      "image": "https://source.unsplash.com/600x400/?iced,mint,latte",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Iced Mint Latte",
+        "ku": "لاتی نەعنەی سارد",
+        "ar": "لاتيه نعناع مثلج"
+      },
+      "description": {
+        "en": "Refreshing iced latte with natural mint.",
+        "ku": "لاتی ساردی تازەکەرەوە لەگەڵ نەعنەی سروشتی.",
+        "ar": "لاتيه مثلج منعش مع النعناع الطبيعي."
+      }
+    },
+    {
+      "id": "strawberry-smoothie",
+      "category": "smoothies",
+      "image": "https://source.unsplash.com/600x400/?strawberry,smoothie",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Strawberry Smoothie",
+        "ku": "سمووتی تووتفرەنگی",
+        "ar": "عصير الفراولة السلس"
+      },
+      "description": {
+        "en": "Fresh strawberries blended with yogurt and honey.",
+        "ku": "تووتفرەنگی تازە لەگەڵ ماست و هەنگوین.",
+        "ar": "فراولة طازجة ممزوجة مع الزبادي والعسل."
+      }
+    },
+    {
+      "id": "banana-smoothie",
+      "category": "smoothies",
+      "image": "https://source.unsplash.com/600x400/?banana,smoothie",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Banana Smoothie",
+        "ku": "سمووتی مۆز",
+        "ar": "عصير الموز السلس"
+      },
+      "description": {
+        "en": "Creamy banana blended with milk and honey.",
+        "ku": "مۆزی نەرم لەگەڵ شیر و هەنگوین.",
+        "ar": "موز كريمي ممزوج مع الحليب والعسل."
+      }
+    },
+    {
+      "id": "blueberry-smoothie",
+      "category": "smoothies",
+      "image": "https://source.unsplash.com/600x400/?blueberry,smoothie",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Blueberry Smoothie",
+        "ku": "سمووتی بلوبێری",
+        "ar": "عصير التوت الأزرق السلس"
+      },
+      "description": {
+        "en": "Antioxidant-rich blueberries with Greek yogurt.",
+        "ku": "بلوبێری دەوڵەمەند بە ئەنتیئۆکسیدانت لەگەڵ ماستی یۆنانی.",
+        "ar": "توت أزرق غني بمضادات الأكسدة مع الزبادي اليوناني."
+      }
+    },
+    {
+      "id": "kiwi-smoothie",
+      "category": "smoothies",
+      "image": "https://source.unsplash.com/600x400/?kiwi,smoothie",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Kiwi Smoothie",
+        "ku": "سمووتی کیوی",
+        "ar": "عصير الكيوي السلس"
+      },
+      "description": {
+        "en": "Tangy kiwi blended with apple and lime.",
+        "ku": "کیوی ترش لەگەڵ سێو و لیمۆ.",
+        "ar": "كيوي لاذع ممزوج مع التفاح والليمون."
+      }
+    },
+    {
+      "id": "apple-smoothie",
+      "category": "smoothies",
+      "image": "https://source.unsplash.com/600x400/?apple,smoothie",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Apple Smoothie",
+        "ku": "سمووتی سێو",
+        "ar": "عصير التفاح السلس"
+      },
+      "description": {
+        "en": "Crisp apple blended with cinnamon and yogurt.",
+        "ku": "سێوی تازە لەگەڵ دارچین و ماست.",
+        "ar": "تفاح مقرمش ممزوج مع القرفة والزبادي."
+      }
+    },
+    {
+      "id": "peach-smoothie",
+      "category": "smoothies",
+      "image": "https://source.unsplash.com/600x400/?peach,smoothie",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Peach Smoothie",
+        "ku": "سمووتی هەلو",
+        "ar": "عصير الخوخ السلس"
+      },
+      "description": {
+        "en": "Juicy peach blended with vanilla yogurt.",
+        "ku": "هەلوی شیرین لەگەڵ ماستی ڤانیلا.",
+        "ar": "خوخ عصيري ممزوج مع زبادي الفانيليا."
+      }
+    },
+    {
+      "id": "vanilla-frappe",
+      "category": "frappes",
+      "image": "https://source.unsplash.com/600x400/?vanilla,frappe",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Vanilla Frappe",
+        "ku": "فراپێ ڤانیلا",
+        "ar": "فرايه فانيليا"
+      },
+      "description": {
+        "en": "Blended ice with vanilla syrup and whipped cream.",
+        "ku": "سەهۆڵی تێکەڵکراو لەگەڵ شیری ڤانیلا و کریمی کێشراو.",
+        "ar": "ثلج ممزوج مع شراب الفانيليا والكريمة المخفوقة."
+      }
+    },
+    {
+      "id": "blueberry-frappe",
+      "category": "frappes",
+      "image": "https://source.unsplash.com/600x400/?blueberry,frappe",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "Blueberry Frappe",
+        "ku": "فراپێ بلوبێری",
+        "ar": "فرايه توت أزرق"
+      },
+      "description": {
+        "en": "Blueberry blend with ice and creamy topping.",
+        "ku": "بلوبێری تێکەڵکراو لەگەڵ سەهۆڵ و کریمی سەرەوە.",
+        "ar": "مزيج التوت الأزرق مع الثلج وغطاء كريمي."
+      }
+    },
+    {
+      "id": "strawberry-frappe",
+      "category": "frappes",
+      "image": "https://source.unsplash.com/600x400/?strawberry,frappe",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "Strawberry Frappe",
+        "ku": "فراپێ تووتفرەنگی",
+        "ar": "فرايه فراولة"
+      },
+      "description": {
+        "en": "Sweet strawberry frappe with whipped cream.",
+        "ku": "فراپێ تووتفرەنگی شیرین لەگەڵ کریمی کێشراو.",
+        "ar": "فرايه فراولة حلوة مع كريمة مخفوقة."
+      }
+    },
+    {
+      "id": "banana-frappe",
+      "category": "frappes",
+      "image": "https://source.unsplash.com/600x400/?banana,frappe",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Banana Frappe",
+        "ku": "فراپێ مۆز",
+        "ar": "فرايه موز"
+      },
+      "description": {
+        "en": "Creamy banana frappe with a hint of honey.",
+        "ku": "فراپێ مۆزی نەرم لەگەڵ کەمێک هەنگوین.",
+        "ar": "فرايه موز كريمي مع لمسة عسل."
+      }
+    },
+    {
+      "id": "caramel-frappe",
+      "category": "frappes",
+      "image": "https://source.unsplash.com/600x400/?caramel,frappe,coffee",
+      "price": "9,500 IQD",
+      "name": {
+        "en": "Caramel Frappe (Coffee Base)",
+        "ku": "فراپێ کارامێڵ (بنەمای قاوە)",
+        "ar": "فرايه كراميل (قاعدة قهوة)"
+      },
+      "description": {
+        "en": "Coffee-based frappe with caramel syrup and ice.",
+        "ku": "فراپێی بنەمای قاوە لەگەڵ شیری کارامێڵ و سەهۆڵ.",
+        "ar": "فرايه بقاعدة قهوة مع شراب الكراميل والثلج."
+      }
+    },
+    {
+      "id": "oreo-frappe",
+      "category": "frappes",
+      "image": "https://source.unsplash.com/600x400/?oreo,frappe,chocolate",
+      "price": "10,000 IQD",
+      "name": {
+        "en": "Oreo Frappe (Chocolate Base)",
+        "ku": "فراپێ ئۆریۆ (بنەمای شکڵاتە)",
+        "ar": "فرايه أوريو (قاعدة شوكولاتة)"
+      },
+      "description": {
+        "en": "Chocolate frappe with crushed Oreo cookies.",
+        "ku": "فراپێی شکڵاتە لەگەڵ کوکی ئۆریۆی وردکراو.",
+        "ar": "فرايه شوكولاتة مع بسكويت أوريو محطم."
+      }
+    },
+    {
+      "id": "redbull-lagoon",
+      "category": "mocktails",
+      "image": "https://source.unsplash.com/600x400/?mocktail,blue,drink",
+      "price": "11,000 IQD",
+      "name": {
+        "en": "Red Bull Lagoon",
+        "ku": "ڕێد بوڵ لاگون",
+        "ar": "ريد بول لاغون"
+      },
+      "description": {
+        "en": "Single blue, single mojito, half pomegranate refresh.",
+        "ku": "یەک بلو، یەک مۆهیتۆ، نیوە هەنار بۆ تازەکردنەوە.",
+        "ar": "واحد أزرق، واحد موهيتو، نصف رمان منعش."
+      }
+    },
+    {
+      "id": "redbull-blue-hawaii",
+      "category": "mocktails",
+      "image": "https://source.unsplash.com/600x400/?mocktail,tropical,blue",
+      "price": "11,500 IQD",
+      "name": {
+        "en": "Red Bull Blue Hawaii",
+        "ku": "ڕێد بوڵ بلو هاوایی",
+        "ar": "ريد بول بلو هاواي"
+      },
+      "description": {
+        "en": "Double blue, single mojito tropical escape.",
+        "ku": "دوو بلو، یەک مۆهیتۆ بۆ هەستکردن بە هاوین.",
+        "ar": "اثنان أزرق، واحد موهيتو للهروب الاستوائي."
+      }
+    },
+    {
+      "id": "redbull-nikolato",
+      "category": "mocktails",
+      "image": "https://source.unsplash.com/600x400/?mocktail,signature,redbull",
+      "price": "12,000 IQD",
+      "name": {
+        "en": "Red Bull Nikolato",
+        "ku": "ڕێد بوڵ نیکولاتۆ",
+        "ar": "ريد بول نيكولاتو"
+      },
+      "description": {
+        "en": "Single blue, single mojito, 75/100 passion fruit blend.",
+        "ku": "یەک بلو، یەک مۆهیتۆ، ٧٥/١٠٠ پاشن فروت.",
+        "ar": "واحد أزرق، واحد موهيتو، مزيج ٧٥/١٠٠ فاكهة العاطفة."
+      }
+    },
+    {
+      "id": "white-lagoon",
+      "category": "mocktails",
+      "image": "https://source.unsplash.com/600x400/?mocktail,white,tropical",
+      "price": "10,500 IQD",
+      "name": {
+        "en": "White Lagoon",
+        "ku": "وایت لاگون",
+        "ar": "وايت لاغون"
+      },
+      "description": {
+        "en": "Single blue, single mojito, half pomegranate creamy blend.",
+        "ku": "یەک بلو، یەک مۆهیتۆ، نیوە هەنار لەگەڵ کریم.",
+        "ar": "واحد أزرق، واحد موهيتو، نصف رمان مع كريم."
+      }
+    },
+    {
+      "id": "soda-lagoon",
+      "category": "mocktails",
+      "image": "https://source.unsplash.com/600x400/?mocktail,soda,fizzy",
+      "price": "9,500 IQD",
+      "name": {
+        "en": "Soda Lagoon",
+        "ku": "سۆدا لاگون",
+        "ar": "صودا لاغون"
+      },
+      "description": {
+        "en": "Single blue, single mojito, half pomegranate with soda fizz.",
+        "ku": "یەک بلو، یەک مۆهیتۆ، نیوە هەنار لەگەڵ سۆدا.",
+        "ar": "واحد أزرق، واحد موهيتو، نصف رمان مع فقاعات الصودا."
+      }
+    },
+    {
+      "id": "mojito-classic",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,classic,mint",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Mojito Classic",
+        "ku": "مۆهیتۆی کلاسیک",
+        "ar": "موخيتو كلاسيك"
+      },
+      "description": {
+        "en": "Traditional lemon, mint, and soda refresh.",
+        "ku": "لیمۆ، نەعنە و سۆدای کلاسیک بۆ تازەکردنەوە.",
+        "ar": "ليمون، نعناع وصودا تقليدية منعشة."
+      }
+    },
+    {
+      "id": "mojito-kiwi",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,kiwi",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Mojito Kiwi",
+        "ku": "مۆهیتۆ کیوی",
+        "ar": "موخيتو كيوي"
+      },
+      "description": {
+        "en": "Tangy kiwi twist on the classic mojito.",
+        "ku": "کیوی ترش لەسەر مۆهیتۆی کلاسیک.",
+        "ar": "لمسة كيوي لاذعة على الموهيتو الكلاسيكي."
+      }
+    },
+    {
+      "id": "mojito-strawberry",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,strawberry",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Mojito Strawberry",
+        "ku": "مۆهیتۆ تووتفرەنگی",
+        "ar": "موخيتو فراولة"
+      },
+      "description": {
+        "en": "Sweet strawberry muddled with mint and lime.",
+        "ku": "تووتفرەنگی شیرین لەگەڵ نەعنە و لیمۆ.",
+        "ar": "فراولة حلوة مهروسة مع النعناع والليمون."
+      }
+    },
+    {
+      "id": "mojito-pomegranate",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,pomegranate",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "Mojito Pomegranate",
+        "ku": "مۆهیتۆ هەنار",
+        "ar": "موخيتو رمان"
+      },
+      "description": {
+        "en": "Juicy pomegranate seeds with mint and soda.",
+        "ku": "تۆوی هەناری شیرین لەگەڵ نەعنە و سۆدا.",
+        "ar": "حبوب رمان عصيرية مع النعناع والصودا."
+      }
+    },
+    {
+      "id": "mojito-passionfruit",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,passionfruit",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "Mojito Passionfruit",
+        "ku": "مۆهیتۆ پاشن فروت",
+        "ar": "موخيتو فاكهة العاطفة"
+      },
+      "description": {
+        "en": "Tropical passionfruit with mint and lime fizz.",
+        "ku": "پاشن فروتی گەرماویی لەگەڵ نەعنە و لیمۆ.",
+        "ar": "فاكهة العاطفة الاستوائية مع النعناع وفقاعات الليمون."
+      }
+    },
+    {
+      "id": "mojito-cherry",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,cherry",
+      "price": "8,500 IQD",
+      "name": {
+        "en": "Mojito Cherry",
+        "ku": "مۆهیتۆ چێری",
+        "ar": "موخيتو كرز"
+      },
+      "description": {
+        "en": "Sweet cherry muddled with fresh mint.",
+        "ku": "چێری شیرین لەگەڵ نەعنەی تازە.",
+        "ar": "كرز حلو مهروس مع النعناع الطازج."
+      }
+    },
+    {
+      "id": "mojito-blueberry",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,blueberry",
+      "price": "9,000 IQD",
+      "name": {
+        "en": "Mojito Blueberry",
+        "ku": "مۆهیتۆ بلوبێری",
+        "ar": "موخيتو توت أزرق"
+      },
+      "description": {
+        "en": "Antioxidant blueberries with mint and lime.",
+        "ku": "بلوبێری دەوڵەمەند بە ئەنتیئۆکسیدانت لەگەڵ نەعنە و لیمۆ.",
+        "ar": "توت أزرق غني بمضادات الأكسدة مع النعناع والليمون."
+      }
+    },
+    {
+      "id": "mojito-mint",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,mint,extra",
+      "price": "7,500 IQD",
+      "name": {
+        "en": "Mojito Mint",
+        "ku": "مۆهیتۆ نەعنە",
+        "ar": "موخيتو نعناع"
+      },
+      "description": {
+        "en": "Extra mint for the ultimate refresh.",
+        "ku": "نەعنەی زیاتر بۆ تازەکردنەوەی تەواو.",
+        "ar": "نعناع إضافي لأقصى درجات الانتعاش."
+      }
+    },
+    {
+      "id": "mojito-apple",
+      "category": "mojitos",
+      "image": "https://source.unsplash.com/600x400/?mojito,apple",
+      "price": "8,000 IQD",
+      "name": {
+        "en": "Mojito Apple",
+        "ku": "مۆهیتۆ سێو",
+        "ar": "موخيتو تفاح"
+      },
+      "description": {
+        "en": "Crisp apple chunks with mint and soda.",
+        "ku": "پارچەی سێوی تازە لەگەڵ نەعنە و سۆدا.",
+        "ar": "قطع تفاح مقرمشة مع النعناع والصودا."
       }
     },
     {
@@ -315,99 +1155,35 @@
       }
     },
     {
-      "id": "oreo-milkshake",
-      "category": "milkshakes",
-      "image": "https://source.unsplash.com/600x400/?oreo,milkshake",
-      "price": "8,500 IQD",
+      "id": "belgian-choco",
+      "category": "ice-cream",
+      "image": "https://source.unsplash.com/600x400/?chocolate,icecream",
+      "price": "5,500 IQD",
       "name": {
-        "en": "Oreo Milkshake",
-        "ku": "میلکشەیکی ئۆریۆ",
-        "ar": "رج حليب أوريو"
+        "en": "Belgian Chocolate Scoop",
+        "ku": "تۆپەی شکۆلاتی بەلجیکی",
+        "ar": "كرة الشوكولاتة البلجيكية"
       },
       "description": {
-        "en": "Crushed Oreo cookies and vanilla ice cream.",
-        "ku": "کوکی ئۆریۆی وردکراو لەگەڵ ئایس کریمی ڤانیلا.",
-        "ar": "بسكويت أوريو المسحوق مع آيس كريم الفانيليا."
+        "en": "Dark chocolate ice cream, ultra creamy.",
+        "ku": "ئایس کریمی شکۆلاتی تاڕیک و زۆر نەرم.",
+        "ar": "آيس كريم الشوكولاتة الداكنة، كريمي جداً."
       }
     },
     {
-      "id": "strawberry-milkshake",
-      "category": "milkshakes",
-      "image": "https://source.unsplash.com/600x400/?strawberry,milkshake",
-      "price": "8,000 IQD",
+      "id": "salted-caramel-sundae",
+      "category": "ice-cream",
+      "image": "https://source.unsplash.com/600x400/?caramel,sundae",
+      "price": "9,000 IQD",
       "name": {
-        "en": "Strawberry Milkshake",
-        "ku": "میلکشەیکی تووتفرەنگی",
-        "ar": "رج حليب الفراولة"
+        "en": "Salted Caramel Sundae",
+        "ku": "سەندەی کارامێڵی خوێداری",
+        "ar": "سندة الكراميل المملح"
       },
       "description": {
-        "en": "Fresh strawberry blend with whipped topping.",
-        "ku": "تێکەڵەی تووتفرەنگی تازە لەگەڵ کریمی سەرەوە.",
-        "ar": "مزيج الفراولة الطازج مع الكريمة المخفوقة."
-      }
-    },
-    {
-      "id": "mango-smoothie",
-      "category": "smoothies",
-      "image": "https://source.unsplash.com/600x400/?mango,smoothie",
-      "price": "7,800 IQD",
-      "name": {
-        "en": "Mango Smoothie",
-        "ku": "سمووتی مانگۆ",
-        "ar": "عصير المانجو السلس"
-      },
-      "description": {
-        "en": "Tropical mango and yogurt refresh.",
-        "ku": "سمووتی مانگۆی گەرماویی لەگەڵ ماست.",
-        "ar": "منعش المانجو الاستوائي والزبادي."
-      }
-    },
-    {
-      "id": "green-smoothie",
-      "category": "smoothies",
-      "image": "https://source.unsplash.com/600x400/?green,smoothie",
-      "price": "8,300 IQD",
-      "name": {
-        "en": "Green Detox Smoothie",
-        "ku": "سمووتی سەوزی پاککەرەوە",
-        "ar": "عصير أخضر منظف"
-      },
-      "description": {
-        "en": "Spinach, kiwi, apple, and lime.",
-        "ku": "ئیسپاناخ و کیوی و سێو و لیمۆ.",
-        "ar": "السبانخ والكيوي والتفاح والليمون."
-      }
-    },
-    {
-      "id": "citrus-boost",
-      "category": "energy-drinks",
-      "image": "https://source.unsplash.com/600x400/?energy,drink,citrus",
-      "price": "7,200 IQD",
-      "name": {
-        "en": "Citrus Boost",
-        "ku": "سیتروس بووست",
-        "ar": "دفعة الحمضيات"
-      },
-      "description": {
-        "en": "Orange, lemon, and natural caffeine blend.",
-        "ku": "تێکەڵەی پرتەقاڵ و لیمۆ لەگەڵ کافاینی سروشتی.",
-        "ar": "مزيج البرتقال والليمون والكافيين الطبيعي."
-      }
-    },
-    {
-      "id": "power-berry-rush",
-      "category": "energy-drinks",
-      "image": "https://source.unsplash.com/600x400/?berry,energy,drink",
-      "price": "7,500 IQD",
-      "name": {
-        "en": "Power Berry Rush",
-        "ku": "پاوەر بەری ڕەش",
-        "ar": "اندفاع التوت القوي"
-      },
-      "description": {
-        "en": "Berry mix with vitamin-enriched hydration.",
-        "ku": "تێکەڵەی بەری لەگەڵ ڤیتامین بۆ وزە.",
-        "ar": "مزيج التوت مع الترطيب المثري بالفيتامينات."
+        "en": "Vanilla ice cream with caramel and nuts.",
+        "ku": "ئایس کریمی ڤانیلا لەگەڵ کارامێڵ و گویز.",
+        "ar": "آيس كريم الفانيليا مع الكراميل والمكسرات."
       }
     },
     {

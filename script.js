@@ -10,7 +10,7 @@ const translations = {
 		welcome: 'Welcome to Niko Cafe',
 		heroTitle: 'Crafted Drinks, Sweet Treats, and Feel-Good Energy',
 		heroText: 'Explore our modern menu with hot and cold coffees, desserts, pancakes, smoothies, protein shakes, and more.',
-		infoHours: 'Open Daily: 8:00 AM - 11:00 PM',
+		infoHours: 'Open Daily: 2:00 PM - 2:00 AM',
 		infoFresh: 'Freshly Made',
 		infoService: 'Pickup & Dine-In',
 		browseMenu: 'Browse Menu',
@@ -21,7 +21,7 @@ const translations = {
 	ku: {
 		welcome: 'بەخێربێن بۆ نیکۆ کافێ',
 		heroTitle: 'خواردنەوەی تایبەت، شیرینی خۆش، و وزەی باش',
-		heroText: 'مێنوی مۆدێرنمان ببینە کە قەوەی گەرم و سارد، دێسێرت، پانکێیک، سمووتی، پرۆتین شەیک و زیاتر تێدایە.',
+		heroText: 'مێنوی مۆدێرنەکەمان ببینە کە قەوەی گەرم و سارد، شیرینی، پانکێیک، سمووزی، پرۆتین شەیک و زیاتری تێدایە.',
 		infoHours: 'هەموو ڕۆژێک: 2:00 پاش نیوەڕۆ - 2:00 شەو',
 		infoFresh: 'بە تازەیی ئامادە دەکرێت',
 		infoService: 'بردنەوە و شوێنی دانیشتن ',

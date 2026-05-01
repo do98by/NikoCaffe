@@ -1,8 +1,8 @@
 ﻿:root {
 	--font-heading: 'Playfair Display', Georgia, serif;
-	--font-heading-kurdish: 'Beiruti', 'Harmattan', serif;
+	--font-heading-kurdish: 'Lalezar', 'Borna Izadpanah', 'Beiruti', 'Harmattan', serif;
 	--font-body: 'Manrope', 'Segoe UI', sans-serif;
-	--font-body-kurdish: 'Beiruti', 'Harmattan', 'Segoe UI', sans-serif;
+	--font-body-kurdish: 'IBM Plex Sans Arabic', 'Beiruti', 'Harmattan', 'Segoe UI', sans-serif;
 
 	--bg-main: #f4eee6;
 	--bg-surface: #fffaf4;
@@ -10,12 +10,12 @@
 	--bg-accent: #2e1f1a;
 	--bg-chip: #efe0cf;
 
-	--text-primary: #2b1f1a;
+	--text-primary: #561908;
 	--text-muted: #6a564b;
 	--text-on-dark: #fff7ef;
 
-	--brand-primary: #b05d2f;
-	--brand-primary-strong: #8f451f;
+	--brand-primary: #601e0c;
+	--brand-primary-strong: #431306;
 	--brand-secondary: #2f6f64;
 	--brand-highlight: #dd9b4f;
 

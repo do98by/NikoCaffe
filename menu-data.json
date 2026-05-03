@@ -72,14 +72,7 @@
         "ar": "الحلويات"
       }
     },
-    {
-      "id": "pancakes",
-      "name": {
-        "en": "Pancakes",
-        "ku": "پانکێیک",
-        "ar": "البانكيك"
-      }
-    },
+    
     {
       "id": "ice-cream",
       "name": {
@@ -1124,7 +1117,7 @@
     },
     {
       "id": "creps-niko",
-      "category": "pancakes",
+      "category": "desserts",
       "image": "https://source.unsplash.com/600x400/?berry,pancakes",
       "price": "2,500 IQD",
       "name": {
@@ -1140,7 +1133,7 @@
     },
     {
       "id": "berry-pancake",
-      "category": "pancakes",
+      "category": "desserts",
       "image": "https://source.unsplash.com/600x400/?berry,pancakes",
       "price": "2,500 IQD",
       "name": {
@@ -1156,7 +1149,7 @@
     },
     {
       "id": "banana-pancake",
-      "category": "pancakes",
+      "category": "desserts",
       "image": "https://source.unsplash.com/600x400/?banana,pancakes",
       "price": "2,500 IQD",
       "name": {

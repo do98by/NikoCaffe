@@ -774,7 +774,7 @@
       "id": "vanilla-frappe",
       "category": "frappes",
       "image": "https://source.unsplash.com/600x400/?vanilla,frappe",
-      "price": "4,000 IQD",
+      "price": "4,500 IQD",
       "name": {
         "en": "Vanilla Frappe",
         "ku": "فراپێی ڤانیلا",
@@ -790,7 +790,7 @@
       "id": "blueberry-frappe",
       "category": "frappes",
       "image": "https://source.unsplash.com/600x400/?blueberry,frappe",
-      "price": "4,000 IQD",
+      "price": "4,500 IQD",
       "name": {
         "en": "Blueberry Frappe",
         "ku": "فراپێی بلوبێری",
@@ -806,7 +806,7 @@
       "id": "strawberry-frappe",
       "category": "frappes",
       "image": "https://source.unsplash.com/600x400/?strawberry,frappe",
-      "price": "4,000 IQD",
+      "price": "4,500 IQD",
       "name": {
         "en": "Strawberry Frappe",
         "ku": "فراپێی شلک (تووتفرەنگی)",
@@ -822,7 +822,7 @@
       "id": "banana-frappe",
       "category": "frappes",
       "image": "https://source.unsplash.com/600x400/?banana,frappe",
-      "price": "4,000 IQD",
+      "price": "4,500 IQD",
       "name": {
         "en": "Banana Frappe",
         "ku": "فراپێ مۆز",
@@ -838,7 +838,7 @@
       "id": "caramel-frappe",
       "category": "frappes",
       "image": "https://source.unsplash.com/600x400/?caramel,frappe,coffee",
-      "price": "4,000 IQD",
+      "price": "4,500 IQD",
       "name": {
         "en": "Caramel Frappe ",
         "ku": "فراپێ کارامێڵ",
@@ -854,7 +854,7 @@
       "id": "oreo-frappe",
       "category": "frappes",
       "image": "https://source.unsplash.com/600x400/?oreo,frappe,chocolate",
-      "price": "4,000 IQD",
+      "price": "4,500 IQD",
       "name": {
         "en": "Oreo Frappe (Chocolate Base)",
         "ku": "فراپێ ئۆریۆ ",
@@ -918,7 +918,7 @@
       "id": "white-lagoon",
       "category": "mocktails",
       "image": "https://source.unsplash.com/600x400/?mocktail,white,tropical",
-      "price": "4,000 IQD",
+      "price": "3,500 IQD",
       "name": {
         "en": "White Lagoon",
         "ku": "وایت لاگون",
@@ -934,7 +934,7 @@
       "id": "soda-lagoon",
       "category": "mocktails",
       "image": "https://source.unsplash.com/600x400/?mocktail,soda,fizzy",
-      "price": "4,000 IQD",
+      "price": "3,500 IQD",
       "name": {
         "en": "Soda Lagoon",
         "ku": "سۆدا لاگون",

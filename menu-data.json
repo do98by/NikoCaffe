@@ -1123,6 +1123,22 @@
       }
     },
     {
+      "id": "creps-niko",
+      "category": "pancakes",
+      "image": "https://source.unsplash.com/600x400/?berry,pancakes",
+      "price": "2,500 IQD",
+      "name": {
+        "en": "niko creps ",
+        "ku": "نیکۆ کرێپ",
+        "ar": "نیکۆ کرێپ"
+      },
+      "description": {
+        "en": "Fluffy pancakes with mixed berries and honey.",
+        "ku": "پانکێیکی قەڵەو لەگەڵ بەری و هەنگوین.",
+        "ar": "بانكيك خفيف مع التوت المختلط والعسل."
+      }
+    },
+    {
       "id": "berry-pancake",
       "category": "pancakes",
       "image": "https://source.unsplash.com/600x400/?berry,pancakes",
@@ -1154,38 +1170,7 @@
         "ar": "مع شرائح الموز والجوز المحمص."
       }
     },
-    {
-      "id": "belgian-choco",
-      "category": "ice-cream",
-      "image": "https://source.unsplash.com/600x400/?chocolate,icecream",
-      "price": "750 IQD",
-      "name": {
-        "en": "Belgian Chocolate Scoop",
-        "ku": "تۆپەی شکۆلاتی بەلجیکی",
-        "ar": "كرة الشوكولاتة البلجيكية"
-      },
-      "description": {
-        "en": "Dark chocolate ice cream, ultra creamy.",
-        "ku": "ئایس کریمی شکۆلاتی تاڕیک و زۆر نەرم.",
-        "ar": "آيس كريم الشوكولاتة الداكنة، كريمي جداً."
-      }
-    },
-    {
-      "id": "salted-caramel-sundae",
-      "category": "ice-cream",
-      "image": "https://source.unsplash.com/600x400/?caramel,sundae",
-      "price": "750 IQD",
-      "name": {
-        "en": "Salted Caramel Sundae",
-        "ku": "سەندەی کارامێڵی خوێداری",
-        "ar": "سندة الكراميل المملح"
-      },
-      "description": {
-        "en": "Vanilla ice cream with caramel and nuts.",
-        "ku": "ئایس کریمی ڤانیلا لەگەڵ کارامێڵ و گویز.",
-        "ar": "آيس كريم الفانيليا مع الكراميل والمكسرات."
-      }
-    },
+    
     {
       "id": "choco-protein",
       "category": "protein-shakes",
@@ -1217,6 +1202,172 @@
         "ku": "تێکەڵەی پرۆتینی ڤانیلا لەگەڵ شیری بادەم.",
         "ar": "مزيج بروتين الفانيليا مع حليب اللوز."
       }
-    }
-  ]
+    },
+
+        {
+  "id": "crepe",
+  "category": "desserts",
+  "image": "https://source.unsplash.com/600x400/?crepe",
+  "price": "2,500 IQD",
+  "name": {
+    "en": "Crepe",
+    "ku": "کرێپ",
+    "ar": "كريب"
+  },
+  "description": {
+    "en": "Soft thin crepe with sweet filling.",
+    "ku": "کرێپی نازک لەگەڵ ناوەڕۆکی شیرین.",
+    "ar": "كريب رقيق مع حشوة حلوة."
+  }
+},
+{
+  "id": "niko-kurdish-coffee",
+  "category": "hot-coffee",
+  "image": "https://source.unsplash.com/600x400/?coffee",
+  "price": "1,000 IQD",
+  "name": {
+    "en": "Niko Kurdish Coffee",
+    "ku": "قاوەی نیکۆی کوردی",
+    "ar": "قهوة نيكو الكردية"
+  },
+  "description": {
+    "en": "Traditional Kurdish coffee.",
+    "ku": "قاوەی کوردیی نەریت.",
+    "ar": "قهوة كردية تقليدية."
+  }
+},
+{
+  "id": "qazwan-coffee",
+  "category": "hot-coffee",
+  "image": "https://source.unsplash.com/600x400/?turkish,coffee",
+  "price": "1,000 IQD",
+  "name": {
+    "en": "Qazwan Coffee",
+    "ku": "قاوەی قەزوان",
+    "ar": "قهوة قزوان"
+  },
+  "description": {
+    "en": "Rich traditional coffee.",
+    "ku": "قاوەی دەوڵەمەند و خۆش.",
+    "ar": "قهوة غنية تقليدية."
+  }
+},
+{
+  "id": "scoop-ice-cream",
+  "category": "ice-cream",
+  "image": "https://source.unsplash.com/600x400/?ice-cream",
+  "price": "750 IQD",
+  "name": {
+    "en": "Scoop Ice Cream",
+    "ku": "ئایس کریمی سکۆپ",
+    "ar": "آيس كريم سكوب"
+  },
+  "description": {
+    "en": "Choose from strawberry, oreo, lotus, vanilla, chocolate, orange, or blueberry.",
+    "ku": "هەڵبژێرە لە نێوان فراولە، ئۆریۆ، لۆتس، وانیلا، چاکڵێت، پڕتەقاڵ یان بلوبەری.",
+    "ar": "اختر من الفراولة، أوريو، لوتس، فانيلا، شوكولاتة، برتقال أو توت أزرق."
+  }
+},
+{
+  "id": "machine-ice-cream",
+  "category": "ice-cream",
+  "image": "https://source.unsplash.com/600x400/?soft-serve,ice-cream",
+  "price": "500-1,000-1,500 IQD",
+  "name": {
+    "en": "Soft Ice Cream",
+    "ku": "ئایس کریمی ئامێر",
+    "ar": "آيس كريم آلة"
+  },
+  "description": {
+    "en": "Fresh soft ice cream in different sizes.",
+    "ku": "ئایس کریمی نوێ بە قەبارە جیاواز.",
+    "ar": "آيس كريم طازج بأحجام مختلفة."
+  }
+},
+{
+  "id": "orange-juice",
+  "category": "smoothies",
+  "image": "https://source.unsplash.com/600x400/?orange,juice",
+  "price": "2,000 IQD",
+  "name": {
+    "en": "Orange Juice",
+    "ku": "ئاوی پڕتەقاڵ",
+    "ar": "عصير البرتقال"
+  },
+  "description": {
+    "en": "Freshly squeezed orange juice.",
+    "ku": "ئاوی پڕتەقاڵی تازە.",
+    "ar": "عصير برتقال طازج."
+  }
+},
+{
+  "id": "kunafa",
+  "category": "desserts",
+  "image": "https://source.unsplash.com/600x400/?kunafa",
+  "price": "3,000 IQD",
+  "name": {
+    "en": "Kunafa",
+    "ku": "کونافە",
+    "ar": "كنافة"
+  },
+  "description": {
+    "en": "Sweet cheese pastry with syrup.",
+    "ku": "شیرینی پەنیر لەگەڵ شەربەت.",
+    "ar": "حلوى الجبن مع القطر."
+  }
+},
+{
+  "id": "milk-baklava",
+  "category": "desserts",
+  "image": "https://source.unsplash.com/600x400/?baklava",
+  "price": "3,000 IQD",
+  "name": {
+    "en": "Milk Baklava",
+    "ku": "باقلاوەی شیر",
+    "ar": "بقلاوة بالحليب"
+  },
+  "description": {
+    "en": "Soft baklava soaked in milk.",
+    "ku": "باقلاوە بە شیر تێکراو.",
+    "ar": "بقلاوة ناعمة بالحليب."
+  }
+},
+{
+  "id": "tralicha",
+  "category": "desserts",
+  "image": "https://source.unsplash.com/600x400/?tres-leches,cake",
+  "price": "3,000 IQD",
+  "name": {
+    "en": "Tralicha",
+    "ku": "ترالێچا",
+    "ar": "تريليتشا"
+  },
+  "description": {
+    "en": "Soft milk cake dessert.",
+    "ku": "کێکی نەرم بە شیر.",
+    "ar": "حلوى كيك بالحليب."
+  }
+},
+{
+  "id": "tea",
+  "category": "hot-coffee",
+  "image": "https://source.unsplash.com/600x400/?tea",
+  "price": "500 IQD",
+  "name": {
+    "en": "Tea",
+    "ku": "چا",
+    "ar": "شاي"
+  },
+  "description": {
+    "en": "Hot traditional tea.",
+    "ku": "چای گەرم و کوردی.",
+    "ar": "شاي ساخن کردی."
+  }
+}
+
+
+
+
+
+  ] 
 }

@@ -10,9 +10,9 @@
     },
 
     {
-      "id": "Drinks",
+      "id": "drinks",
       "name": {
-        "en": "drinks",
+        "en": "Drinks",
         "ku": "خواردنەوەکان",
         "ar": "مشروبات"
       }

@@ -8,6 +8,15 @@
         "ar": "الكل"
       }
     },
+
+    {
+      "id": "drinks",
+      "name": {
+        "en": "drinks",
+        "ku": "خواردنەوەکان",
+        "ar": "مشروبات"
+      }
+    },
     {
       "id": "hot-coffee",
       "name": {
@@ -91,6 +100,127 @@
     }
   ],
   "items": [
+
+
+      {
+      "id": "water",
+      "category": "drinks",
+      "image": "https://source.unsplash.com/600x400/?espresso,coffee",
+      "price": "250 IQD",
+      "name": {
+        "en": "water",
+        "ku": "ئاو",
+        "ar": "ماء"
+      },
+      "description": {
+        "en": "water",
+        "ku": "ئاو",
+        "ar": "ماء"
+      }
+    },
+
+    {
+  "id": "suda",
+  "category": "drinks",
+  "image": "https://source.unsplash.com/600x400/?water,bottle",
+  "price": "1,000 IQD",
+  "name": {
+    "en": "Suda Water",
+    "ku": "ئاوی سودا",
+    "ar": "ماء سودا"
+  },
+  "description": {
+    "en": "Refreshing bottled water.",
+    "ku": "ئاوی پاک و سارد.",
+    "ar": "ماء منعش."
+  }
+},
+
+    {
+  "id": "Acquapanna",
+  "category": "drinks",
+  "image": "https://source.unsplash.com/600x400/?water,bottle",
+  "price": "1,000 IQD",
+  "name": {
+    "en": "Aqcua Panna Water ",
+    "ku": "ئاوی ئەکوا پانای ئیتاڵی",
+    "ar": "ماء أکوا بانا أیطالي"
+  },
+  "description": {
+    "en": "Refreshing bottled water.",
+    "ku": "ئاوی پاک و سارد.",
+    "ar": "ماء منعش."
+  }
+},
+
+
+{
+  "id": "sparkling-water",
+  "category": "drinks",
+  "image": "https://source.unsplash.com/600x400/?sparkling,water",
+  "price": "1,000 IQD",
+  "name": {
+    "en": "Sparkling Water",
+    "ku": "ئاوی گازدار",
+    "ar": "ماء غازي"
+  },
+  "description": {
+    "en": "Carbonated refreshing water.",
+    "ku": "ئاوی گازدار",
+    "ar": "ماء مكربن منعش."
+  }
+},
+{
+  "id": "italian-sparkling-water",
+  "category": "drinks",
+  "image": "https://source.unsplash.com/600x400/?sanpellegrino,water",
+  "price": "2,000 IQD",
+  "name": {
+    "en": "Italian Sparkling Water",
+    "ku": "ئاوی گازداری ئیتاڵی",
+    "ar": "ماء غازي إيطالي"
+  },
+  "description": {
+    "en": "Premium Italian sparkling water.",
+    "ku": "ئاوی گازداری کوالێتی بەرز.",
+    "ar": "ماء غازي إيطالي فاخر."
+  }
+},
+{
+  "id": "sanpellegrino-tonic",
+  "category": "drinks",
+  "image": "https://source.unsplash.com/600x400/?tonic,drink",
+  "price": "2,000 IQD",
+  "name": {
+    "en": "Sanpellegrino Sparkling Drink - tonic",
+    "ku": "خواردنەوەی سانپەلگرین - تۆنیک",
+    "ar": "مشروب سان بيليجرينو - تونیک"
+  },
+  "description": {
+    "en": "Tonic sparkling refreshing drink.",
+    "ku": "خواردنەوەی گازدار و تازە.",
+    "ar": "مشروب غازي منعش."
+  }
+},
+{
+  "id": "milk",
+  "category": "drinks",
+  "image": "https://source.unsplash.com/600x400/?milk,glass",
+  "price": "1,500 IQD",
+  "name": {
+    "en": "Milk",
+    "ku": "شیر",
+    "ar": "حليب"
+  },
+  "description": {
+    "en": "Fresh cold milk.",
+    "ku": "شیری تازە و سارد.",
+    "ar": "حليب طازج وبارد."
+  }
+},
+
+    
+    
     {
       "id": "espresso",
       "category": "hot-coffee",

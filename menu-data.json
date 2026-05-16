@@ -8,7 +8,6 @@
         "ar": "الكل"
       }
     },
-
     {
       "id": "drinks",
       "name": {
@@ -18,11 +17,11 @@
       }
     },
     {
-      "id": "hot-coffee",
+      "id": "hot-drinks",
       "name": {
-        "en": "Hot Coffee",
-        "ku": "قاوەی گەرم",
-        "ar": "القهوة الساخنة"
+        "en": "Hot Drinks",
+        "ku": "خواردنەوەی گەرم",
+        "ar": "مشروبات ساخنة"
       }
     },
     {
@@ -58,19 +57,19 @@
       }
     },
     {
+      "id": "energy-drinks",
+      "name": {
+        "en": "Energy Drinks",
+        "ku": "خواردنەوەی وزە",
+        "ar": "مشروبات الطاقة"
+      }
+    },
+    {
       "id": "mocktails",
       "name": {
         "en": "Mocktails",
         "ku": "مۆکتێڵ",
         "ar": "الموكتيلات"
-      }
-    },
-    {
-      "id": "mojitos",
-      "name": {
-        "en": "Mojitos",
-        "ku": "مۆهیتۆ",
-        "ar": "الموخيتو"
       }
     },
     {
@@ -81,7 +80,6 @@
         "ar": "الحلويات"
       }
     },
-    
     {
       "id": "ice-cream",
       "name": {
@@ -100,12 +98,10 @@
     }
   ],
   "items": [
-
-
-      {
+    {
       "id": "water",
       "category": "drinks",
-      "image": "https://i5.walmartimages.com/asr/d33cda9b-fa38-4199-aa34-8ec8cc133722_1.084629003f0e2fc966652065e4542ab3.jpeg",
+      "image": "https://drive.google.com/uc?export=view&id=1xsxdPRI8fnGRlomkrO7mu1fxpOoEw3qA",
       "price": "250 IQD",
       "name": {
         "en": "water",
@@ -118,113 +114,106 @@
         "ar": "ماء"
       }
     },
-
     {
-  "id": "suda",
-  "category": "drinks",
-  "image": "https://turkishmart.ca/cdn/shop/files/maden-suyu-uludag-mineral-water-200-ml-145797_750x810.jpg?v=1736060424",
-  "price": "1,000 IQD",
-  "name": {
-    "en": "Suda Water",
-    "ku": "ئاوی سودا",
-    "ar": "ماء سودا"
-  },
-  "description": {
-    "en": "Refreshing bottled water.",
-    "ku": "ئاوی پاک و سارد.",
-    "ar": "ماء منعش."
-  }
-},
-
+      "id": "suda",
+      "category": "drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1qzRObJOWZ-SbmTC01EQTQ0wk3YDtgZOM",
+      "price": "1,000 IQD",
+      "name": {
+        "en": "Suda Water",
+        "ku": "ئاوی سودا",
+        "ar": "ماء سودا"
+      },
+      "description": {
+        "en": "Refreshing bottled water.",
+        "ku": "ئاوی پاک و سارد.",
+        "ar": "ماء منعش."
+      }
+    },
     {
-  "id": "Acquapanna",
-  "category": "drinks",
-  "image": "https://m.media-amazon.com/images/I/71WZQwTVp3L._SY741_PIbundle-24,TopRight,0,0_SX494SY741SH20_.jpg",
-  "price": "2,000 IQD",
-  "name": {
-    "en": "Aqcua Panna Water ",
-    "ku": "ئاوی ئەکوا پانای ئیتاڵی",
-    "ar": "ماء أکوا بانا أیطالي"
-  },
-  "description": {
-    "en": "Refreshing bottled water.",
-    "ku": "ئاوی پاک و سارد.",
-    "ar": "ماء منعش."
-  }
-},
-
-
-{
-  "id": "sparkling-water",
-  "category": "drinks",
-  "image": "https://turkishmart.ca/cdn/shop/files/maden-suyu-uludag-mineral-water-200-ml-145797_750x810.jpg?v=1736060424",
-  "price": "1,000 IQD",
-  "name": {
-    "en": "Sparkling Water",
-    "ku": "ئاوی گازدار",
-    "ar": "ماء غازي"
-  },
-  "description": {
-    "en": "Carbonated refreshing water.",
-    "ku": "ئاوی گازدار",
-    "ar": "ماء مكربن منعش."
-  }
-},
-{
-  "id": "italian-sparkling-water",
-  "category": "drinks",
-  "image": "https://cdn.prod.website-files.com/6701f7956456cb32ac863df2/6737b9b1ffbd4012f982751a_152-pellegrino.jpg",
-  "price": "2,000 IQD",
-  "name": {
-    "en": "Italian Sparkling Water",
-    "ku": "ئاوی گازداری ئیتاڵی",
-    "ar": "ماء غازي إيطالي"
-  },
-  "description": {
-    "en": "Premium Italian sparkling water.",
-    "ku": "ئاوی گازداری کوالێتی بەرز.",
-    "ar": "ماء غازي إيطالي فاخر."
-  }
-},
-{
-  "id": "sanpellegrino-tonic",
-  "category": "drinks",
-  "image": "https://media.lacucinaitaliana.com/photos/5fcd18300c6f36529897e503/master/h_900,c_limit/SanPellegrino.jpg",
-  "price": "2,000 IQD",
-  "name": {
-    "en": "Sanpellegrino Sparkling Drink - tonic",
-    "ku": "خواردنەوەی سانپەلگرین - تۆنیک",
-    "ar": "مشروب سان بيليجرينو - تونیک"
-  },
-  "description": {
-    "en": "Tonic sparkling refreshing drink.",
-    "ku": "خواردنەوەی گازدار و تازە.",
-    "ar": "مشروب غازي منعش."
-  }
-},
-{
-  "id": "milk",
-  "category": "drinks",
-  "image": "https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlNl8zZF9pbGx1c3RyYXRpb25fb2ZfYV9nbGFzc19vZl9taWxrX2ljb25fX21hdHRlX184MzUzOWE0MS0yN2NmLTQ2ZjAtOTUyNS1iZTJmYmE4ZjNiMjdfMS5qcGc.jpg",
-  "price": "1,500 IQD",
-  "name": {
-    "en": "Milk",
-    "ku": "شیر",
-    "ar": "حليب"
-  },
-  "description": {
-    "en": "Fresh cold milk.",
-    "ku": "شیری تازە و سارد.",
-    "ar": "حليب طازج وبارد."
-  }
-},
-
-    
-    
+      "id": "Acquapanna",
+      "category": "drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1uUWO2JW2P6ByCwxB85Ua2c_doE42Mcxw",
+      "price": "2,000 IQD",
+      "name": {
+        "en": "Aqcua Panna Water ",
+        "ku": "ئاوی ئەکوا پانای ئیتاڵی",
+        "ar": "ماء أکوا بانا أيطالي"
+      },
+      "description": {
+        "en": "Refreshing bottled water.",
+        "ku": "ئاوی پاک و سارد.",
+        "ar": "ماء منعش."
+      }
+    },
+    {
+      "id": "sparkling-water",
+      "category": "drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1qzRObJOWZ-SbmTC01EQTQ0wk3YDtgZOM",
+      "price": "1,000 IQD",
+      "name": {
+        "en": "Sparkling Water",
+        "ku": "ئاوی گازدار",
+        "ar": "ماء غازي"
+      },
+      "description": {
+        "en": "Carbonated refreshing water.",
+        "ku": "ئاوی گازدار",
+        "ar": "ماء مكربن منعش."
+      }
+    },
+    {
+      "id": "italian-sparkling-water",
+      "category": "drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1uXczUVolYbWwy1Wt_LqGSVi1jtA5hEje",
+      "price": "2,000 IQD",
+      "name": {
+        "en": "Italian Sparkling Water",
+        "ku": "ئاوی گازداری ئیتاڵی",
+        "ar": "ماء غازي إيطالي"
+      },
+      "description": {
+        "en": "Premium Italian sparkling water.",
+        "ku": "ئاوی گازداری کوالێتی بەرز.",
+        "ar": "ماء غازي إيطالي فاخر."
+      }
+    },
+    {
+      "id": "sanpellegrino-tonic",
+      "category": "drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1wZ5aAbB3Pc8EkF8c4lsKF0651XdS10D-",
+      "price": "2,000 IQD",
+      "name": {
+        "en": "Sanpellegrino Sparkling Drink - tonic",
+        "ku": "خواردنەوەی سانپەلگرین - تۆنیک",
+        "ar": "مشروب سان بيليجرينو - تونیک"
+      },
+      "description": {
+        "en": "Tonic sparkling refreshing drink.",
+        "ku": "خواردنەوەی گازدار و تازە.",
+        "ar": "مشروب غازي منعش."
+      }
+    },
+    {
+      "id": "milk",
+      "category": "drinks",
+      "image": "https://drive.google.com/uc?export=view&id=13GCVfey0BUZLFnBODmxhwtd4cYkfzxga",
+      "price": "1,500 IQD",
+      "name": {
+        "en": "Milk",
+        "ku": "شیر",
+        "ar": "حليب"
+      },
+      "description": {
+        "en": "Fresh cold milk.",
+        "ku": "شیری تازە و سارد.",
+        "ar": "حليب طازج وبارد."
+      }
+    },
     {
       "id": "espresso",
-      "category": "hot-coffee",
-      "image": "https://tse1.mm.bing.net/th/id/OIP.AtRD6QgriukN9-DAtyyYWAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1zNEvo3wlzX_M4FfyKkLx3NQe_BVRWYBe",
       "price": "2,000 IQD",
       "name": {
         "en": "Espresso",
@@ -239,8 +228,8 @@
     },
     {
       "id": "espresso-doppio",
-      "category": "hot-coffee",
-      "image": "https://thepotlok.com/sys/uploads/2023/07/c0e5b6172623c5ce42f94e073ba941b9d8c08153.jpg",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1ZgKL5ZmibSCi7hZ3CkYrfWcfn85WcfFM",
       "price": "3,000 IQD",
       "name": {
         "en": "Espresso Doppio",
@@ -255,8 +244,8 @@
     },
     {
       "id": "espresso-macchiato",
-      "category": "hot-coffee",
-      "image": "https://tse1.mm.bing.net/th/id/OIP.CWLHxc4YKJwqNaBj4Qn43gHaE7?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1ZgKL5ZmibSCi7hZ3CkYrfWcfn85WcfFM",
       "price": "3,000 IQD",
       "name": {
         "en": "Espresso Macchiato",
@@ -271,8 +260,8 @@
     },
     {
       "id": "espresso-macchiato-double",
-      "category": "hot-coffee",
-      "image": "https://tse2.mm.bing.net/th/id/OIP.LlXkNk9LsT5XrrwZ1ESeVQHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1ZgKL5ZmibSCi7hZ3CkYrfWcfn85WcfFM",
       "price": "4,000 IQD",
       "name": {
         "en": "Espresso Macchiato Double",
@@ -287,8 +276,8 @@
     },
     {
       "id": "americano",
-      "category": "hot-coffee",
-      "image": "https://th.bing.com/th/id/R.8ba7c8c0ecdbb1772fee796477426f9f?rik=NgsAx%2fp2a2pD7A&pid=ImgRaw&r=0",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1j6q2KDSF5lJh5i4Tdc8S8UyVOcZSQBvj",
       "price": "3,000 - 4,000 IQD",
       "name": {
         "en": "Americano",
@@ -303,8 +292,8 @@
     },
     {
       "id": "cappuccino",
-      "category": "hot-coffee",
-      "image": "https://www.homestratosphere.com/wp-content/uploads/2019/05/A-cappuccino-sprinkled-with-powdered-coffee-on-top-6-14-5.jpg",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1LOBhbjuMafn8s5Ih5oLKi40T0z1xGnCh",
       "price": "3,500 IQD",
       "name": {
         "en": "Cappuccino",
@@ -319,8 +308,8 @@
     },
     {
       "id": "latte",
-      "category": "hot-coffee",
-      "image": "https://www.foodandwine.com/thmb/CCe2JUHfjCQ44L0YTbCu97ukUzA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Latte-FT-BLOG0523-09569880de524fe487831d95184495cc.jpg",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1f07z0i6wq_R54CWTIRnmFUR0PUU-dEL2",
       "price": "3,000 IQD",
       "name": {
         "en": "Latte",
@@ -335,8 +324,8 @@
     },
     {
       "id": "niko-latte",
-      "category": "hot-coffee",
-      "image": "https://www.foodandwine.com/thmb/CCe2JUHfjCQ44L0YTbCu97ukUzA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Latte-FT-BLOG0523-09569880de524fe487831d95184495cc.jpg",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1pEKbXB2Dvb9Jvrpq9zcmOwALAsJD_DXz",
       "price": "4,000 IQD",
       "name": {
         "en": "Niko Latte",
@@ -351,8 +340,8 @@
     },
     {
       "id": "caramel-latte",
-      "category": "hot-coffee",
-      "image": "https://www.forkinthekitchen.com/wp-content/uploads/2022/06/220518.homemade.caramel.latte-6630.jpg",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1Q1OTnmBjuwjIKTv4yOhpQ9xgmR3c1I2v",
       "price": "3,500 IQD",
       "name": {
         "en": "Caramel Latte",
@@ -367,8 +356,8 @@
     },
     {
       "id": "caramel-latte-no-sugar",
-      "category": "hot-coffee",
-      "image": "https://www.forkinthekitchen.com/wp-content/uploads/2022/06/220518.homemade.caramel.latte-6630.jpg",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1sYxbkcDxRCvz9Ca8lUD5JlxzunyCo15u",
       "price": "3,500 IQD",
       "name": {
         "en": "Caramel Latte (No Sugar)",
@@ -383,8 +372,8 @@
     },
     {
       "id": "hazelnut-latte",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?hazelnut,latte",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1hE14Dh79NDynafh7U4j5wSoR6pKBOjo5",
       "price": "3,500 IQD",
       "name": {
         "en": "Hazelnut Latte",
@@ -399,8 +388,8 @@
     },
     {
       "id": "vanilla-latte",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?vanilla,latte",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1f07z0i6wq_R54CWTIRnmFUR0PUU-dEL2",
       "price": "3,500 IQD",
       "name": {
         "en": "Vanilla Latte",
@@ -415,8 +404,8 @@
     },
     {
       "id": "vanilla-latte-no-sugar",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?vanilla,latte,sugarfree",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1f07z0i6wq_R54CWTIRnmFUR0PUU-dEL2",
       "price": "3,500 IQD",
       "name": {
         "en": "Vanilla Latte (No Sugar)",
@@ -431,8 +420,8 @@
     },
     {
       "id": "cinnamon-latte",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?cinnamon,latte",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=13YS3FoDRX2M09OEu3IL-pj9krwWMZkBa",
       "price": "3,500 IQD",
       "name": {
         "en": "Cinnamon Latte",
@@ -447,8 +436,8 @@
     },
     {
       "id": "spanish-latte",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?spanish,latte",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=12H_Q1CJ6Oc9UlbcslXgCntuO0Ti2kOJU",
       "price": "4,000 IQD",
       "name": {
         "en": "Spanish Latte",
@@ -463,8 +452,8 @@
     },
     {
       "id": "mocha-latte",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?mocha,latte",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1WZ6DumybN92hiUsDEcs1l_48Ihxa7nUj",
       "price": "3,500 IQD",
       "name": {
         "en": "Mocha Latte",
@@ -479,8 +468,8 @@
     },
     {
       "id": "white-mocha-latte",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?white,mocha,latte",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1ey0431XZJZzYvYolzeP8UwXvrn6ury8M",
       "price": "3,500 IQD",
       "name": {
         "en": "White Mocha Latte",
@@ -495,8 +484,8 @@
     },
     {
       "id": "caramel-macchiato",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?caramel,macchiato",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1o3oO58Q8uruZ4TjGBewly0_dqpMyVoy8",
       "price": "4,000 IQD",
       "name": {
         "en": "Caramel Macchiato",
@@ -511,8 +500,8 @@
     },
     {
       "id": "mint-latte",
-      "category": "hot-coffee",
-      "image": "https://source.unsplash.com/600x400/?mint,latte",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1TElfpYAXxrUZ-QHRY73lQ7V2DSQIJyA2",
       "price": "3,500 IQD",
       "name": {
         "en": "Mint Latte",
@@ -526,9 +515,57 @@
       }
     },
     {
+      "id": "niko-kurdish-coffee",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1B2mtlzWJzBm2TWEchoAGknAWFgOFdQv_",
+      "price": "1,000 IQD",
+      "name": {
+        "en": "Niko Kurdish Coffee",
+        "ku": "قاوەی نیکۆی کوردی",
+        "ar": "قهوة نيكو الكردية"
+      },
+      "description": {
+        "en": "Traditional Kurdish coffee.",
+        "ku": "قاوەی کوردیی نەریت.",
+        "ar": "قهوة كردية تقليدية."
+      }
+    },
+    {
+      "id": "qazwan-coffee",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1LdofrhubVmpkQc5MOK99bRb_C0UKgEhT",
+      "price": "1,000 IQD",
+      "name": {
+        "en": "Qazwan Coffee",
+        "ku": "قاوەی قەزوان",
+        "ar": "قهوة قزوان"
+      },
+      "description": {
+        "en": "Rich traditional coffee.",
+        "ku": "قاوەی دەوڵەمەند و خۆش.",
+        "ar": "قهوة غنية تقليدية."
+      }
+    },
+    {
+      "id": "tea",
+      "category": "hot-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1bEwOZLivd7MjbbSZFI1xsr074AfV834H",
+      "price": "500 IQD",
+      "name": {
+        "en": "Tea",
+        "ku": "چا",
+        "ar": "شاي"
+      },
+      "description": {
+        "en": "Hot traditional tea.",
+        "ku": "چای گەرم و کوردی.",
+        "ar": "شاي ساخن کردی."
+      }
+    },
+    {
       "id": "hot-chocolate-classic",
       "category": "hot-chocolate",
-      "image": "https://source.unsplash.com/600x400/?hot,chocolate",
+      "image": "https://drive.google.com/uc?export=view&id=12qA4M_CZmshVXK6I18IEBlIJZ7ErEYuT",
       "price": "3,000 IQD",
       "name": {
         "en": "Hot Chocolate Classic",
@@ -544,7 +581,7 @@
     {
       "id": "hot-chocolate-dark",
       "category": "hot-chocolate",
-      "image": "https://source.unsplash.com/600x400/?dark,chocolate,hot",
+      "image": "https://drive.google.com/uc?export=view&id=14GeSesYKYKI4m4smQ91kGdPuzLWWed-1",
       "price": "3,000 IQD",
       "name": {
         "en": "Hot Chocolate Dark",
@@ -560,7 +597,7 @@
     {
       "id": "hot-chocolate-white",
       "category": "hot-chocolate",
-      "image": "https://source.unsplash.com/600x400/?white,chocolate,hot",
+      "image": "https://drive.google.com/uc?export=view&id=154h04j4aqzbKrvZ9lWHUBVglQg34brlo",
       "price": "3,000 IQD",
       "name": {
         "en": "Hot Chocolate White",
@@ -576,7 +613,7 @@
     {
       "id": "strawberry-hot-chocolate",
       "category": "hot-chocolate",
-      "image": "https://source.unsplash.com/600x400/?strawberry,chocolate,hot",
+      "image": "https://drive.google.com/uc?export=view&id=1GPi1OuTwzYKYJCthczirgcAiDvZVgSdW",
       "price": "3,500 IQD",
       "name": {
         "en": "Strawberry Hot Chocolate",
@@ -592,7 +629,7 @@
     {
       "id": "banana-hot-chocolate",
       "category": "hot-chocolate",
-      "image": "https://source.unsplash.com/600x400/?banana,chocolate,hot",
+      "image": "https://drive.google.com/uc?export=view&id=14BoH0q9xLTHXvKexe_A1LIglizlC0iTs",
       "price": "3,500 IQD",
       "name": {
         "en": "Banana Hot Chocolate",
@@ -608,7 +645,7 @@
     {
       "id": "ice-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,latte",
+      "image": "https://drive.google.com/uc?export=view&id=1M0qbDZAawTPZovQ6S0B3lHTIkfj1biFH",
       "price": "3,000 IQD",
       "name": {
         "en": "Iced Latte",
@@ -624,7 +661,7 @@
     {
       "id": "ice-niko-special-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,signature,latte",
+      "image": "https://drive.google.com/uc?export=view&id=1LUXc9s_2P7C4n0nYd9nwgEk6WQabluXQ",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Niko Special Latte",
@@ -640,7 +677,7 @@
     {
       "id": "ice-americano",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,americano",
+      "image": "https://drive.google.com/uc?export=view&id=1HPkgkw-ZxhE7JHBy_I2uAN87k8v3TAyZ",
       "price": "3,000 IQD",
       "name": {
         "en": "Iced Americano",
@@ -656,7 +693,7 @@
     {
       "id": "ice-caramel-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,caramel,latte",
+      "image": "https://drive.google.com/uc?export=view&id=1N_bedXyyw19fGgaYHcvFEGuK3IiF9Z-s",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Caramel Latte",
@@ -672,7 +709,7 @@
     {
       "id": "ice-caramel-macchiato",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,caramel,macchiato",
+      "image": "https://drive.google.com/uc?export=view&id=14TKRLMkiETtvV9Bg7l3OupqJUeulsESu",
       "price": "4,000 IQD",
       "name": {
         "en": "Iced Caramel Macchiato",
@@ -688,7 +725,7 @@
     {
       "id": "ice-spanish-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,spanish,latte",
+      "image": "https://drive.google.com/uc?export=view&id=12XOQ3jMVR8FrRqjSPximja1k8CLe84Be",
       "price": "4,000 IQD",
       "name": {
         "en": "Iced Spanish Latte",
@@ -704,7 +741,7 @@
     {
       "id": "ice-cinnamon-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,cinnamon,latte",
+      "image": "https://drive.google.com/uc?export=view&id=1fZDBliL7icR8NhkgB18zp65s13I4SDme",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Cinnamon Latte",
@@ -720,7 +757,7 @@
     {
       "id": "ice-hazelnut-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,hazelnut,latte",
+      "image": "https://drive.google.com/uc?export=view&id=1RQFsbCFYARy5Vt5_eha5aR7JSOPFvzk7",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Hazelnut Latte",
@@ -736,7 +773,7 @@
     {
       "id": "ice-vanilla-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,vanilla,latte",
+      "image": "https://drive.google.com/uc?export=view&id=1mLzI4RCzNDB9tcp4izHZPQ0I4MFAoqg2",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Vanilla Latte",
@@ -752,7 +789,7 @@
     {
       "id": "ice-mocha-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,mocha,latte",
+      "image": "https://drive.google.com/uc?export=view&id=1BpOzKRPgbw2KP13KtylUhCk3fuGnPa-b",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Mocha Latte",
@@ -768,7 +805,7 @@
     {
       "id": "ice-white-mocha-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,white,mocha",
+      "image": "https://drive.google.com/uc?export=view&id=1BpOzKRPgbw2KP13KtylUhCk3fuGnPa-b",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced White Mocha Latte",
@@ -784,7 +821,7 @@
     {
       "id": "ice-mint-latte",
       "category": "iced-coffee",
-      "image": "https://source.unsplash.com/600x400/?iced,mint,latte",
+      "image": "https://drive.google.com/uc?export=view&id=1Hd0xMUSp7NzQqOme8tQu6y6IQAZV_9zb",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Mint Latte",
@@ -800,7 +837,7 @@
     {
       "id": "strawberry-smoothie",
       "category": "smoothies",
-      "image": "https://source.unsplash.com/600x400/?strawberry,smoothie",
+      "image": "https://drive.google.com/uc?export=view&id=1pzm4S5WtNQDDU8O8jRLFesZORkSn8KET",
       "price": "4,000 IQD",
       "name": {
         "en": "Strawberry Smoothie",
@@ -816,7 +853,7 @@
     {
       "id": "banana-smoothie",
       "category": "smoothies",
-      "image": "https://source.unsplash.com/600x400/?banana,smoothie",
+      "image": "https://drive.google.com/uc?export=view&id=1OvsmleB5_sEPaM-XILUDI_GnQBrhfBGZ",
       "price": "4,000 IQD",
       "name": {
         "en": "Banana Smoothie",
@@ -832,7 +869,7 @@
     {
       "id": "blueberry-smoothie",
       "category": "smoothies",
-      "image": "https://source.unsplash.com/600x400/?blueberry,smoothie",
+      "image": "https://drive.google.com/uc?export=view&id=1h3qYzwBCPhXJSRsAFTqFZuhTpxGNCFSm",
       "price": "4,000 IQD",
       "name": {
         "en": "Blueberry Smoothie",
@@ -848,7 +885,7 @@
     {
       "id": "kiwi-smoothie",
       "category": "smoothies",
-      "image": "https://source.unsplash.com/600x400/?kiwi,smoothie",
+      "image": "https://drive.google.com/uc?export=view&id=1SakvG8wZmyaethIJG6RDXnQtoh8uDYk-",
       "price": "4,000 IQD",
       "name": {
         "en": "Kiwi Smoothie",
@@ -864,7 +901,7 @@
     {
       "id": "apple-smoothie",
       "category": "smoothies",
-      "image": "https://source.unsplash.com/600x400/?apple,smoothie",
+      "image": "https://drive.google.com/uc?export=view&id=1qRvQSd6-7qIXi3-WtjEkQMrsIkiXZ9Us",
       "price": "4,000 IQD",
       "name": {
         "en": "Apple Smoothie",
@@ -880,7 +917,7 @@
     {
       "id": "peach-smoothie",
       "category": "smoothies",
-      "image": "https://source.unsplash.com/600x400/?peach,smoothie",
+      "image": "https://drive.google.com/uc?export=view&id=1JMz1T2ZcqY3XQOxpG34C93E24rxFzROa",
       "price": "4,000 IQD",
       "name": {
         "en": "Peach Smoothie",
@@ -894,9 +931,25 @@
       }
     },
     {
+      "id": "orange-juice",
+      "category": "smoothies",
+      "image": "https://drive.google.com/uc?export=view&id=1NojbbCTB0QK82PrHI6WhrQnBHkqsLn-h",
+      "price": "2,000 IQD",
+      "name": {
+        "en": "Orange Juice",
+        "ku": "ئاوی پڕتەقاڵ",
+        "ar": "عصير البرتقال"
+      },
+      "description": {
+        "en": "Freshly squeezed orange juice.",
+        "ku": "ئاوی پڕتەقاڵی تازە.",
+        "ar": "عصير برتقال طازج."
+      }
+    },
+    {
       "id": "vanilla-frappe",
       "category": "frappes",
-      "image": "https://source.unsplash.com/600x400/?vanilla,frappe",
+      "image": "https://drive.google.com/uc?export=view&id=1vrS4MBih4319lXWEvDdsxgY_3GL0XdvH",
       "price": "4,500 IQD",
       "name": {
         "en": "Vanilla Frappe",
@@ -912,7 +965,7 @@
     {
       "id": "blueberry-frappe",
       "category": "frappes",
-      "image": "https://source.unsplash.com/600x400/?blueberry,frappe",
+      "image": "https://drive.google.com/uc?export=view&id=15Mr9afJIlbJe4z0DcSfCiQMkcnlU1Jot",
       "price": "4,500 IQD",
       "name": {
         "en": "Blueberry Frappe",
@@ -928,7 +981,7 @@
     {
       "id": "strawberry-frappe",
       "category": "frappes",
-      "image": "https://source.unsplash.com/600x400/?strawberry,frappe",
+      "image": "https://drive.google.com/uc?export=view&id=10MTt1YVKjwZyLSDlRcSz5K0PmjA0-Y6I",
       "price": "4,500 IQD",
       "name": {
         "en": "Strawberry Frappe",
@@ -944,7 +997,7 @@
     {
       "id": "banana-frappe",
       "category": "frappes",
-      "image": "https://source.unsplash.com/600x400/?banana,frappe",
+      "image": "https://drive.google.com/uc?export=view&id=1w-WdtRMxE8goRKN270uH8aAZLGhXwDSo",
       "price": "4,500 IQD",
       "name": {
         "en": "Banana Frappe",
@@ -960,7 +1013,7 @@
     {
       "id": "caramel-frappe",
       "category": "frappes",
-      "image": "https://source.unsplash.com/600x400/?caramel,frappe,coffee",
+      "image": "https://drive.google.com/uc?export=view&id=1bG5vuRGWoWABrJyyvqjG9qbCVBlKJbdv",
       "price": "4,500 IQD",
       "name": {
         "en": "Caramel Frappe ",
@@ -976,7 +1029,7 @@
     {
       "id": "oreo-frappe",
       "category": "frappes",
-      "image": "https://source.unsplash.com/600x400/?oreo,frappe,chocolate",
+      "image": "https://drive.google.com/uc?export=view&id=1L0FEaWpTVDW7DmfXgo5uuJldm0Se6ozD",
       "price": "4,500 IQD",
       "name": {
         "en": "Oreo Frappe (Chocolate Base)",
@@ -991,8 +1044,8 @@
     },
     {
       "id": "redbull-lagoon",
-      "category": "mocktails",
-      "image": "https://source.unsplash.com/600x400/?mocktail,blue,drink",
+      "category": "energy-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1OHkehhGsW2OdRx4REFCWdwbldNrGVCHa",
       "price": "4,000 IQD",
       "name": {
         "en": "Red Bull Lagoon",
@@ -1007,8 +1060,8 @@
     },
     {
       "id": "redbull-blue-hawaii",
-      "category": "mocktails",
-      "image": "https://source.unsplash.com/600x400/?mocktail,tropical,blue",
+      "category": "energy-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1_60hFScOgjlX45FNLPZa4e9Tcon5-QLZ",
       "price": "4,000 IQD",
       "name": {
         "en": "Red Bull Blue Hawaii",
@@ -1023,8 +1076,8 @@
     },
     {
       "id": "redbull-nikolato",
-      "category": "mocktails",
-      "image": "https://source.unsplash.com/600x400/?mocktail,signature,redbull",
+      "category": "energy-drinks",
+      "image": "https://drive.google.com/uc?export=view&id=1h8kMwGEqN5nR4fi4yWlJUzkLlRF0rk1U",
       "price": "4,000 IQD",
       "name": {
         "en": "Red Bull Nikolato",
@@ -1038,9 +1091,25 @@
       }
     },
     {
+      "id": "classic-redbull",
+      "category": "energy-drinks",
+      "image": "https://m.media-amazon.com/images/I/61wU1-D0SQL._SL1500_.jpg",
+      "price": "3,000 IQD",
+      "name": {
+        "en": "Classic Red Bull",
+        "ku": "ڕێد بوڵی کلاسیک",
+        "ar": "ريد بول الكلاسيكي"
+      },
+      "description": {
+        "en": "Original Red Bull energy drink that vitalizes body and mind.",
+        "ku": "خواردنەوەی وزەی ڕێد بوڵی ڕەسەن کە جەستە و مێشک چالاک دەکات.",
+        "ar": "مشروب ريد بول الأصلي للطاقة الذي ينشط الجسم والعقل."
+      }
+    },
+    {
       "id": "white-lagoon",
       "category": "mocktails",
-      "image": "https://source.unsplash.com/600x400/?mocktail,white,tropical",
+      "image": "https://drive.google.com/uc?export=view&id=1DLSb7aTSWUJRl5d7-Zm8m-MTAY1bgd-Q",
       "price": "3,500 IQD",
       "name": {
         "en": "White Lagoon",
@@ -1056,7 +1125,7 @@
     {
       "id": "soda-lagoon",
       "category": "mocktails",
-      "image": "https://source.unsplash.com/600x400/?mocktail,soda,fizzy",
+      "image": "https://drive.google.com/uc?export=view&id=16ocdqhQcZ7rKpBAwOLZSiKxeUALgjNks",
       "price": "3,500 IQD",
       "name": {
         "en": "Soda Lagoon",
@@ -1071,8 +1140,8 @@
     },
     {
       "id": "mojito-classic",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,classic,mint",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1jnu7t-GcJ0wAROPC4KXbbthQI0cMnsEp",
       "price": "3,000 IQD",
       "name": {
         "en": "Mojito Classic",
@@ -1087,8 +1156,8 @@
     },
     {
       "id": "mojito-kiwi",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,kiwi",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1BWCc1Tea5BDESqxUbNbTEwkWnsc0KXkS",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Kiwi",
@@ -1103,8 +1172,8 @@
     },
     {
       "id": "mojito-strawberry",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,strawberry",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1IrS5ayi7ZbUvHWW-9t6bmIp_TNA9XC3N",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Strawberry",
@@ -1119,8 +1188,8 @@
     },
     {
       "id": "mojito-pomegranate",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,pomegranate",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1LWz1uCLprwBJAOOCxJtb_4WdUrlw-WTs",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Pomegranate",
@@ -1135,8 +1204,8 @@
     },
     {
       "id": "mojito-passionfruit",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,passionfruit",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1ZWVZXJPp-6jrFM7MJ8h8mpoo3hC1j-bU",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Passionfruit",
@@ -1151,8 +1220,8 @@
     },
     {
       "id": "mojito-cherry",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,cherry",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1cWS3HORsXVfCOUPVlgCIJgE-IU3OhBVJ",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Cherry",
@@ -1167,8 +1236,8 @@
     },
     {
       "id": "mojito-blueberry",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,blueberry",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1DF8BLDnMg9UnxKGZGUePOnPUsSFBxY7f",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Blueberry",
@@ -1183,8 +1252,8 @@
     },
     {
       "id": "mojito-mint",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,mint,extra",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1iBqp6VTItkwlK3TOjiyKSGBlcQW11xqK",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Mint",
@@ -1199,8 +1268,8 @@
     },
     {
       "id": "mojito-apple",
-      "category": "mojitos",
-      "image": "https://source.unsplash.com/600x400/?mojito,apple",
+      "category": "mocktails",
+      "image": "https://drive.google.com/uc?export=view&id=1o0SVBUXDeaM3ctt1hN3i6F_DrlEPcT5Z",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Apple",
@@ -1216,7 +1285,7 @@
     {
       "id": "tiramisu-cup",
       "category": "desserts",
-      "image": "https://source.unsplash.com/600x400/?tiramisu",
+      "image": "https://drive.google.com/uc?export=view&id=1XL82gl4yFWN-Ilai_iK83I5eTOHdSLY0",
       "price": "2,500 IQD",
       "name": {
         "en": "Tiramisu Cup",
@@ -1232,7 +1301,7 @@
     {
       "id": "red-velvet",
       "category": "desserts",
-      "image": "https://source.unsplash.com/600x400/?red,velvet,cake",
+      "image": "https://drive.google.com/uc?export=view&id=1XvZTmgOzom-IwqIawRQNv8rpNPOxaXx-",
       "price": "2,500 IQD",
       "name": {
         "en": "Red Velvet Slice",
@@ -1248,7 +1317,7 @@
     {
       "id": "creps-niko",
       "category": "desserts",
-      "image": "https://source.unsplash.com/600x400/?berry,pancakes",
+      "image": "https://drive.google.com/uc?export=view&id=1XcvrwaPktMwoD634YQWUk0plcEmeNW7H",
       "price": "2,500 IQD",
       "name": {
         "en": "niko creps ",
@@ -1264,7 +1333,7 @@
     {
       "id": "berry-pancake",
       "category": "desserts",
-      "image": "https://source.unsplash.com/600x400/?berry,pancakes",
+      "image": "https://drive.google.com/uc?export=view&id=1XcvrwaPktMwoD634YQWUk0plcEmeNW7H",
       "price": "2,500 IQD",
       "name": {
         "en": "Berry Pancake Stack",
@@ -1280,7 +1349,7 @@
     {
       "id": "banana-pancake",
       "category": "desserts",
-      "image": "https://source.unsplash.com/600x400/?banana,pancakes",
+      "image": "https://drive.google.com/uc?export=view&id=1Dz0S1Txr1kbrFGAW0GjRP0MqcR53cGkM",
       "price": "2,500 IQD",
       "name": {
         "en": "Banana Nut Pancakes",
@@ -1293,11 +1362,74 @@
         "ar": "مع شرائح الموز والجوز المحمص."
       }
     },
-    
+    {
+      "id": "crepe",
+      "category": "desserts",
+      "image": "https://drive.google.com/uc?export=view&id=1XvZTmgOzom-IwqIawRQNv8rpNPOxaXx-",
+      "price": "2,500 IQD",
+      "name": {
+        "en": "Crepe",
+        "ku": "کرێپ",
+        "ar": "كريب"
+      },
+      "description": {
+        "en": "Soft thin crepe with sweet filling.",
+        "ku": "کرێپی نازک لەگەڵ ناوەڕۆکی شیرین.",
+        "ar": "كريب رقيق مع حشوة حلوة."
+      }
+    },
+    {
+      "id": "kunafa",
+      "category": "desserts",
+      "image": "https://drive.google.com/uc?export=view&id=1mzlmTGSlQqvjH2gOH2pPLJ66ZLZvQ0Ry",
+      "price": "3,000 IQD",
+      "name": {
+        "en": "Kunafa",
+        "ku": "کونافە",
+        "ar": "كنافة"
+      },
+      "description": {
+        "en": "Sweet cheese pastry with syrup.",
+        "ku": "شیرینی پەنیر لەگەڵ شەربەت.",
+        "ar": "حلوى الجبن مع القطر."
+      }
+    },
+    {
+      "id": "milk-baklava",
+      "category": "desserts",
+      "image": "https://drive.google.com/uc?export=view&id=1dfDml6U8_AIdjVa432O0i3nUvCdf3TuO",
+      "price": "3,000 IQD",
+      "name": {
+        "en": "Milk Baklava",
+        "ku": "باقلاوەی شیر",
+        "ar": "بقلاوة بالحليب"
+      },
+      "description": {
+        "en": "Soft baklava soaked in milk.",
+        "ku": "باقلاوە بە شیر تێکراو.",
+        "ar": "بقلاوة ناعمة بالحليب."
+      }
+    },
+    {
+      "id": "tralicha",
+      "category": "desserts",
+      "image": "https://drive.google.com/uc?export=view&id=1l95lCtRoI-ucKYCaezhNy532fC2dGUMh",
+      "price": "3,000 IQD",
+      "name": {
+        "en": "Tralicha",
+        "ku": "ترالێچا",
+        "ar": "تريليتشا"
+      },
+      "description": {
+        "en": "Soft milk cake dessert.",
+        "ku": "کێکی نەرم بە شیر.",
+        "ar": "حلوى كيك بالحليب."
+      }
+    },
     {
       "id": "choco-protein",
       "category": "protein-shakes",
-      "image": "https://source.unsplash.com/600x400/?chocolate,protein,shake",
+      "image": "https://drive.google.com/uc?export=view&id=1Md9B9EX5KZhGzUpY10LqFkN8XEqJOPKh",
       "price": "6,000 IQD",
       "name": {
         "en": "Chocolate Whey Shake",
@@ -1313,7 +1445,7 @@
     {
       "id": "vanilla-almond-protein",
       "category": "protein-shakes",
-      "image": "https://source.unsplash.com/600x400/?vanilla,protein,shake",
+      "image": "https://drive.google.com/uc?export=view&id=1eiD4uNRBZF-ddTiAUWn1iYqcYMrwBfck",
       "price": "6,000 IQD",
       "name": {
         "en": "Vanilla Almond Protein",
@@ -1326,171 +1458,37 @@
         "ar": "مزيج بروتين الفانيليا مع حليب اللوز."
       }
     },
-
-        {
-  "id": "crepe",
-  "category": "desserts",
-  "image": "https://source.unsplash.com/600x400/?crepe",
-  "price": "2,500 IQD",
-  "name": {
-    "en": "Crepe",
-    "ku": "کرێپ",
-    "ar": "كريب"
-  },
-  "description": {
-    "en": "Soft thin crepe with sweet filling.",
-    "ku": "کرێپی نازک لەگەڵ ناوەڕۆکی شیرین.",
-    "ar": "كريب رقيق مع حشوة حلوة."
-  }
-},
-{
-  "id": "niko-kurdish-coffee",
-  "category": "hot-coffee",
-  "image": "https://source.unsplash.com/600x400/?coffee",
-  "price": "1,000 IQD",
-  "name": {
-    "en": "Niko Kurdish Coffee",
-    "ku": "قاوەی نیکۆی کوردی",
-    "ar": "قهوة نيكو الكردية"
-  },
-  "description": {
-    "en": "Traditional Kurdish coffee.",
-    "ku": "قاوەی کوردیی نەریت.",
-    "ar": "قهوة كردية تقليدية."
-  }
-},
-{
-  "id": "qazwan-coffee",
-  "category": "hot-coffee",
-  "image": "https://source.unsplash.com/600x400/?turkish,coffee",
-  "price": "1,000 IQD",
-  "name": {
-    "en": "Qazwan Coffee",
-    "ku": "قاوەی قەزوان",
-    "ar": "قهوة قزوان"
-  },
-  "description": {
-    "en": "Rich traditional coffee.",
-    "ku": "قاوەی دەوڵەمەند و خۆش.",
-    "ar": "قهوة غنية تقليدية."
-  }
-},
-{
-  "id": "scoop-ice-cream",
-  "category": "ice-cream",
-  "image": "https://source.unsplash.com/600x400/?ice-cream",
-  "price": "750 IQD",
-  "name": {
-    "en": "Scoop Ice Cream",
-    "ku": "ئایس کریمی سکۆپ",
-    "ar": "آيس كريم سكوب"
-  },
-  "description": {
-    "en": "Choose from strawberry, oreo, lotus, vanilla, chocolate, orange, or blueberry.",
-    "ku": "هەڵبژێرە لە نێوان فراولە، ئۆریۆ، لۆتس، وانیلا، چاکڵێت، پڕتەقاڵ یان بلوبەری.",
-    "ar": "اختر من الفراولة، أوريو، لوتس، فانيلا، شوكولاتة، برتقال أو توت أزرق."
-  }
-},
-{
-  "id": "machine-ice-cream",
-  "category": "ice-cream",
-  "image": "https://source.unsplash.com/600x400/?soft-serve,ice-cream",
-  "price": "500-1,000-1,500 IQD",
-  "name": {
-    "en": "Soft Ice Cream",
-    "ku": "ئایس کریمی ئامێر",
-    "ar": "آيس كريم آلة"
-  },
-  "description": {
-    "en": "Fresh soft ice cream in different sizes.",
-    "ku": "ئایس کریمی نوێ بە قەبارە جیاواز.",
-    "ar": "آيس كريم طازج بأحجام مختلفة."
-  }
-},
-{
-  "id": "orange-juice",
-  "category": "smoothies",
-  "image": "https://source.unsplash.com/600x400/?orange,juice",
-  "price": "2,000 IQD",
-  "name": {
-    "en": "Orange Juice",
-    "ku": "ئاوی پڕتەقاڵ",
-    "ar": "عصير البرتقال"
-  },
-  "description": {
-    "en": "Freshly squeezed orange juice.",
-    "ku": "ئاوی پڕتەقاڵی تازە.",
-    "ar": "عصير برتقال طازج."
-  }
-},
-{
-  "id": "kunafa",
-  "category": "desserts",
-  "image": "https://source.unsplash.com/600x400/?kunafa",
-  "price": "3,000 IQD",
-  "name": {
-    "en": "Kunafa",
-    "ku": "کونافە",
-    "ar": "كنافة"
-  },
-  "description": {
-    "en": "Sweet cheese pastry with syrup.",
-    "ku": "شیرینی پەنیر لەگەڵ شەربەت.",
-    "ar": "حلوى الجبن مع القطر."
-  }
-},
-{
-  "id": "milk-baklava",
-  "category": "desserts",
-  "image": "https://source.unsplash.com/600x400/?baklava",
-  "price": "3,000 IQD",
-  "name": {
-    "en": "Milk Baklava",
-    "ku": "باقلاوەی شیر",
-    "ar": "بقلاوة بالحليب"
-  },
-  "description": {
-    "en": "Soft baklava soaked in milk.",
-    "ku": "باقلاوە بە شیر تێکراو.",
-    "ar": "بقلاوة ناعمة بالحليب."
-  }
-},
-{
-  "id": "tralicha",
-  "category": "desserts",
-  "image": "https://source.unsplash.com/600x400/?tres-leches,cake",
-  "price": "3,000 IQD",
-  "name": {
-    "en": "Tralicha",
-    "ku": "ترالێچا",
-    "ar": "تريليتشا"
-  },
-  "description": {
-    "en": "Soft milk cake dessert.",
-    "ku": "کێکی نەرم بە شیر.",
-    "ar": "حلوى كيك بالحليب."
-  }
-},
-{
-  "id": "tea",
-  "category": "hot-coffee",
-  "image": "https://source.unsplash.com/600x400/?tea",
-  "price": "500 IQD",
-  "name": {
-    "en": "Tea",
-    "ku": "چا",
-    "ar": "شاي"
-  },
-  "description": {
-    "en": "Hot traditional tea.",
-    "ku": "چای گەرم و کوردی.",
-    "ar": "شاي ساخن کردی."
-  }
-}
-
-
-
-
-
-  ] 
+    {
+      "id": "scoop-ice-cream",
+      "category": "ice-cream",
+      "image": "https://drive.google.com/uc?export=view&id=1k5oyVzpDMMXvKEntgLW2yptMbXx2gJ6S",
+      "price": "750 IQD",
+      "name": {
+        "en": "Scoop Ice Cream",
+        "ku": "ئایس کریمی سکۆپ",
+        "ar": "آيس كريم سكوب"
+      },
+      "description": {
+        "en": "Choose from strawberry, oreo, lotus, vanilla, chocolate, orange, or blueberry.",
+        "ku": "هەڵبژێرە لە نێوان فراولە، ئۆریۆ، لۆتس، وانیلا، چاکڵێت، پڕتەقاڵ یان بلوبەری.",
+        "ar": "اختر من الفراولة، أوريو، لوتس، فانيلا، شوكولاتة، برتقال أو توت أزرق."
+      }
+    },
+    {
+      "id": "machine-ice-cream",
+      "category": "ice-cream",
+      "image": "https://drive.google.com/uc?export=view&id=10lmMrBdHLnoX1Z7zOihXV0cIMJjv0RXi",
+      "price": "500-1,000-1,500 IQD",
+      "name": {
+        "en": "Soft Ice Cream",
+        "ku": "ئایس کریمی ئامێر",
+        "ar": "آيس كريم آلة"
+      },
+      "description": {
+        "en": "Fresh soft ice cream in different sizes.",
+        "ku": "ئایس کریمی نوێ بە قەبارە جیاواز.",
+        "ar": "آيس كريم طازج بأحجام مختلفة."
+      }
+    }
+  ]
 }

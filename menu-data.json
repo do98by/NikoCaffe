@@ -136,7 +136,7 @@
       "image": "https://drive.google.com/uc?export=view&id=1uUWO2JW2P6ByCwxB85Ua2c_doE42Mcxw",
       "price": "2,000 IQD",
       "name": {
-        "en": "Aqcua Panna Water ",
+        "en": "Aqcua Panna Water",
         "ku": "ئاوی ئەکوا پانای ئیتاڵی",
         "ar": "ماء أکوا بانا أيطالي"
       },
@@ -222,7 +222,7 @@
       },
       "description": {
         "en": "Bold and rich single shot of pure coffee.",
-        "ku": "یەک شۆت لە قاوەیەکی بەهێز و تاڵ  .",
+        "ku": "یەک شۆت لە قاوەیەکی بەهێز و تاڵ.",
         "ar": "جرعة واحدة جريئة وغنية من القهوة النقية."
       }
     },
@@ -333,8 +333,8 @@
         "ar": "لاتيه نيكو"
       },
       "description": {
-        "en": "Our signature latte with.",
-        "ku": "لاتێی تایبەتی نیکۆ .",
+        "en": "Our signature latte.",
+        "ku": "لاتێی تایبەتی نیکۆ.",
         "ar": "لاتيه توقيعنا."
       }
     },
@@ -559,7 +559,7 @@
       "description": {
         "en": "Hot traditional tea.",
         "ku": "چای گەرم و کوردی.",
-        "ar": "شاي ساخن کردی."
+        "ar": "شاي ساخن."
       }
     },
     {
@@ -638,8 +638,8 @@
       },
       "description": {
         "en": "Banana-infused hot chocolate.",
-        "ku": "شوکوڵاتەی گەرم لەگەڵ مۆز .",
-        "ar": "شوكولاتة ساخنة بنكهة الموز  ."
+        "ku": "شوکوڵاتەی گەرم لەگەڵ مۆز.",
+        "ar": "شوكولاتة ساخنة بنكهة الموز."
       }
     },
     {
@@ -761,7 +761,7 @@
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Hazelnut Latte",
-        "ku": "لاتێی ساردی بندەق ",
+        "ku": "لاتێی ساردی بندەق",
         "ar": "لاتيه بندق مثلج"
       },
       "description": {
@@ -777,7 +777,7 @@
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Vanilla Latte",
-        "ku": "لاتێی ساردی ڤانیلا ",
+        "ku": "لاتێی ساردی ڤانیلا",
         "ar": "لاتيه فانيليا مثلج"
       },
       "description": {
@@ -825,13 +825,29 @@
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Mint Latte",
-        "ku": "لاتی ساردی نەعنەع ",
+        "ku": "لاتی ساردی نەعنەع",
         "ar": "لاتيه نعناع مثلج"
       },
       "description": {
         "en": "Refreshing iced latte with natural mint.",
         "ku": "لاتی ساردی تازەکەرەوە لەگەڵ نەعنەی سروشتی.",
         "ar": "لاتيه مثلج منعش مع النعناع الطبيعي."
+      }
+    },
+    {
+      "id": "affogato",
+      "category": "desserts",
+      "image": "https://drive.google.com/uc?export=view&id=1huupGcUtTUoxFyPok9nmPYsWsng-Id2t",
+      "price": "3,000 IQD",
+      "name": {
+        "en": "Affogato",
+        "ku": "ئەفۆگاتۆ",
+        "ar": "أفوغاتو"
+      },
+      "description": {
+        "en": "Vanilla ice cream drowned in hot espresso.",
+        "ku": "ئایس کریمی ڤانیلا لەگەڵ ئێسپرێسۆی گەرم.",
+        "ar": "آيس كريم فانيليا مغمور في إسبريسو ساخن."
       }
     },
     {
@@ -877,9 +893,9 @@
         "ar": "عصير التوت الأزرق السلس"
       },
       "description": {
-        "en": "blueberries Smoothie.",
+        "en": "Blueberries Smoothie.",
         "ku": "بلوبێری سموزی.",
-        "ar": "توت أزرق "
+        "ar": "توت أزرق."
       }
     },
     {
@@ -893,9 +909,9 @@
         "ar": "عصير الكيوي السلس"
       },
       "description": {
-        "en": "kiwi.",
-        "ku": "کیوی     .",
-        "ar": "كيوي     ."
+        "en": "Kiwi smoothie.",
+        "ku": "کیوی.",
+        "ar": "كيوي."
       }
     },
     {
@@ -909,9 +925,9 @@
         "ar": "عصير التفاح السلس"
       },
       "description": {
-        "en": "apple.",
-        "ku": "سێو     .",
-        "ar": "تفاح ."
+        "en": "Apple smoothie.",
+        "ku": "سێو.",
+        "ar": "تفاح."
       }
     },
     {
@@ -925,9 +941,9 @@
         "ar": "عصير الخوخ السلس"
       },
       "description": {
-        "en": "Juicy peach .",
+        "en": "Juicy peach.",
         "ku": "خۆخی شیرین.",
-        "ar": "خوخ عصيري ممزوج."
+        "ar": "خوخ عصيري."
       }
     },
     {
@@ -1016,12 +1032,12 @@
       "image": "https://drive.google.com/uc?export=view&id=1bG5vuRGWoWABrJyyvqjG9qbCVBlKJbdv",
       "price": "4,500 IQD",
       "name": {
-        "en": "Caramel Frappe ",
+        "en": "Caramel Frappe",
         "ku": "فراپێ کارامێڵ",
-        "ar": "فرايه كراميل "
+        "ar": "فرايه كراميل"
       },
       "description": {
-        "en": "frappe with caramel syrup and ice.",
+        "en": "Frappe with caramel syrup and ice.",
         "ku": "فراپێ لەگەڵ شیری کارامێڵ و سەهۆڵ.",
         "ar": "فرايه مع شراب الكراميل والثلج."
       }
@@ -1033,7 +1049,7 @@
       "price": "4,500 IQD",
       "name": {
         "en": "Oreo Frappe (Chocolate Base)",
-        "ku": "فراپێ ئۆریۆ ",
+        "ku": "فراپێ ئۆریۆ",
         "ar": "فرايه أوريو (قاعدة شوكولاتة)"
       },
       "description": {
@@ -1053,9 +1069,9 @@
         "ar": "ريد بول لاغون"
       },
       "description": {
-        "en": "nice refreshing Red Redbull.",
+        "en": "Nice refreshing Red Bull.",
         "ku": "ڕێدبوڵی تامخۆش.",
-        "ar": "."
+        "ar": "ريد بول منعش."
       }
     },
     {
@@ -1093,7 +1109,7 @@
     {
       "id": "classic-redbull",
       "category": "energy-drinks",
-      "image": "https://m.media-amazon.com/images/I/61wU1-D0SQL._SL1500_.jpg",
+      "image": "https://drive.google.com/uc?export=view&id=1f3Z4ZWI6vf2bmrSl1jgN7k9P1UkQ9Le6",
       "price": "3,000 IQD",
       "name": {
         "en": "Classic Red Bull",
@@ -1289,45 +1305,13 @@
       "price": "2,500 IQD",
       "name": {
         "en": "Tiramisu Cup",
-        "ku": "قاپی تێرامیسو ",
+        "ku": "قاپی تێرامیسو",
         "ar": "كوب تيراميسو"
       },
       "description": {
         "en": "Coffee-soaked layers with mascarpone cream.",
         "ku": "چینەکانی تێرامیسۆ لەگەڵ کریمی ماسکارپۆنە.",
         "ar": "طبقات منقوعة في القهوة مع كريم ماسكاربوني."
-      }
-    },
-    {
-      "id": "red-velvet",
-      "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1XvZTmgOzom-IwqIawRQNv8rpNPOxaXx-",
-      "price": "2,500 IQD",
-      "name": {
-        "en": "Red Velvet Slice",
-        "ku": "پارچەی ڕێد ڤێڵڤێت",
-        "ar": "شريحة الحمراء المخملة"
-      },
-      "description": {
-        "en": "Soft cake with cream cheese frosting.",
-        "ku": "کێکی نەرم لەگەڵ کریمی پەنیر.",
-        "ar": "كعكة ناعمة مع صقيع جبن كريمي."
-      }
-    },
-    {
-      "id": "creps-niko",
-      "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1XcvrwaPktMwoD634YQWUk0plcEmeNW7H",
-      "price": "2,500 IQD",
-      "name": {
-        "en": "niko creps ",
-        "ku": "نیکۆ کرێپ",
-        "ar": "نیکۆ کرێپ"
-      },
-      "description": {
-        "en": "Fluffy pancakes with mixed berries and honey.",
-        "ku": "پانکێیکی قەڵەو لەگەڵ بەری و هەنگوین.",
-        "ar": "بانكيك خفيف مع التوت المختلط والعسل."
       }
     },
     {
@@ -1360,22 +1344,6 @@
         "en": "Topped with banana slices and roasted walnuts.",
         "ku": "لەسەرەوەی مۆز و گویزی برژاو.",
         "ar": "مع شرائح الموز والجوز المحمص."
-      }
-    },
-    {
-      "id": "crepe",
-      "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1XvZTmgOzom-IwqIawRQNv8rpNPOxaXx-",
-      "price": "2,500 IQD",
-      "name": {
-        "en": "Crepe",
-        "ku": "کرێپ",
-        "ar": "كريب"
-      },
-      "description": {
-        "en": "Soft thin crepe with sweet filling.",
-        "ku": "کرێپی نازک لەگەڵ ناوەڕۆکی شیرین.",
-        "ar": "كريب رقيق مع حشوة حلوة."
       }
     },
     {
@@ -1424,6 +1392,54 @@
         "en": "Soft milk cake dessert.",
         "ku": "کێکی نەرم بە شیر.",
         "ar": "حلوى كيك بالحليب."
+      }
+    },
+    {
+      "id": "muhalabi",
+      "category": "desserts",
+      "image": "https://drive.google.com/uc?export=view&id=1x_qmR57942WHPUYC18JO_-QFa-hzhD2a",
+      "price": "2,500 IQD",
+      "name": {
+        "en": "Muhalabi",
+        "ku": "مەحڵەبی",
+        "ar": "مهلبية"
+      },
+      "description": {
+        "en": "Creamy milk pudding dessert.",
+        "ku": "شیرینی شیری نەرم.",
+        "ar": "حلوى بودينغ الحليب الكريمي."
+      }
+    },
+    {
+      "id": "yellow-custard-dessert",
+      "category": "desserts",
+      "image": "https://drive.google.com/uc?export=view&id=1TvnwXzesOuhzOKNGRojXJzHxKHlDoJFF",
+      "price": "2,500 IQD",
+      "name": {
+        "en": "Yellow Custard Dessert",
+        "ku": "شیرینی زەردی کاستارد",
+        "ar": "حلوى الكاسترد الأصفر"
+      },
+      "description": {
+        "en": "Smooth custard dessert.",
+        "ku": "شیرینی کاستاردی نەرم.",
+        "ar": "حلوى كاسترد ناعمة."
+      }
+    },
+    {
+      "id": "brownie",
+      "category": "desserts",
+      "image": "https://drive.google.com/uc?export=view&id=1XvZTmgOzom-IwqIawRQNv8rpNPOxaXx-",
+      "price": "2,500 IQD",
+      "name": {
+        "en": "Brownie",
+        "ku": "براونی",
+        "ar": "براوني"
+      },
+      "description": {
+        "en": "Rich chocolate brownie.",
+        "ku": "براونی شکڵاتەی دەوڵەمەند.",
+        "ar": "براوني شوكولاتة غني."
       }
     },
     {

@@ -485,6 +485,24 @@
         "ar": "لاتيه منعش مع خلاصة النعناع الطبيعية."
       }
     },
+
+        {
+      "id": "affogato",
+      "category": "hot-drinks",
+      "image": "https://i.ibb.co/8JvQ1TH/change-this-to-affogato-202605170101.jpg",
+      "price": "4,000 IQD",
+      "name": {
+        "en": "Affogato",
+        "ku": "ئەفۆگاتۆ ",
+        "ar": "ئەفۆگاتۆ"
+      },
+      "description": {
+        "en": "Refreshing latte with natural mint extract.",
+        "ku": "ئایسکریمی ڤانیلا لەسەرەوەی ئێسپرێسۆ",
+        "ar": "ئایسکریمی ڤانیلا لەسەرەوەی ئێسپرێسۆ"
+      }
+    },
+
     {
       "id": "niko-kurdish-coffee",
       "category": "hot-drinks",
@@ -616,7 +634,7 @@
     {
       "id": "ice-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1M0qbDZAawTPZovQ6S0B3lHTIkfj1biFH",
+      "image": "https://i.ibb.co/1GV9xQTM/Change-to-iced-latte-202605162159.jpg",
       "price": "3,000 IQD",
       "name": {
         "en": "Iced Latte",
@@ -632,7 +650,7 @@
     {
       "id": "ice-niko-special-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1LUXc9s_2P7C4n0nYd9nwgEk6WQabluXQ",
+      "image": "https://i.ibb.co/1GV9xQTM/Change-to-iced-latte-202605162159.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Niko Special Latte",
@@ -648,7 +666,7 @@
     {
       "id": "ice-americano",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1HPkgkw-ZxhE7JHBy_I2uAN87k8v3TAyZ",
+      "image": "https://i.ibb.co/MyWJCmCJ/Change-to-Iced-Americano-202605162200.jpg",
       "price": "3,000 IQD",
       "name": {
         "en": "Iced Americano",
@@ -664,7 +682,7 @@
     {
       "id": "ice-caramel-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1N_bedXyyw19fGgaYHcvFEGuK3IiF9Z-s",
+      "image": "https://i.ibb.co/ym4S3V6s/Change-to-Iced-Latte-202605162201.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Caramel Latte",
@@ -680,7 +698,7 @@
     {
       "id": "ice-caramel-macchiato",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=14TKRLMkiETtvV9Bg7l3OupqJUeulsESu",
+      "image": "https://i.ibb.co/fGNVpHtK/Iced-Caramel-Macchiato-caramel-p-202605162202.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Iced Caramel Macchiato",
@@ -696,7 +714,7 @@
     {
       "id": "ice-spanish-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=12XOQ3jMVR8FrRqjSPximja1k8CLe84Be",
+      "image": "https://i.ibb.co/DHQdTwKw/Change-to-Ice-Spanish-Latte-202605162204.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Iced Spanish Latte",
@@ -712,7 +730,7 @@
     {
       "id": "ice-cinnamon-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1fZDBliL7icR8NhkgB18zp65s13I4SDme",
+      "image": "https://i.ibb.co/234XQxjh/Iced-Cinnamon-Latte-with-Cinnamon-202605162205.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Cinnamon Latte",
@@ -728,7 +746,7 @@
     {
       "id": "ice-hazelnut-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1RQFsbCFYARy5Vt5_eha5aR7JSOPFvzk7",
+      "image": "https://i.ibb.co/4ZFzwtgC/Iced-Hazelnut-Latte-Hazelnut-202605162205.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Hazelnut Latte",
@@ -744,7 +762,7 @@
     {
       "id": "ice-vanilla-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1mLzI4RCzNDB9tcp4izHZPQ0I4MFAoqg2",
+      "image": "https://i.ibb.co/FqhVYfFF/Iced-Vanilla-Latte-with-Vanilla-202605162207.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Vanilla Latte",
@@ -760,7 +778,7 @@
     {
       "id": "ice-mocha-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1BpOzKRPgbw2KP13KtylUhCk3fuGnPa-b",
+      "image": "https://i.ibb.co/bggbfwqV/Change-to-Iced-Mocha-Latte-202605162208.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Mocha Latte",
@@ -776,7 +794,7 @@
     {
       "id": "ice-white-mocha-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1BpOzKRPgbw2KP13KtylUhCk3fuGnPa-b",
+      "image": "https://i.ibb.co/XrX4CVFQ/Change-to-Iced-Latte-202605162209.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced White Mocha Latte",
@@ -792,7 +810,7 @@
     {
       "id": "ice-mint-latte",
       "category": "iced-coffee",
-      "image": "https://drive.google.com/uc?export=view&id=1Hd0xMUSp7NzQqOme8tQu6y6IQAZV_9zb",
+      "image": "https://i.ibb.co/xKbWh7Xt/Iced-Mint-Latte-with-Mint-202605162207.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Iced Mint Latte",
@@ -805,26 +823,11 @@
         "ar": "لاتيه مثلج منعش مع النعناع الطبيعي."
       }
     },
-    {
-      "id": "affogato",
-      "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1huupGcUtTUoxFyPok9nmPYsWsng-Id2t",
-      "price": "3,000 IQD",
-      "name": {
-        "en": "Affogato",
-        "ku": "ئەفۆگاتۆ",
-        "ar": "أفوغاتو"
-      },
-      "description": {
-        "en": "Vanilla ice cream drowned in hot espresso.",
-        "ku": "ئایس کریمی ڤانیلا لەگەڵ ئێسپرێسۆی گەرم.",
-        "ar": "آيس كريم فانيليا مغمور في إسبريسو ساخن."
-      }
-    },
+
     {
       "id": "strawberry-smoothie",
       "category": "smoothies",
-      "image": "https://drive.google.com/uc?export=view&id=1pzm4S5WtNQDDU8O8jRLFesZORkSn8KET",
+      "image": "https://i.ibb.co/ZRwRrs5z/Strawberry-Smoothie-2.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Strawberry Smoothie",
@@ -840,7 +843,7 @@
     {
       "id": "banana-smoothie",
       "category": "smoothies",
-      "image": "https://drive.google.com/uc?export=view&id=1OvsmleB5_sEPaM-XILUDI_GnQBrhfBGZ",
+      "image": "https://i.ibb.co/zTLmx3Vg/Banana-Smoothie.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Banana Smoothie",
@@ -856,7 +859,7 @@
     {
       "id": "blueberry-smoothie",
       "category": "smoothies",
-      "image": "https://drive.google.com/uc?export=view&id=1h3qYzwBCPhXJSRsAFTqFZuhTpxGNCFSm",
+      "image": "https://i.ibb.co/sdJ27MKS/Blueberry-Smoothie.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Blueberry Smoothie",
@@ -872,7 +875,7 @@
     {
       "id": "kiwi-smoothie",
       "category": "smoothies",
-      "image": "https://drive.google.com/uc?export=view&id=1SakvG8wZmyaethIJG6RDXnQtoh8uDYk-",
+      "image": "https://i.ibb.co/PZDDDDqK/Kiwi-Smoothie.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Kiwi Smoothie",
@@ -888,7 +891,7 @@
     {
       "id": "apple-smoothie",
       "category": "smoothies",
-      "image": "https://drive.google.com/uc?export=view&id=1qRvQSd6-7qIXi3-WtjEkQMrsIkiXZ9Us",
+      "image": "https://i.ibb.co/cXKXCxg8/Peach-Smoothie.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Apple Smoothie",
@@ -904,7 +907,7 @@
     {
       "id": "peach-smoothie",
       "category": "smoothies",
-      "image": "https://drive.google.com/uc?export=view&id=1JMz1T2ZcqY3XQOxpG34C93E24rxFzROa",
+      "image": "https://i.ibb.co/cXKXCxg8/Peach-Smoothie.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Peach Smoothie",
@@ -920,7 +923,7 @@
     {
       "id": "orange-juice",
       "category": "smoothies",
-      "image": "https://drive.google.com/uc?export=view&id=1NojbbCTB0QK82PrHI6WhrQnBHkqsLn-h",
+      "image": "https://i.ibb.co/ns71LKxp/Orange-Juice.jpg",
       "price": "2,000 IQD",
       "name": {
         "en": "Orange Juice",

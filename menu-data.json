@@ -133,7 +133,7 @@
     {
       "id": "Acquapanna",
       "category": "drinks",
-      "image": "https://ibb.co/XQLhBnD",
+      "image": "https://i.ibb.co/h69P5Gc/aquapanna.jpg",
       "price": "2,000 IQD",
       "name": {
         "en": "Aqcua Panna Water",
@@ -149,7 +149,7 @@
     {
       "id": "sparkling-water",
       "category": "drinks",
-      "image": "https://ibb.co/pvwpfxdB",
+      "image": "https://i.ibb.co/nsmS7bjN/Suda-Water.jpg",
       "price": "1,000 IQD",
       "name": {
         "en": "Sparkling Water",
@@ -165,7 +165,7 @@
     {
       "id": "italian-sparkling-water",
       "category": "drinks",
-      "image": "https://ibb.co/qYbyTGqq",
+      "image": "https://i.ibb.co/d4nW89CC/italian-sparkling-water.jpg",
       "price": "2,000 IQD",
       "name": {
         "en": "Italian Sparkling Water",
@@ -181,7 +181,7 @@
     {
       "id": "sanpellegrino-tonic",
       "category": "drinks",
-      "image": "https://ibb.co/ZQ5Vgz0",
+      "image": "https://i.ibb.co/Cjgz9Kf/Sanpellegrino-Sparkling-Drink-tonic.jpg",
       "price": "2,000 IQD",
       "name": {
         "en": "Sanpellegrino Sparkling Drink - tonic",
@@ -197,7 +197,7 @@
     {
       "id": "milk",
       "category": "drinks",
-      "image": "https://ibb.co/xtxkfmXp",
+      "image": "https://i.ibb.co/9kQDVwcF/Milk.jpg",
       "price": "1,500 IQD",
       "name": {
         "en": "Milk",
@@ -213,8 +213,8 @@
     {
       "id": "espresso",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1zNEvo3wlzX_M4FfyKkLx3NQe_BVRWYBe",
-      "price": "2,000 IQD",
+      "image": "https://i.ibb.co/TBCW974Y/Espresso.jpg",
+      "price": "2,000 & 3,000 IQD",
       "name": {
         "en": "Espresso",
         "ku": "ئێسپرێسۆ",
@@ -226,27 +226,12 @@
         "ar": "جرعة واحدة جريئة وغنية من القهوة النقية."
       }
     },
-    {
-      "id": "espresso-doppio",
-      "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1ZgKL5ZmibSCi7hZ3CkYrfWcfn85WcfFM",
-      "price": "3,000 IQD",
-      "name": {
-        "en": "Espresso Doppio",
-        "ku": "ئێسپرێسۆ دۆپیۆ",
-        "ar": "إسبريسو دوبليو"
-      },
-      "description": {
-        "en": "Double shot of intense espresso for extra kick.",
-        "ku": "دو شۆتی قەوەی بەهێز بۆ تاڵی زیاتر.",
-        "ar": "جرعتان مكثفتان من الإسبريسو لطاقة إضافية."
-      }
-    },
+
     {
       "id": "espresso-macchiato",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1ZgKL5ZmibSCi7hZ3CkYrfWcfn85WcfFM",
-      "price": "3,000 IQD",
+      "image": "https://i.ibb.co/tpkRVCkk/espressomachiato.jpg",
+      "price": "3,000 & 4,000 IQD",
       "name": {
         "en": "Espresso Macchiato",
         "ku": "ئێسپرێسۆ ماکیاتۆ",
@@ -258,27 +243,12 @@
         "ar": "إسبريسو مع رشة من رغوة الحليب."
       }
     },
-    {
-      "id": "espresso-macchiato-double",
-      "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1ZgKL5ZmibSCi7hZ3CkYrfWcfn85WcfFM",
-      "price": "4,000 IQD",
-      "name": {
-        "en": "Espresso Macchiato Double",
-        "ku": "ئێسپرێسۆ ماکیاتۆ دەبڵ",
-        "ar": "إسبريسو ماكيато دوبل"
-      },
-      "description": {
-        "en": "Double espresso with a touch of creamy foam.",
-        "ku": "دو شۆت ئێسپرێسۆ لەگەڵ کەمێک کەفی شیر.",
-        "ar": "إسبريسو مزدوج مع لمسة من الرغوة الكريمية."
-      }
-    },
+    
     {
       "id": "americano",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1j6q2KDSF5lJh5i4Tdc8S8UyVOcZSQBvj",
-      "price": "3,000 - 4,000 IQD",
+      "image": "https://i.ibb.co/zVNy6cNV/Americano.jpg",
+      "price": "3,000 & 4,000 IQD",
       "name": {
         "en": "Americano",
         "ku": "ئەمەریکانۆ",
@@ -293,7 +263,7 @@
     {
       "id": "cappuccino",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1LOBhbjuMafn8s5Ih5oLKi40T0z1xGnCh",
+      "image": "https://i.ibb.co/zhJt8NcM/capachino.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Cappuccino",
@@ -309,7 +279,7 @@
     {
       "id": "latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1f07z0i6wq_R54CWTIRnmFUR0PUU-dEL2",
+      "image": "https://i.ibb.co/yFZnyVJz/latte.jpg",
       "price": "3,000 IQD",
       "name": {
         "en": "Latte",
@@ -325,7 +295,7 @@
     {
       "id": "niko-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1pEKbXB2Dvb9Jvrpq9zcmOwALAsJD_DXz",
+      "image": "https://i.ibb.co/yFZnyVJz/latte.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Niko Latte",
@@ -341,7 +311,7 @@
     {
       "id": "caramel-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1Q1OTnmBjuwjIKTv4yOhpQ9xgmR3c1I2v",
+      "image": "https://i.ibb.co/VY9nb37B/caramel2.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Caramel Latte",
@@ -357,7 +327,7 @@
     {
       "id": "caramel-latte-no-sugar",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1sYxbkcDxRCvz9Ca8lUD5JlxzunyCo15u",
+      "image": "https://i.ibb.co/sYW2jfr/caramel1.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Caramel Latte (No Sugar)",
@@ -373,7 +343,7 @@
     {
       "id": "hazelnut-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1hE14Dh79NDynafh7U4j5wSoR6pKBOjo5",
+      "image": "https://i.ibb.co/RphMJ9cT/hazelnuts.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Hazelnut Latte",
@@ -389,7 +359,7 @@
     {
       "id": "vanilla-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1f07z0i6wq_R54CWTIRnmFUR0PUU-dEL2",
+      "image": "https://i.ibb.co/TBwyWL66/Add-Vanilla-to-Coffee-Beans-202605162103.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Vanilla Latte",
@@ -405,7 +375,7 @@
     {
       "id": "vanilla-latte-no-sugar",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1f07z0i6wq_R54CWTIRnmFUR0PUU-dEL2",
+      "image": "https://i.ibb.co/TBwyWL66/Add-Vanilla-to-Coffee-Beans-202605162103.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Vanilla Latte (No Sugar)",
@@ -421,7 +391,7 @@
     {
       "id": "cinnamon-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=13YS3FoDRX2M09OEu3IL-pj9krwWMZkBa",
+      "image": "https://i.ibb.co/XrF4sjYN/Cinnamon-next-to-coffee-beans-202605162108.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Cinnamon Latte",
@@ -437,7 +407,7 @@
     {
       "id": "spanish-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=12H_Q1CJ6Oc9UlbcslXgCntuO0Ti2kOJU",
+      "image": "https://i.ibb.co/m5zQ3ML3/Change-to-Spanish-Latte-202605162109.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Spanish Latte",
@@ -453,7 +423,7 @@
     {
       "id": "mocha-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1WZ6DumybN92hiUsDEcs1l_48Ihxa7nUj",
+      "image": "https://i.ibb.co/rR5KPmwG/Change-to-Mocha-Latte-202605162110.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mocha Latte",
@@ -469,7 +439,7 @@
     {
       "id": "white-mocha-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1po-0hpXUwiJHiWvUmP6vjSJHEaaZVS8l",
+      "image": "https://i.ibb.co/j9zCp55s/Change-to-White-Mocha-202605162111.jpg",
       "price": "3,500 IQD",
       
       "name": {
@@ -486,7 +456,7 @@
     {
       "id": "caramel-macchiato",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1o3oO58Q8uruZ4TjGBewly0_dqpMyVoy8",
+      "image": "https://i.ibb.co/XrTDjJX8/Change-to-Caramel-Macchiato-202605162114.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Caramel Macchiato",
@@ -502,7 +472,7 @@
     {
       "id": "mint-latte",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1TElfpYAXxrUZ-QHRY73lQ7V2DSQIJyA2",
+      "image": "https://i.ibb.co/C5hTWz5G/Mint-Latte-next-to-coffee-202605162108.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mint Latte",
@@ -518,7 +488,7 @@
     {
       "id": "niko-kurdish-coffee",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1B2mtlzWJzBm2TWEchoAGknAWFgOFdQv_",
+      "image": "https://i.ibb.co/HMsgR2H/Change-to-Niko-Kurdish-Coffee-202605162118.jpg",
       "price": "1,000 IQD",
       "name": {
         "en": "Niko Kurdish Coffee",
@@ -534,7 +504,7 @@
     {
       "id": "qazwan-coffee",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1LdofrhubVmpkQc5MOK99bRb_C0UKgEhT",
+      "image": "https://i.ibb.co/HT8FwDJM/Change-to-Qazwan-Coffee-202605162125.jpg",
       "price": "1,000 IQD",
       "name": {
         "en": "Qazwan Coffee",
@@ -550,7 +520,7 @@
     {
       "id": "tea",
       "category": "hot-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1bEwOZLivd7MjbbSZFI1xsr074AfV834H",
+      "image": "https://i.ibb.co/3mPnmfd1/Change-cup-to-tea-202605162129.jpg",
       "price": "500 IQD",
       "name": {
         "en": "Tea",

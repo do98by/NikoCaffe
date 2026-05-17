@@ -939,7 +939,7 @@
     {
       "id": "vanilla-frappe",
       "category": "frappes",
-      "image": "https://drive.google.com/uc?export=view&id=1vrS4MBih4319lXWEvDdsxgY_3GL0XdvH",
+      "image": "https://i.ibb.co/mVNNgPCk/Vanilla-Frappe.jpg",
       "price": "4,500 IQD",
       "name": {
         "en": "Vanilla Frappe",
@@ -955,7 +955,7 @@
     {
       "id": "blueberry-frappe",
       "category": "frappes",
-      "image": "https://drive.google.com/uc?export=view&id=15Mr9afJIlbJe4z0DcSfCiQMkcnlU1Jot",
+      "image": "https://i.ibb.co/jPRX2v8p/Blueberry-Frappe.jpg",
       "price": "4,500 IQD",
       "name": {
         "en": "Blueberry Frappe",
@@ -971,7 +971,7 @@
     {
       "id": "strawberry-frappe",
       "category": "frappes",
-      "image": "https://drive.google.com/uc?export=view&id=10MTt1YVKjwZyLSDlRcSz5K0PmjA0-Y6I",
+      "image": "https://i.ibb.co/hFbgFWrC/Strawberry-Frappe.jpg",
       "price": "4,500 IQD",
       "name": {
         "en": "Strawberry Frappe",
@@ -987,7 +987,7 @@
     {
       "id": "banana-frappe",
       "category": "frappes",
-      "image": "https://drive.google.com/uc?export=view&id=1w-WdtRMxE8goRKN270uH8aAZLGhXwDSo",
+      "image": "https://i.ibb.co/Kxn58xWf/Banana-Frappe.jpg",
       "price": "4,500 IQD",
       "name": {
         "en": "Banana Frappe",
@@ -1003,7 +1003,7 @@
     {
       "id": "caramel-frappe",
       "category": "frappes",
-      "image": "https://drive.google.com/uc?export=view&id=1bG5vuRGWoWABrJyyvqjG9qbCVBlKJbdv",
+      "image": "https://i.ibb.co/N2Djnqr0/Caramel-Frappe.jpg",
       "price": "4,500 IQD",
       "name": {
         "en": "Caramel Frappe",
@@ -1019,12 +1019,12 @@
     {
       "id": "oreo-frappe",
       "category": "frappes",
-      "image": "https://drive.google.com/uc?export=view&id=1L0FEaWpTVDW7DmfXgo5uuJldm0Se6ozD",
+      "image": "https://i.ibb.co/fzyx0YmK/Oreo-Frappe.jpg",
       "price": "4,500 IQD",
       "name": {
-        "en": "Oreo Frappe (Chocolate Base)",
+        "en": "Oreo Frappe",
         "ku": "فراپێ ئۆریۆ",
-        "ar": "فرايه أوريو (قاعدة شوكولاتة)"
+        "ar": "فرايه أوريو "
       },
       "description": {
         "en": "Chocolate frappe with crushed Oreo cookies.",
@@ -1035,7 +1035,7 @@
     {
       "id": "redbull-lagoon",
       "category": "energy-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1OHkehhGsW2OdRx4REFCWdwbldNrGVCHa",
+      "image": "https://i.ibb.co/CKNsVL7g/Red-Bull-Lagoon.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Red Bull Lagoon",
@@ -1051,7 +1051,7 @@
     {
       "id": "redbull-blue-hawaii",
       "category": "energy-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1_60hFScOgjlX45FNLPZa4e9Tcon5-QLZ",
+      "image": "https://i.ibb.co/4nWWJ8Gr/Red-Bull-Blue-Hawaii.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Red Bull Blue Hawaii",
@@ -1067,7 +1067,7 @@
     {
       "id": "redbull-nikolato",
       "category": "energy-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1h8kMwGEqN5nR4fi4yWlJUzkLlRF0rk1U",
+      "image": "https://i.ibb.co/v0WGXxq/Red-Bull-Nikolato.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Red Bull Nikolato",
@@ -1083,7 +1083,7 @@
     {
       "id": "classic-redbull",
       "category": "energy-drinks",
-      "image": "https://drive.google.com/uc?export=view&id=1f3Z4ZWI6vf2bmrSl1jgN7k9P1UkQ9Le6",
+      "image": "https://i.ibb.co/Ps8KbkmZ/Blue-with-one-lemon-202605170210.jpg",
       "price": "3,000 IQD",
       "name": {
         "en": "Classic Red Bull",
@@ -1099,7 +1099,7 @@
     {
       "id": "white-lagoon",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1DLSb7aTSWUJRl5d7-Zm8m-MTAY1bgd-Q",
+      "image": "https://i.ibb.co/MDnLggsh/White-Lagoon.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "White Lagoon",
@@ -1115,7 +1115,7 @@
     {
       "id": "soda-lagoon",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=16ocdqhQcZ7rKpBAwOLZSiKxeUALgjNks",
+      "image": "https://i.ibb.co/DPRk3g5C/Soda-Lagoon.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Soda Lagoon",
@@ -1131,7 +1131,7 @@
     {
       "id": "mojito-classic",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1jnu7t-GcJ0wAROPC4KXbbthQI0cMnsEp",
+      "image": "https://i.ibb.co/1t6gRV9G/Mojito-Classic.jpg",
       "price": "3,000 IQD",
       "name": {
         "en": "Mojito Classic",
@@ -1147,7 +1147,7 @@
     {
       "id": "mojito-kiwi",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1BWCc1Tea5BDESqxUbNbTEwkWnsc0KXkS",
+      "image": "https://i.ibb.co/twZrt2tZ/Mojito-Kiwi-202605162340.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Kiwi",
@@ -1163,7 +1163,7 @@
     {
       "id": "mojito-strawberry",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1IrS5ayi7ZbUvHWW-9t6bmIp_TNA9XC3N",
+      "image": "https://i.ibb.co/BKNKB62Q/Mojito-Strawberry.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Strawberry",
@@ -1179,7 +1179,7 @@
     {
       "id": "mojito-pomegranate",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1LWz1uCLprwBJAOOCxJtb_4WdUrlw-WTs",
+      "image": "https://i.ibb.co/gGVt8bC/Mojito-Pomegranate.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Pomegranate",
@@ -1195,7 +1195,7 @@
     {
       "id": "mojito-passionfruit",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1ZWVZXJPp-6jrFM7MJ8h8mpoo3hC1j-bU",
+      "image": "https://i.ibb.co/CKDSs4tj/Mojito-Passionfruit.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Passionfruit",
@@ -1211,7 +1211,7 @@
     {
       "id": "mojito-cherry",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1cWS3HORsXVfCOUPVlgCIJgE-IU3OhBVJ",
+      "image": "https://i.ibb.co/5f5k1dg/Mojito-Cherry.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Cherry",
@@ -1227,7 +1227,7 @@
     {
       "id": "mojito-blueberry",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1DF8BLDnMg9UnxKGZGUePOnPUsSFBxY7f",
+      "image": "https://i.ibb.co/jZBhPCxN/Mojito-Blueberry.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Blueberry",
@@ -1243,7 +1243,7 @@
     {
       "id": "mojito-mint",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1iBqp6VTItkwlK3TOjiyKSGBlcQW11xqK",
+      "image": "https://i.ibb.co/Y4VxKp0g/Mojito-Mint.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Mint",
@@ -1259,7 +1259,7 @@
     {
       "id": "mojito-apple",
       "category": "mocktails",
-      "image": "https://drive.google.com/uc?export=view&id=1o0SVBUXDeaM3ctt1hN3i6F_DrlEPcT5Z",
+      "image": "https://i.ibb.co/Z6qgQmBT/Mojito-Apple.jpg",
       "price": "3,500 IQD",
       "name": {
         "en": "Mojito Apple",
@@ -1275,7 +1275,7 @@
     {
       "id": "tiramisu-cup",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1XL82gl4yFWN-Ilai_iK83I5eTOHdSLY0",
+      "image": "https://i.ibb.co/7drW58mt/Tiramisu-Cup.jpg",
       "price": "2,500 IQD",
       "name": {
         "en": "Tiramisu Cup",
@@ -1291,7 +1291,7 @@
     {
       "id": "berry-pancake",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1XcvrwaPktMwoD634YQWUk0plcEmeNW7H",
+      "image": "https://i.ibb.co/Vcy89T5w/Fluffy-pancakes-with-berries-202605170010.jpg",
       "price": "2,500 IQD",
       "name": {
         "en": "Berry Pancake Stack",
@@ -1307,7 +1307,7 @@
     {
       "id": "banana-pancake",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1Dz0S1Txr1kbrFGAW0GjRP0MqcR53cGkM",
+      "image": "https://i.ibb.co/h1HCsfbm/Change-to-Banana-Nut-Pancakes-202605170011.jpg",
       "price": "2,500 IQD",
       "name": {
         "en": "Banana Nut Pancakes",
@@ -1323,7 +1323,7 @@
     {
       "id": "kunafa",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1mzlmTGSlQqvjH2gOH2pPLJ66ZLZvQ0Ry",
+      "image": "https://i.ibb.co/Gf77yW33/Kunafa.jpg",
       "price": "3,000 IQD",
       "name": {
         "en": "Kunafa",
@@ -1339,7 +1339,7 @@
     {
       "id": "milk-baklava",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1dfDml6U8_AIdjVa432O0i3nUvCdf3TuO",
+      "image": "https://i.ibb.co/wZqHqJF4/Milk-Baklava.jpg",
       "price": "3,000 IQD",
       "name": {
         "en": "Milk Baklava",
@@ -1355,8 +1355,8 @@
     {
       "id": "tralicha",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1l95lCtRoI-ucKYCaezhNy532fC2dGUMh",
-      "price": "3,000 IQD",
+      "image": "https://i.ibb.co/Qvd9kGmP/Tralicha.jpg",
+      "price": "2,000 IQD",
       "name": {
         "en": "Tralicha",
         "ku": "ترالێچا",
@@ -1371,8 +1371,8 @@
     {
       "id": "muhalabi",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1x_qmR57942WHPUYC18JO_-QFa-hzhD2a",
-      "price": "2,500 IQD",
+      "image": "https://i.ibb.co/Jj6Vt6Ck/mu7alabi.jpg",
+      "price": "1,000 IQD",
       "name": {
         "en": "Muhalabi",
         "ku": "مەحڵەبی",
@@ -1387,11 +1387,11 @@
     {
       "id": "yellow-custard-dessert",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1TvnwXzesOuhzOKNGRojXJzHxKHlDoJFF",
-      "price": "2,500 IQD",
+      "image": "https://i.ibb.co/2YhcKL1g/yelllow-custered.jpg",
+      "price": "1,000 IQD",
       "name": {
         "en": "Yellow Custard Dessert",
-        "ku": "شیرینی زەردی کاستارد",
+        "ku": "شیرینی  کاستەر",
         "ar": "حلوى الكاسترد الأصفر"
       },
       "description": {
@@ -1403,8 +1403,8 @@
     {
       "id": "brownie",
       "category": "desserts",
-      "image": "https://drive.google.com/uc?export=view&id=1XvZTmgOzom-IwqIawRQNv8rpNPOxaXx-",
-      "price": "2,500 IQD",
+      "image": "https://i.ibb.co/6RSJDV6F/Change-to-brownie-cake-202605170014.jpg",
+      "price": "1,500 IQD",
       "name": {
         "en": "Brownie",
         "ku": "براونی",
@@ -1419,7 +1419,7 @@
     {
       "id": "choco-protein",
       "category": "protein-shakes",
-      "image": "https://drive.google.com/uc?export=view&id=1Md9B9EX5KZhGzUpY10LqFkN8XEqJOPKh",
+      "image": "https://i.ibb.co/9RNV0Ss/Chocolate-Whey-Shake.jpg",
       "price": "6,000 IQD",
       "name": {
         "en": "Chocolate Whey Shake",
@@ -1435,7 +1435,7 @@
     {
       "id": "vanilla-almond-protein",
       "category": "protein-shakes",
-      "image": "https://drive.google.com/uc?export=view&id=1eiD4uNRBZF-ddTiAUWn1iYqcYMrwBfck",
+      "image": "https://i.ibb.co/PZ9mYDZZ/Vanilla-Almond-Protein.jpg",
       "price": "6,000 IQD",
       "name": {
         "en": "Vanilla Almond Protein",
@@ -1451,8 +1451,8 @@
     {
       "id": "scoop-ice-cream",
       "category": "ice-cream",
-      "image": "https://drive.google.com/uc?export=view&id=1k5oyVzpDMMXvKEntgLW2yptMbXx2gJ6S",
-      "price": "750 IQD",
+      "image": "https://i.ibb.co/20S6nmQz/scopeicecream.jpg",
+      "price": "500 IQD",
       "name": {
         "en": "Scoop Ice Cream",
         "ku": "ئایس کریمی سکۆپ",
@@ -1467,7 +1467,7 @@
     {
       "id": "machine-ice-cream",
       "category": "ice-cream",
-      "image": "https://drive.google.com/uc?export=view&id=10lmMrBdHLnoX1Z7zOihXV0cIMJjv0RXi",
+      "image": "https://i.ibb.co/VnNB4BC/Ice-cream-with-green-white-202605162357.jpg",
       "price": "500-1,000-1,500 IQD",
       "name": {
         "en": "Soft Ice Cream",

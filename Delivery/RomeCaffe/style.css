@@ -20,12 +20,12 @@
 	--bg-accent: #2e1f1a;
 	--bg-chip: #efe0cf;
 
-	--text-primary: #561908;
-	--text-muted: #6a564b;
+	--text-primary: #c58a0c;
+	--text-muted: rgb(255, 204, 63);
 	--text-on-dark: #fff7ef;
 
-	--brand-primary: #601e0c;
-	--brand-primary-strong: #431306;
+	--brand-primary: #b47d08;
+	--brand-primary-strong: #634505;
 	--brand-secondary: #2f6f64;
 	--brand-highlight: #dd9b4f;
 

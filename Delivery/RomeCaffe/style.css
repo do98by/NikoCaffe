@@ -163,7 +163,7 @@ html[lang='ar'] .eyebrow {
 .hero {
 	margin-top: var(--space-7);
 	padding: var(--space-6);
-	background: linear-gradient(145deg, var(--bg-accent), #4a3026);
+	background: linear-gradient(145deg, var(--bg-accent), #b88f09);
 	color: var(--text-on-dark);
 	border-radius: var(--radius-lg);
 	box-shadow: var(--shadow-card);

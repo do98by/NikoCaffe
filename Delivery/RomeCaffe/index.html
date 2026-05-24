@@ -4,15 +4,46 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Niko Cafe Menu</title>
+	<link rel="icon" type="image/x-icon" href="do98by/NikoCaffe/images/nikoMainlogo.ico">
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Harmattan:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap"
 		rel="stylesheet"
 	/>
 	<link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+	<!-- Language Selection Overlay -->
+<div id="languageOverlay" class="language-overlay" role="dialog" aria-modal="true" aria-labelledby="langTitle">
+	<div class="overlay-content">
+		<img class="brand-logo overlay-logo" src="1nikoSlogo.svg" alt="Niko Cafe logo" />
+		<h2 id="langTitle">Choose your language / زمانەکەت هەڵبژێرە / اختر لغتك</h2>
+		<p class="overlay-subtitle">Select a language to continue</p>
+		
+		<div class="lang-options">
+			<button class="lang-btn" data-lang="en" aria-label="Select English">
+				<span class="lang-badge">EN</span>
+				<span class="lang-name">English</span>
+			</button>
+			<button class="lang-btn" data-lang="ku" aria-label="Select Kurdish">
+				<span class="lang-badge"></span>
+				<span class="lang-name">کوردی</span>
+			</button>
+			<button class="lang-btn" data-lang="ar" aria-label="Select Arabic">
+				<span class="lang-badge">ع</span>
+				<span class="lang-name">العربية</span>
+			</button>
+		</div>
+		
+		<p class="overlay-note">You can change language anytime from the menu</p>
+	</div>
+</div>
+
+<!-- Wrap your existing header, main, footer in a container -->
+ <div id="mainContent" class="main-content hidden">
+
 	<div class="bg-shape bg-shape-left"></div>
 	<div class="bg-shape bg-shape-right"></div>
 
@@ -20,7 +51,7 @@
 		<div class="hero-topbar">
 			<div class="brand-wrap">
 				<img class="brand-logo" src="1nikoSlogo.svg" alt="Niko Cafe logo" />
-				<p class="eyebrow" data-i18n="welcome">Welcome to Rome Cafe</p>
+				<p class="eyebrow" data-i18n="welcome">Welcome to Niko Cafe</p>
 			</div>
 			<div class="language-switcher">
 				<label for="languageSelect" data-i18n="languageLabel">Language</label>
@@ -37,7 +68,7 @@
 			smoothies, protein shakes, and more.
 		</p>
 		<div class="hero-quick-info">
-			<span data-i18n="infoHours">Open Daily: 8:00 AM - 11:00 PM</span>
+			<span data-i18n="infoHours">Open Daily: 2:00 PM - 2:00 AM</span>
 			<span data-i18n="infoFresh">Freshly Made</span>
 			<span data-i18n="infoService">Pickup & Dine-In</span>
 		</div>
@@ -61,11 +92,11 @@
 	</main>
 
 	<footer class="container footer">
-		<p data-i18n="footerText">Made fresh daily at Rome Cafe</p>
+		<p data-i18n="footerText">Made fresh daily at Niko Cafe</p>
 	</footer>
 
 	<script src="script.js"></script>
+
+</div>
 </body>
 </html>
-
-

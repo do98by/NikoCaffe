@@ -891,7 +891,7 @@
     {
       "id": "apple-smoothie",
       "category": "smoothies",
-      "image": "https://i.ibb.co/cXKXCxg8/Peach-Smoothie.jpg",
+      "image": "https://i.ibb.co/mC51ksXh/Apple-Smoothie.jpg",
       "price": "4,000 IQD",
       "name": {
         "en": "Apple Smoothie",
@@ -1098,7 +1098,7 @@
     },
     {
       "id": "white-lagoon",
-      "category": "mocktails",
+      "category": "energy-drinks",
       "image": "https://i.ibb.co/MDnLggsh/White-Lagoon.jpg",
       "price": "3,500 IQD",
       "name": {
@@ -1340,7 +1340,7 @@
       "id": "milk-baklava",
       "category": "desserts",
       "image": "https://i.ibb.co/wZqHqJF4/Milk-Baklava.jpg",
-      "price": "3,000 IQD",
+      "price": "1,500 IQD",
       "name": {
         "en": "Milk Baklava",
         "ku": "باقلاوەی شیر",
@@ -1404,7 +1404,7 @@
       "id": "brownie",
       "category": "desserts",
       "image": "https://i.ibb.co/6RSJDV6F/Change-to-brownie-cake-202605170014.jpg",
-      "price": "1,500 IQD",
+      "price": "2,000 IQD",
       "name": {
         "en": "Brownie",
         "ku": "براونی",

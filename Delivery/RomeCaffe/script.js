@@ -7,38 +7,38 @@ let state = {
 
 const translations = {
 	en: {
-		welcome: 'Welcome to Niko Cafe',
+		welcome: 'Welcome to Rome Cafe',
 		heroTitle: 'Crafted Drinks, Sweet Treats, and Feel-Good Energy',
 		heroText: 'Explore our modern menu with hot and cold coffees, desserts, pancakes, smoothies, protein shakes, and more.',
 		infoHours: 'Open Daily: 2:00 PM - 2:00 AM',
 		infoFresh: 'Freshly Made',
 		infoService: 'Pickup & Dine-In',
 		browseMenu: 'Browse Menu',
-		footerText: 'Made fresh daily at Niko Cafe',
+		footerText: 'Made fresh daily at Rome Cafe',
 		searchPlaceholder: 'Search item name...',
 		languageLabel: 'Language'
 	},
 	ku: {
-		welcome: 'بەخێربێن بۆ نیکۆ کافێ',
+		welcome: 'بەخێربێن بۆ رۆمی کافێ',
 		heroTitle: 'خواردنەوەی تایبەت، شیرینی خۆش، و وزەی باش',
 		heroText: 'مێنوی مۆدێرنەکەمان ببینە کە قەوەی گەرم و سارد، شیرینی، پانکێیک، سمووزی، پرۆتین شەیک و زیاتری تێدایە.',
 		infoHours: 'هەموو ڕۆژێک: 2:00 پاش نیوەڕۆ - 2:00 شەو',
 		infoFresh: 'بە تازەیی ئامادە دەکرێت',
 		infoService: 'بردنەوە و شوێنی دانیشتن ',
 		browseMenu: 'بینینی مێنیو',
-		footerText: 'هەموو ڕۆژێک بە تازەیی ئامادە دەکرێت لە نیکۆ کافێ',
+		footerText: 'هەموو ڕۆژێک بە تازەیی ئامادە دەکرێت لە رۆمی کافێ',
 		searchPlaceholder: 'لە ناوی خواردن بگەڕێ...',
 		languageLabel: 'زمان'
 	},
 	ar: {
-		welcome: 'مرحبا بك في نيكو كافيه',
+		welcome: 'مرحبا بك في رومي كافيه',
 		heroTitle: 'مشروبات مصنوعة يدويا وحلويات لذيذة وطاقة إيجابية',
 		heroText: 'اكتشف قائمتنا الحديثة مع القهوة الساخنة والباردة والحلويات والفطائر والعصائر والرجات البروتينية والمزيد.',
 		infoHours: 'مفتوح يوميا: 2:00 صباحا - 2:00 مساء',
 		infoFresh: 'طازج مصنوع',
 		infoService: 'استلام وتناول الطعام',
 		browseMenu: 'استعرض القائمة',
-		footerText: 'مصنوع طازج يوميا في نيكو كافيه',
+		footerText: 'مصنوع طازج يوميا في رومي كافيه',
 		searchPlaceholder: 'ابحث عن اسم الطعام...',
 		languageLabel: 'اللغة'
 	}

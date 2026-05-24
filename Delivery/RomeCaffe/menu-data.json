@@ -8,6 +8,15 @@
         "ar": "الكل"
       }
     },
+        {
+      "id": "shisha",
+      "name": {
+        "en": "Shisha",
+        "ku": "نێرگیلە",
+        "ar": "أرکیله"
+      }
+    },
+
     {
       "id": "drinks",
       "name": {
@@ -1478,6 +1487,22 @@
         "en": "Fresh soft ice cream in different sizes.",
         "ku": "ئایس کریمی نوێ بە قەبارە جیاواز.",
         "ar": "آيس كريم طازج بأحجام مختلفة."
+      }
+    },
+    {
+      "id": "nergila-englizi",
+      "category": "shisha",
+      "image": "https://i.ibb.co/VnNB4BC/Ice-cream-with-green-white-202605162357.jpg",
+      "price": "500-1,000-1,500 IQD",
+      "name": {
+        "en": "shisha english",
+        "ku": "نێرگەلەی ئینگلیزی",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "ku": "",
+        "ar": ""
       }
     }
   ]

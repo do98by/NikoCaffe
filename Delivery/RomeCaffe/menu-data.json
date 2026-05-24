@@ -107,6 +107,120 @@
     }
   ],
   "items": [
+          
+    {
+      "id": "shisha-gum",
+      "category": "shisha",
+      "image": "https://i.ibb.co/0yhkTJHG/mint-gum.png",
+      "price": "5,000 IQD",
+      "name": {
+        "en": "Mint Gum",
+        "ku": "بنێشت نەعناع",
+        "ar": "علک نعناع"
+      },
+      "description": {
+        "en": "Fresh minty bubblegum flavor with a sweet finish",
+        "ku": "تامی نەنعاع و بنێشت ",
+        "ar": "نكهة علكة بالنعناع الطازج مع لمسة حلوة في النهاية"
+      }
+    },
+    {
+      "id": "shisha-melon-gum",
+      "category": "shisha",
+      "image": "https://i.ibb.co/0yZjFdFm/gum-mellon.png",
+      "price": "5,500 IQD",
+      "name": {
+        "en": "Melon Gum",
+        "ku": "بنێشت گندۆرە",
+        "ar": "بطيخة علكة"
+      },
+      "description": {
+        "en": "Juicy melon blended with cool bubblegum",
+        "ku": "گندۆرەی ئاودار تێکەڵکراو لەگەڵ بنێشتی سارد",
+        "ar": "بطيخة عصيرية ممزوجة مع علكة منعشة"
+      }
+    },
+    {
+      "id": "shisha-english",
+      "category": "shisha",
+      "image": "https://i.ibb.co/tpxVS0Z3/Espresso-Macchiato-202605250009.jpg",
+      "price": "6,000 IQD",
+      "name": {
+        "en": "English",
+        "ku": "ئینگلیزی",
+        "ar": "إنجليزي"
+      },
+      "description": {
+        "en": "Classic British blend with rich, smooth notes",
+        "ku": "تێکەڵەی  ئینگلیزی کلاسیک بە تامی دەوڵەمەند و نەرم",
+        "ar": "خليط تبغ إنجليزي كلاسيكي بنكهات غنية وناعمة"
+      }
+    },
+    {
+      "id": "shisha-peach",
+      "category": "shisha",
+      "image": "https://i.ibb.co/Tqv6RqCS/peach.png",
+      "price": "5,000 IQD",
+      "name": {
+        "en": "Peach",
+        "ku": "خۆخ",
+        "ar": "خوخ"
+      },
+      "description": {
+        "en": "Ripe peach with a hint of floral sweetness",
+        "ku": "خۆخ لەگەڵ تێکڕایەکی شیرینی گوڵی",
+        "ar": "خوخ ناضج مع لمسة من حلاوة الأزهار"
+      }
+    },
+    {
+      "id": "shisha-deja-vu",
+      "category": "shisha",
+      "image": "https://i.ibb.co/wrs5w1sw/dejavu.png",
+      "price": "6,500 IQD",
+      "name": {
+        "en": "Deja Vu",
+        "ku": "دێژا ڤو",
+        "ar": "ديجا فو"
+      },
+      "description": {
+        "en": "Mysterious mix of berries, citrus, and spice",
+        "ku": "تێکەڵەیەکی نهێنی لە توت، ترشەمەنی و بەهارات",
+        "ar": "مزيج غامض من التوت والحمضيات والتوابل"
+      }
+    },
+    {
+      "id": "shisha-apple",
+      "category": "shisha",
+      "image": "https://i.ibb.co/WvQNRTGQ/applle.png",
+      "price": "5,000 IQD",
+      "name": {
+        "en": "Apple",
+        "ku": "سێو",
+        "ar": "تفاح"
+      },
+      "description": {
+        "en": "Crisp green apple with a refreshing cool finish",
+        "ku": "سێوی سەوزی ترد لەگەڵ کۆتاییەکی سارد و بوژێنەر",
+        "ar": "تفاح أخضر مقرمش مع لمسة منعشة في النهاية"
+      }
+    },
+    {
+      "id": "shisha-moscow",
+      "category": "shisha",
+      "image": "https://i.ibb.co/216dkrvv/moscow.png",
+      "price": "7,000 IQD",
+      "name": {
+        "en": "Moscow",
+        "ku": "مۆسکۆ",
+        "ar": "موسكو"
+      },
+      "description": {
+        "en": "Bold blend of mint, lemon, and exotic spices",
+        "ku": "تێکەڵەیەکی مۆسکۆ،  ",
+        "ar": "خليط جريء من النعناع والليمون والتوابل الغريبة"
+      }
+    },
+
     {
       "id": "water",
       "category": "drinks",
@@ -1487,119 +1601,6 @@
         "en": "Fresh soft ice cream in different sizes.",
         "ku": "ئایس کریمی نوێ بە قەبارە جیاواز.",
         "ar": "آيس كريم طازج بأحجام مختلفة."
-      }
-    },
-      
-    {
-      "id": "shisha-gum",
-      "category": "shisha",
-      "image": "https://i.ibb.co/0yhkTJHG/mint-gum.png",
-      "price": "5,000 IQD",
-      "name": {
-        "en": "Mint Gum",
-        "ku": "بنێشت نەعناع",
-        "ar": "علک نعناع"
-      },
-      "description": {
-        "en": "Fresh minty bubblegum flavor with a sweet finish",
-        "ku": "تامی نەنعاع و بنێشت ",
-        "ar": "نكهة علكة بالنعناع الطازج مع لمسة حلوة في النهاية"
-      }
-    },
-    {
-      "id": "shisha-melon-gum",
-      "category": "shisha",
-      "image": "https://i.ibb.co/0yZjFdFm/gum-mellon.png",
-      "price": "5,500 IQD",
-      "name": {
-        "en": "Melon Gum",
-        "ku": "بنێشت گندۆرە",
-        "ar": "بطيخة علكة"
-      },
-      "description": {
-        "en": "Juicy melon blended with cool bubblegum",
-        "ku": "گندۆرەی ئاودار تێکەڵکراو لەگەڵ بنێشتی سارد",
-        "ar": "بطيخة عصيرية ممزوجة مع علكة منعشة"
-      }
-    },
-    {
-      "id": "shisha-english",
-      "category": "shisha",
-      "image": "https://i.ibb.co/tpxVS0Z3/Espresso-Macchiato-202605250009.jpg",
-      "price": "6,000 IQD",
-      "name": {
-        "en": "English",
-        "ku": "ئینگلیزی",
-        "ar": "إنجليزي"
-      },
-      "description": {
-        "en": "Classic British blend with rich, smooth notes",
-        "ku": "تێکەڵەی  ئینگلیزی کلاسیک بە تامی دەوڵەمەند و نەرم",
-        "ar": "خليط تبغ إنجليزي كلاسيكي بنكهات غنية وناعمة"
-      }
-    },
-    {
-      "id": "shisha-peach",
-      "category": "shisha",
-      "image": "https://i.ibb.co/Tqv6RqCS/peach.png",
-      "price": "5,000 IQD",
-      "name": {
-        "en": "Peach",
-        "ku": "خۆخ",
-        "ar": "خوخ"
-      },
-      "description": {
-        "en": "Ripe peach with a hint of floral sweetness",
-        "ku": "خۆخ لەگەڵ تێکڕایەکی شیرینی گوڵی",
-        "ar": "خوخ ناضج مع لمسة من حلاوة الأزهار"
-      }
-    },
-    {
-      "id": "shisha-deja-vu",
-      "category": "shisha",
-      "image": "https://i.ibb.co/wrs5w1sw/dejavu.png",
-      "price": "6,500 IQD",
-      "name": {
-        "en": "Deja Vu",
-        "ku": "دێژا ڤو",
-        "ar": "ديجا فو"
-      },
-      "description": {
-        "en": "Mysterious mix of berries, citrus, and spice",
-        "ku": "تێکەڵەیەکی نهێنی لە توت، ترشەمەنی و بەهارات",
-        "ar": "مزيج غامض من التوت والحمضيات والتوابل"
-      }
-    },
-    {
-      "id": "shisha-apple",
-      "category": "shisha",
-      "image": "https://i.ibb.co/WvQNRTGQ/applle.png",
-      "price": "5,000 IQD",
-      "name": {
-        "en": "Apple",
-        "ku": "سێو",
-        "ar": "تفاح"
-      },
-      "description": {
-        "en": "Crisp green apple with a refreshing cool finish",
-        "ku": "سێوی سەوزی ترد لەگەڵ کۆتاییەکی سارد و بوژێنەر",
-        "ar": "تفاح أخضر مقرمش مع لمسة منعشة في النهاية"
-      }
-    },
-    {
-      "id": "shisha-moscow",
-      "category": "shisha",
-      "image": "https://i.ibb.co/216dkrvv/moscow.png",
-      "price": "7,000 IQD",
-      "name": {
-        "en": "Moscow",
-        "ku": "مۆسکۆ",
-        "ar": "موسكو"
-      },
-      "description": {
-        "en": "Bold blend of mint, lemon, and exotic spices",
-        "ku": "تێکەڵەیەکی مۆسکۆ،  ",
-        "ar": "خليط جريء من النعناع والليمون والتوابل الغريبة"
       }
     }
 

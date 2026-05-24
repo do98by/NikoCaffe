@@ -15,6 +15,35 @@
 </head>
 
 <body>
+	<!-- Language Selection Overlay -->
+<div id="languageOverlay" class="language-overlay" role="dialog" aria-modal="true" aria-labelledby="langTitle">
+	<div class="overlay-content">
+		<img class="brand-logo overlay-logo" src="1nikoSlogo.svg" alt="Niko Cafe logo" />
+		<h2 id="langTitle">Choose your language / زمانەکەت هەڵبژێرە / اختر لغتك</h2>
+		<p class="overlay-subtitle">Select a language to continue</p>
+		
+		<div class="lang-options">
+			<button class="lang-btn" data-lang="en" aria-label="Select English">
+				<span class="lang-flag">🇬🇧</span>
+				<span class="lang-name">English</span>
+			</button>
+			<button class="lang-btn" data-lang="ku" aria-label="Select Kurdish">
+				<span class="lang-flag">🏴</span>
+				<span class="lang-name">کوردی</span>
+			</button>
+			<button class="lang-btn" data-lang="ar" aria-label="Select Arabic">
+				<span class="lang-flag">🇸🇦</span>
+				<span class="lang-name">العربية</span>
+			</button>
+		</div>
+		
+		<p class="overlay-note">You can change language anytime from the menu</p>
+	</div>
+</div>
+
+<!-- Wrap your existing header, main, footer in a container -->
+ <div id="mainContent" class="main-content hidden">
+
 	<div class="bg-shape bg-shape-left"></div>
 	<div class="bg-shape bg-shape-right"></div>
 
@@ -67,6 +96,8 @@
 	</footer>
 
 	<script src="script.js"></script>
+
+</div>
 </body>
 </html>
 

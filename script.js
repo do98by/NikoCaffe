@@ -1,6 +1,6 @@
 let menuData = null;
 let state = {
-	lang: 'en',
+	lang: localStorage.getItem('nikoLang') || 'en', // Load from storage
 	filter: 'all',
 	search: ''
 };
@@ -44,49 +44,113 @@ const translations = {
 	}
 };
 
-// Load menu data from JSON
+// ========== LANGUAGE OVERLAY LOGIC ==========
+function initLanguageOverlay() {
+	const overlay = document.getElementById('languageOverlay');
+	const mainContent = document.getElementById('mainContent');
+	const langButtons = document.querySelectorAll('.lang-btn');
+	const languageSelect = document.getElementById('languageSelect');
+	
+	// Sync overlay select with header selector
+	function syncLanguageSelect(lang) {
+		if (languageSelect) languageSelect.value = lang;
+	}
+	
+	// Apply language and hide overlay
+	function selectLanguage(lang) {
+		state.lang = lang;
+		localStorage.setItem('nikoLang', lang); // Save preference
+		
+		// Update HTML attributes for fonts & direction
+		document.documentElement.lang = lang;
+		document.documentElement.dir = (lang === 'ar' || lang === 'ku') ? 'rtl' : 'ltr';
+		
+		// Hide overlay, show main content
+		overlay.classList.add('hidden');
+		mainContent.classList.remove('hidden');
+		
+		// Sync header language selector
+		syncLanguageSelect(lang);
+		
+		// Render app content
+		if (menuData) {
+			renderStaticText();
+			renderFilters();
+			renderMenu();
+		}
+	}
+	
+	// Check if user already selected a language
+	const savedLang = localStorage.getItem('nikoLang');
+	if (savedLang && translations[savedLang]) {
+		selectLanguage(savedLang);
+	} else {
+		// Show overlay, hide main content initially
+		overlay.classList.remove('hidden');
+		mainContent.classList.add('hidden');
+	}
+	
+	// Add click handlers to language buttons
+	langButtons.forEach(btn => {
+		btn.addEventListener('click', () => {
+			const lang = btn.dataset.lang;
+			selectLanguage(lang);
+		});
+	});// Also sync with header language selector if it changes
+	if (languageSelect) {
+		languageSelect.addEventListener('change', (e) => {
+			state.lang = e.target.value;
+			localStorage.setItem('nikoLang', state.lang);
+			renderStaticText();
+			renderFilters();
+			renderMenu();
+		});
+	}
+}
+
+// ========== EXISTING FUNCTIONS (updated) ==========
+
 async function loadMenuData() {
 	try {
 		const response = await fetch('menu-data.json');
 		menuData = await response.json();
-		initializeApp();
+		// Initialize overlay first, then app
+		initLanguageOverlay();
 	} catch (error) {
 		console.error('Error loading menu data:', error);
+		// Fallback: still init overlay even if menu fails
+		initLanguageOverlay();
 	}
 }
 
 function initializeApp() {
-	const filterButtonsWrap = document.getElementById('filterButtons');
-	const searchInput = document.getElementById('menuSearch');
-	const menuGrid = document.getElementById('menuGrid');
-	const languageSelect = document.getElementById('languageSelect');
-
-	renderStaticText();
-	renderFilters();
-	renderMenu();
-
-	searchInput.addEventListener('input', (event) => {
-		state.search = event.target.value.trim().toLowerCase();
-		renderMenu();
-	});
-
-	languageSelect.addEventListener('change', (event) => {
-		state.lang = event.target.value;
+	// Only run if overlay is already hidden (language selected)
+	if (document.getElementById('languageOverlay')?.classList.contains('hidden')) {
+		const filterButtonsWrap = document.getElementById('filterButtons');
+		const searchInput = document.getElementById('menuSearch');
+		const menuGrid = document.getElementById('menuGrid');
+		
 		renderStaticText();
 		renderFilters();
 		renderMenu();
-	});
+		
+		searchInput?.addEventListener('input', (event) => {
+			state.search = event.target.value.trim().toLowerCase();
+			renderMenu();
+		});
+	}
 }
 
 function renderFilters() {
 	const filterButtonsWrap = document.getElementById('filterButtons');
+	if (!filterButtonsWrap || !menuData) return;
 	
 	filterButtonsWrap.innerHTML = menuData.categories.map((category) => {
 		const isActive = state.filter === category.id ? 'active' : '';
-		const label = category.name[state.lang];
+		const label = category.name[state.lang] || category.name.en;
 		return `<button class="filter-btn ${isActive}" data-filter="${category.id}">${label}</button>`;
 	}).join('');
-
+	
 	document.querySelectorAll('.filter-btn').forEach((button) => {
 		button.addEventListener('click', () => {
 			state.filter = button.dataset.filter;
@@ -98,21 +162,22 @@ function renderFilters() {
 
 function renderMenu() {
 	const menuGrid = document.getElementById('menuGrid');
+	if (!menuGrid || !menuData) return;
 	
 	const filteredItems = menuData.items.filter((item) => {
 		const byCategory = state.filter === 'all' || item.category === state.filter;
-		const localizedName = item.name[state.lang].toLowerCase();
-		const localizedDesc = item.description[state.lang].toLowerCase();
+		const localizedName = (item.name[state.lang] || item.name.en).toLowerCase();
+		const localizedDesc = (item.description[state.lang] || item.description.en).toLowerCase();
 		const bySearch = localizedName.includes(state.search) || localizedDesc.includes(state.search);
 		return byCategory && bySearch;
 	});
-
+	
 	menuGrid.innerHTML = filteredItems.map((item) => `
 		<article class="menu-card" data-category="${item.category}">
-			<img class="menu-image" src="${item.image}" alt="${item.name[state.lang]}" loading="lazy" />
+			<img class="menu-image" src="${item.image}" alt="${item.name[state.lang] || item.name.en}" loading="lazy" />
 			<div class="menu-content">
-				<h3>${item.name[state.lang]}</h3>
-				<p>${item.description[state.lang]}</p>
+				<h3>${item.name[state.lang] || item.name.en}</h3>
+				<p>${item.description[state.lang] || item.description.en}</p>
 				<span class="price">${item.price}</span>
 			</div>
 		</article>
@@ -122,16 +187,20 @@ function renderMenu() {
 function renderStaticText() {
 	document.querySelectorAll('[data-i18n]').forEach((node) => {
 		const key = node.dataset.i18n;
-		if (translations[state.lang] && translations[state.lang][key]) {
+		if (translations[state.lang]?.[key]) {
 			node.textContent = translations[state.lang][key];
 		}
 	});
-
+	
 	const searchInput = document.getElementById('menuSearch');
-	searchInput.placeholder = translations[state.lang].searchPlaceholder;
+	if (searchInput) {
+		searchInput.placeholder = translations[state.lang].searchPlaceholder;
+	}
+	
+	// Update direction and font via HTML attributes
 	document.documentElement.lang = state.lang;
-	document.documentElement.dir = state.lang === 'ar' ? 'rtl' : (state.lang === 'ku' ? 'rtl' : 'ltr');
+	document.documentElement.dir = (state.lang === 'ar' || state.lang === 'ku') ? 'rtl' : 'ltr';
 }
 
-// Initialize app when DOM is ready
+// Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', loadMenuData);

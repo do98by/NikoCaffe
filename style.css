@@ -447,3 +447,140 @@ html[lang='ar'] .eyebrow {
 	}
 }
 
+
+
+/* ========== Language Overlay Styles ========== */
+.language-overlay {
+	position: fixed;
+	inset: 0;
+	background: linear-gradient(135deg, var(--bg-accent), #3a251e);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+	padding: var(--space-4);
+	animation: fadeIn 300ms ease;
+}
+
+.language-overlay.hidden {
+	display: none;
+}
+
+.overlay-content {
+	background: var(--bg-surface-strong);
+	border-radius: var(--radius-lg);
+	padding: var(--space-6);
+	max-width: 480px;
+	width: 100%;
+	text-align: center;
+	box-shadow: var(--shadow-card);
+	border: 1px solid var(--border-soft);
+	animation: slideUp 400ms ease;
+}
+
+.overlay-logo {
+	width: 80px;
+	height: 80px;
+	margin-bottom: var(--space-4);
+}
+
+#langTitle {
+	font-family: var(--font-heading);
+	font-size: 1.5rem;
+	color: var(--text-primary);
+	margin: 0 0 var(--space-2);
+}
+
+.overlay-subtitle {
+	color: var(--text-muted);
+	margin: 0 0 var(--space-5);
+	font-size: 1rem;
+}
+
+.lang-options {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-3);
+	margin-bottom: var(--space-5);
+}
+
+.lang-btn {
+	display: flex;
+	align-items: center;
+	gap: var(--space-3);
+	width: 100%;
+	padding: var(--space-4) var(--space-5);
+	background: var(--bg-surface);
+	border: 2px solid var(--border-soft);
+	border-radius: var(--radius-md);
+	font: inherit;
+	font-weight: 600;
+	color: var(--text-primary);
+	cursor: pointer;
+	transition: all var(--transition-fast);
+	text-align: left;
+}
+
+.lang-btn:hover {
+	border-color: var(--brand-primary);
+	background: var(--bg-chip);
+	transform: translateY(-2px);
+	box-shadow: var(--shadow-soft);
+}
+
+.lang-btn:active {
+	transform: translateY(0);
+}
+
+.lang-flag {
+	font-size: 1.4rem;
+}
+
+.lang-name {
+	flex: 1;
+	font-size: 1.1rem;
+}
+
+html[lang='ku'] .lang-name,
+html[lang='ar'] .lang-name {
+	font-family: var(--font-body-kurdish);
+}
+
+.overlay-note {
+	font-size: 0.85rem;
+	color: var(--text-muted);
+	margin: 0;
+	opacity: 0.8;
+}
+
+.main-content.hidden {
+	display: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* RTL support for overlay */
+html[lang='ar'] .overlay-content,
+html[lang='ku'] .overlay-content {
+	direction: rtl;
+}
+
+html[lang='ar'] .lang-btn,
+html[lang='ku'] .lang-btn {
+	text-align: right;
+}
